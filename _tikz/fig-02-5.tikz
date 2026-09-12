@@ -1,0 +1,12 @@
+\begin{tikzpicture}[node distance=0.9cm and 1.1cm]
+      \node[kbox, minimum width=3.0cm, minimum height=1.5cm] (wv)  {\textbf{Philosophical}\\\textbf{worldview}\\ \scriptsize postpositivist, constructivist,\\ \scriptsize transformative, pragmatist};
+      \node[kbox, minimum width=3.0cm, minimum height=1.5cm, right=of wv] (de) {\textbf{Research}\\\textbf{design}\\ \scriptsize survey, experiment,\\ \scriptsize case study, ethnography, \dots};
+      \node[kbox, minimum width=3.0cm, minimum height=1.5cm, right=of de] (me) {\textbf{Research}\\\textbf{methods}\\ \scriptsize questions, data collection,\\ \scriptsize analysis, interpretation};
+      \node[gbox, minimum width=7.6cm, minimum height=1.1cm, below=1.1cm of de]
+        (ap) {\textbf{Research approach}\\ \scriptsize qualitative $\cdot$ quantitative $\cdot$ mixed methods};
+      \draw[karrow] (wv) -- (de);
+      \draw[karrow] (de) -- (me);
+      \draw[garrow] (wv.south) to[out=-70,in=160] (ap.west);
+      \draw[garrow] (de.south) -- (ap.north);
+      \draw[garrow] (me.south) to[out=-110,in=20] (ap.east);
+    \end{tikzpicture}

@@ -1,0 +1,23 @@
+<!-- Answer key - source-only. answers/ is excluded from every render (see _quarto.yml), so this never appears on the site. -->
+
+# Chapter 7 - sketch answers {.unnumbered}
+
+The questions are in `chapters/07-strategies-case-action-ethnography.qmd`; the sketch answers below are the `\answer{}` texts of the LaTeX script, moved out of the chapter. They are not the only possible answers; the reasoning behind them is what matters.
+
+## Questions from the reading
+
+1. **Generalisation** (@exr-07-generalisation) — **Analytical** generalisation --- from the case to a theory or mechanism --- never statistical generalisation to a population.
+
+2. **Dual aim** (@exr-07-dual-aim) — Improving the **practice** *and* contributing to **knowledge** --- both, demonstrated across documented cycles.
+
+3. **Ethnography** (@exr-07-ethnography) — The focus on **culture** --- shared meanings and taken-for-granted norms --- reached through immersion, with the researcher as instrument and documented reflexivity.
+
+4. **Reading question 4** (@exr-07-reading-question-4) — **Field notes** and, ultimately, **thick description** --- an account rich enough to convey why things are done as they are.
+
+## Questions for discussion
+
+1. **The final call** (@exr-07-the-final-call) — A combination is justified when the question has two parts that need different evidence (for example a case study to understand, then a survey to check breadth). One strategy chosen for a clear reason beats two chosen for safety.
+
+2. **Generalisation** (@exr-07-generalisation) — Not statistical generalisation to a population, but analytical generalisation: the case tests or refines a theory or explanation that can be applied elsewhere. Say which, and say what the case is a case *of*.
+
+3. **Data generation methods** (@exr-07-data-generation-methods) — List them now; sessions 8 and 9 make them concrete. A strategy without named methods is a plan without a data plan --- Part IV of the essay cannot be written from it.

@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+      \node[gbox, text width=5.6cm, minimum height=1.5cm, anchor=west] (d) at (0,0)
+        {\textbf{Describe} (what, precisely)\\ \scriptsize ``Eight semi-structured
+         interviews, 30--45 minutes, recorded and transcribed verbatim\dots''};
+      \node[kbox, text width=5.6cm, minimum height=1.5cm, anchor=west] (j) at (6.6,0)
+        {\textbf{Justify} (why this, here)\\ \scriptsize ``\dots because the question
+         asks how sysadmins \emph{experience} security trade-offs, which
+         requires depth over breadth (Oates, 2026).''};
+      \draw[karrow] (d) -- (j);
+    \end{tikzpicture}

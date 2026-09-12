@@ -1,0 +1,73 @@
+# How to annotate {#sec-how-to-annotate}
+
+This script supports collaborative annotation with
+[Hypothesis](https://web.hypothes.is/): highlight any passage and attach a
+comment directly to it.
+
+## Join the course group first
+
+Annotations for this course live in the private group **IKT 448 2026**,
+not in the Public layer:
+
+1. Create a free account at [hypothes.is](https://hypothes.is/signup) if
+   you do not have one.
+2. Open the group page -
+   [hypothes.is/groups/XjreopNx/ikt-448-2026](https://hypothes.is/groups/XjreopNx/ikt-448-2026) -
+   and click **Join group** (you must be signed in).
+3. On any page of this script, open the Hypothesis sidebar and switch the
+   scope selector at the top from *Public* to **IKT 448 2026** before you
+   post. Check the selector each session - the client remembers it per
+   browser, not per site.
+
+Annotations posted in the group are visible to group members only; anything
+posted to *Public* is world-readable and does **not** count for the course.
+
+::: {.content-visible unless-meta="annotations"}
+::: {.callout-warning}
+## Annotations are not switched on yet
+
+The annotation layer is currently disabled (it will be enabled once the
+Canvas LTI setup is confirmed). This page already describes how it will
+work.
+:::
+:::
+
+## What counts as a substantive annotation
+
+Annotations are graded on substance, not volume. Three kinds count:
+
+- **Question** - a genuine question about the passage that a fellow student
+  could learn from seeing answered. "I don't get this" does not count;
+  "does X also hold when Y, given what @sec- says about Z?" does.
+- **Correction** - a factual, technical, or editorial error in the text,
+  with a short justification and, where relevant, a source.
+- **Practice example** - a concrete, worked example, counter-example, or
+  real-world case that illustrates the passage, described precisely enough
+  that it could be merged into the script.
+
+Not substantive: "+1"/agreement notes, restating the text, formatting
+complaints without a fix, or duplicating an existing annotation (read the
+thread first).
+
+## Per-chapter quota
+
+> **Placeholder - to be confirmed with the course setup:** *N* substantive
+> annotations per student per chapter (planned: 2), counted per the rules
+> above. Annotations on any chapter count; spreading them across chapters
+> is encouraged but not required.
+
+## How annotations get merged into the script
+
+1. At the end of each teaching block, annotations are triaged by the course
+   lead. Substantive ones are turned into an edit: corrections are applied,
+   good questions become clarified text or an FAQ box, practice examples
+   become worked examples or exercise scenarios.
+2. Merged contributions are **credited in `CHANGELOG.md`** - one line per
+   merged contribution, naming the contributor (or their chosen handle) and
+   the chapter/section changed.
+3. Larger contributions (a full worked example, a new exercise scenario, a
+   glossary entry) follow the co-authorship flow in `CONTRIBUTING.md`,
+   including its review rubric and licence statement.
+
+Your annotation remains yours in Hypothesis; the merged text becomes part of
+the script under the script's licence (see `CONTRIBUTING.md`).

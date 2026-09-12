@@ -1,0 +1,23 @@
+<!-- Answer key - source-only. answers/ is excluded from every render (see _quarto.yml), so this never appears on the site. -->
+
+# Chapter 4 - sketch answers {.unnumbered}
+
+The questions are in `chapters/04-research-questions.qmd`; the sketch answers below are the `\answer{}` texts of the LaTeX script, moved out of the chapter. They are not the only possible answers; the reasoning behind them is what matters.
+
+## Questions from the reading
+
+1. **Reasons** (@exr-04-reasons) — For example: to add to the body of knowledge, to solve a problem, to find evidence to inform practice, to test or refine a theory, to develop a system and learn from it --- and, honestly, to obtain a degree.
+
+2. **Products** (@exr-04-products) — A new or improved product, a new theory, a re-interpretation of an existing theory, an in-depth analysis of a situation, an exploration of a topic, a critical analysis, a new research tool or technique, a new or improved model.
+
+3. **Research topics** (@exr-04-research-topics) — Your own interests and experience, the literature (gaps and "further research" sections), practice and work problems, supervisors and current debates in the field.
+
+4. **Criteria** (@exr-04-criteria) — Interest to you, feasibility with the time, skills and access you have, a clear purpose, and a contribution that others would recognise --- plus the ethical and practical constraints of the setting.
+
+## Questions for discussion
+
+1. **Your main question** (@exr-04-your-main-question) — Most first drafts fail on precision ("effective", "better") or on a baked-in assumption ("why does X cause Y?" before anyone has shown that it does). Repair by defining the terms and by turning the assumption into a sub-question.
+
+2. **One question or several?** (@exr-04-one-question-or-several) — One main question that steers the study; at most two sub-questions that decompose it. If the sub-questions could each be a study of their own, the main question is a topic, not a question.
+
+3. **Repair a neighbour's question** (@exr-04-repair-a-neighbour-s-question) — Trivial yes/no and undefined terms. One repair: "How does the adoption of zero-trust access controls affect the number of successful lateral movements in mid-sized organisations?" --- now the variables, the population and the comparison are visible.

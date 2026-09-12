@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+      \node[kbox, text width=3.5cm, minimum height=1.5cm, anchor=west] (q1) at (0,0)
+        {\textbf{Will you process}\\ \textbf{personal data?}\\ \scriptsize incl.\ audio, e-mail, indirect identification};
+      \node[gbox, text width=3.3cm, minimum height=1.0cm, anchor=west] (no) at (4.6,0.9)
+        {\textbf{No} $\rightarrow$ no notification\\ \scriptsize document \emph{why} in Part IV};
+      \node[kbox, text width=3.3cm, minimum height=1.0cm, anchor=west] (yes) at (4.6,-0.9)
+        {\textbf{Yes} $\rightarrow$ notify \textbf{SIKT}\\ \scriptsize before data collection starts};
+      \node[kbox, text width=3.6cm, minimum height=1.5cm, anchor=west] (form) at (8.9,-0.9)
+        {\textbf{The form asks:}\\ \scriptsize purpose, data types, participants,\\ \scriptsize consent, storage, deletion date};
+      \draw[garrow] (q1.east) -- (no.west);
+      \draw[karrow] (q1.east) -- (yes.west);
+      \draw[karrow] (yes) -- (form);
+    \end{tikzpicture}

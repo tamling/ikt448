@@ -1,0 +1,5 @@
+\begin{tikzpicture}[node distance=0.35cm]
+      \node[kbox, text width=12.2cm] (s)
+        {\texttt{("password reuse" OR "credential reuse") AND (employee* OR staff)}\\
+         \texttt{AND (SMB OR SME OR "small business")}};
+    \end{tikzpicture}

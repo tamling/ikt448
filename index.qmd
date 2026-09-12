@@ -1,0 +1,32 @@
+# Preface {.unnumbered}
+
+This script accompanies the course IKT448 ICT Research Methods at the University of Agder in the autumn of 2026. It is not a substitute for the textbook --- Oates, Griffiths and McLean's *Researching Information Systems and Computing* (2nd edition, 2022) remains the curriculum --- and it is not a transcript of the sessions. It sits between the two: it records what the sessions add to the book, in the order in which the sessions add it, so that the material can be read before a session and revisited afterwards.
+
+The course is built around one piece of work, the essay, and one habit, the question *how do they know?* Every chapter contributes a building block to the essay and ends with the questions we discuss at the end of the session. Possible answers exist, but they are deliberately not printed here: they are not the only ones, and the reasoning behind them is what matters.
+
+Three conventions are used throughout. Definitions appear in shaded boxes and are stated once, before the term is used. Worked examples come from published studies, most of them recent and several of them from cyber security; the sources are listed at the end of each chapter, in APA style, and the papers are available in the course's reading folder. Numbers below ten are spelled out; British spelling is used.
+
+Where a claim rests on a source, the source is named. Where I express a view --- on what examiners look for, on what a good essay does --- it is marked as such.
+
+Timo Amling\
+Oslo, September 2026
+
+::: {.callout-note}
+## How this script was written
+
+The chapters were drafted with the help of a large language model
+(Anthropic's Claude), working from the lecturer's session decks and notes,
+and were reviewed and edited by the lecturer before publication. Drafting
+this way is fast but not infallible: If something looks wrong, it may well
+be - [annotate the passage](appendix/how-to-annotate.qmd) and it will be
+checked, corrected and credited.
+:::
+
+::: {.callout-tip}
+## Annotate this script
+
+You can highlight and annotate any passage of this script with Hypothesis -
+select text and comment directly in the margin. See [How to
+annotate](appendix/how-to-annotate.qmd) for what counts as a substantive
+contribution and how merged contributions are credited.
+:::

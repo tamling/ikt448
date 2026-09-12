@@ -1,0 +1,25 @@
+# ── Subject (≤72 chars): <chapter/area>: <what changed> ─────────────────
+#   e.g.  ch05: correct NIS2 size threshold for "important entities"
+
+
+# ── Body (optional): what the annotation raised, why the change ───────────
+
+
+# ── Audit trail — fill in for EVERY annotation-driven change ─────────────
+# Uncomment the three lines below. Trailers must be the LAST block.
+#
+# Annotation: <hypothesis id>[, <id2>]    from the URL hypothes.is/a/<id>
+# Type:       error | clarity | extension | editorial
+#             error     = factually/technically wrong statement fixed
+#             clarity   = correct but unclear/too compressed → rewritten
+#             extension = missing content/example added
+#             editorial = typo, formatting, link
+# Origin:     model | author | source
+#             model  = introduced by the LLM draft
+#             author = introduced/left in by the lecturer's edits
+#             source = upstream (standard/law/textbook changed or ambiguous)
+#
+# Example:
+# Annotation: Xk3f9aQ2Ee6hJ1uY7c0lPg
+# Type: error
+# Origin: model

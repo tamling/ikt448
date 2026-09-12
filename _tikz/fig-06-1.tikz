@@ -1,0 +1,10 @@
+\begin{tikzpicture}[node distance=0.3cm and 0.5cm]
+      \node[kbox, text width=2.6cm] (a) {\textbf{Awareness}\\ \scriptsize recognise \& articulate the problem};
+      \node[kbox, text width=2.6cm, right=of a] (b) {\textbf{Suggestion}\\ \scriptsize tentative design idea};
+      \node[kbox, text width=2.6cm, right=of b] (c) {\textbf{Development}\\ \scriptsize build the artefact};
+      \node[kbox, text width=2.6cm, right=of c] (d) {\textbf{Evaluation}\\ \scriptsize does it work? how well? for whom?};
+      \node[kbox, text width=2.6cm, right=of d] (e) {\textbf{Conclusion}\\ \scriptsize consolidate what was learned};
+      \draw[karrow] (a) -- (b); \draw[karrow] (b) -- (c);
+      \draw[karrow] (c) -- (d); \draw[karrow] (d) -- (e);
+      \draw[garrow, dashed] (d.north) to[out=140,in=40] node[above,font=\scriptsize,kgrey]{iterate} (b.north);
+    \end{tikzpicture}

@@ -1,0 +1,26 @@
+\begin{tikzpicture}[
+    stage/.style={draw=uiared, fill=uiared!8, rounded corners=2pt,
+                  text width=1.72cm, align=center, font=\scriptsize,
+                  minimum height=0.88cm, text=ink},
+    fwd/.style={-{Stealth[length=2.2mm]}, uiared, thick},
+    back/.style={-{Stealth[length=1.8mm]}, black!60, line width=0.55pt},
+    lbl/.style={font=\fontsize{6pt}{7pt}\selectfont, text=black!65, align=center}]
+    \node[stage] (a) at (-5.20,0) {Proposal\\(NWIP)};
+    \node[stage] (b) at (-3.12,0) {Working draft\\(WD)};
+    \node[stage] (c) at (-1.04,0) {Committee draft\\(CD)};
+    \node[stage] (d) at ( 1.04,0) {Enquiry\\(DIS)};
+    \node[stage] (e) at ( 3.12,0) {Approval\\(FDIS)};
+    \node[stage] (f) at ( 5.20,0) {Publication\\(IS)};
+    \foreach \x/\y in {a/b,b/c,c/d,d/e,e/f} \draw[fwd] (\x) -- (\y);
+    \draw[back] ([xshift=-5mm]c.north) to[out=105,in=75,looseness=3.4] ([xshift=5mm]c.north);
+    \node[lbl, anchor=east] at (-1.85,1.05) {iterates until consensus};
+    \draw[back] (d.north) to[out=105,in=50,looseness=0.75] (c.north east);
+    \draw[back] (e.north) to[out=105,in=42,looseness=0.60] ([xshift=2mm]c.north east);
+    \node[lbl] at (3.05,1.36) {returned if the ballot fails};
+    \node[draw=uiared, fill=white, rounded corners=2pt, text=ink,
+          text width=2.35cm, align=center, minimum height=0.62cm,
+          font=\fontsize{6pt}{7pt}\selectfont] (r) at (5.20,-1.20) {Systematic review\\(every five years)};
+    \draw[back] (f.south) -- (r.north);
+    \draw[back] (r.west) -- (-5.20,-1.20) -- (a.south);
+    \node[lbl, fill=white, inner sep=1.5pt] at (-0.40,-1.20) {confirmed, revised or withdrawn};
+  \end{tikzpicture}

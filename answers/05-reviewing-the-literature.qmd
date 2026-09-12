@@ -1,0 +1,23 @@
+<!-- Answer key - source-only. answers/ is excluded from every render (see _quarto.yml), so this never appears on the site. -->
+
+# Chapter 5 - sketch answers {.unnumbered}
+
+The questions are in `chapters/05-reviewing-the-literature.qmd`; the sketch answers below are the `\answer{}` texts of the LaTeX script, moved out of the chapter. They are not the only possible answers; the reasoning behind them is what matters.
+
+## Questions from the reading
+
+1. **Purposes** (@exr-05-purposes) — Two main ones: **find** a research idea and its material --- and **gather evidence** that the topic is worthwhile, the foundations are known, and the work does not merely repeat others.
+
+2. **Peer-reviewed** (@exr-05-peer-reviewed) — Peer-reviewed sources passed independent expert quality control and are rated higher; grey literature (reports, standards, vendor material) gives practice context --- use it, but flag it.
+
+3. **Search can be repeated** (@exr-05-search-can-be-repeated) — Everything needed to **repeat** the search: databases, strings, dates, criteria, hit counts --- the search log.
+
+4. **Not read yourself** (@exr-05-not-read-yourself) — Cite only what you have read; summarising or paraphrasing still requires citing the original --- otherwise it is plagiarism, however unintended.
+
+## Questions for discussion
+
+1. **Your search string** (@exr-05-your-search-string) — The concept with the most synonyms is usually the technical one (tool names, acronyms, vendor terms); it needs the longest OR-block. Test in one database first --- Scopus or IEEE Xplore for our field --- log the hit count, then adjust.
+
+2. **Inclusion and exclusion** (@exr-05-inclusion-and-exclusion) — Typically the publication type (no grey literature) and the setting (only studies in organisations of a certain size or sector). State them before screening; a criterion invented after reading the hits is not a criterion but a preference.
+
+3. **Synthesis, not summary** (@exr-05-synthesis-not-summary) — Not as three paragraphs, one per paper, but as one argument: what they agree on, where they diverge, what explains the divergence (method, setting, definition), and what that means for your own design. The concept matrix makes the pattern visible.

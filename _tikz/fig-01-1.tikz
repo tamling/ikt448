@@ -1,0 +1,20 @@
+\begin{tikzpicture}
+      \node[kbox, text width=2.6cm, minimum height=1.5cm] (a) at (0,0)
+        {\textbf{Original studies}\\ \scriptsize peer-reviewed journals \& conferences};
+      \node[kbox, text width=2.6cm, minimum height=1.5cm] (b) at (3.2,0)
+        {\textbf{Syntheses}\\ \scriptsize systematic reviews, textbooks};
+      \node[gbox, text width=2.6cm, minimum height=1.5cm] (c) at (6.4,0)
+        {\textbf{Professional layer}\\ \scriptsize standards, industry \& vendor reports};
+      \node[gbox, text width=2.6cm, minimum height=1.5cm] (d) at (9.6,0)
+        {\textbf{Media}\\ \scriptsize tech journalism, blogs, keynotes};
+      \node[gbox, text width=2.6cm, minimum height=1.5cm] (e) at (12.8,0)
+        {\textbf{Feeds}\\ \scriptsize social media, forums, reposts};
+      \draw[karrow] (a) -- (b); \draw[karrow] (b) -- (c);
+      \draw[garrow] (c) -- (d); \draw[garrow] (d) -- (e);
+      \draw[garrow] (0,-1.35) -- (12.8,-1.35);
+      \node[font=\scriptsize, text=uiagrey, anchor=west] at (0,-1.7)
+        {reach and speed increase $\rightarrow$};
+      \draw[karrow] (12.8,-2.15) -- (0,-2.15);
+      \node[font=\scriptsize, text=uiared, anchor=west] at (0,-2.5)
+        {$\leftarrow$ quality control and detail increase};
+    \end{tikzpicture}

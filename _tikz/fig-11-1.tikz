@@ -1,0 +1,9 @@
+\begin{tikzpicture}
+      \node[kbox, text width=2.2cm, minimum height=1.0cm, anchor=west] (a) at (0,0)    {\textbf{Problem}};
+      \node[kbox, text width=2.2cm, minimum height=1.0cm, anchor=west] (b) at (2.7,0)  {\textbf{Question}};
+      \node[kbox, text width=2.2cm, minimum height=1.0cm, anchor=west] (c) at (5.4,0)  {\textbf{Strategy}};
+      \node[kbox, text width=2.2cm, minimum height=1.0cm, anchor=west] (d) at (8.1,0)  {\textbf{Methods}};
+      \node[kbox, text width=2.2cm, minimum height=1.0cm, anchor=west] (e) at (10.8,0) {\textbf{Analysis}};
+      \draw[karrow] (a) -- (b); \draw[karrow] (b) -- (c);
+      \draw[karrow] (c) -- (d); \draw[karrow] (d) -- (e);
+    \end{tikzpicture}

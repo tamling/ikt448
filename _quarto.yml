@@ -1,0 +1,64 @@
+project:
+  type: book
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "appendix/*.qmd"
+    # Answer keys are source-only: answers/ is excluded from every render,
+    # so no sketch answer ever appears on the published site.
+    - "!answers/"
+  resources:
+    - robots.txt
+
+# ── Annotations (Hypothesis) ─────────────────────────────────────────────
+# ON by default: every HTML page loads the Hypothesis client (see
+# includes/hypothesis.html) so students can annotate directly. Set to
+# false (and drop include-in-header below) to switch the layer off again;
+# pages read the flag as {{< meta annotations >}} to show/hide
+# annotation instructions.
+annotations: true
+
+book:
+  title: "IKT448 — Course Script"
+  # One chapter per session, in the four parts of the LaTeX script; each
+  # chapter ends with the questions from the reading and the questions for
+  # discussion, whose sketch answers live in answers/ (source-only).
+  chapters:
+    - index.qmd
+    - how-to-use.qmd
+    - part: "Foundations"
+      chapters:
+        - chapters/01-introduction.qmd
+        - chapters/02-approaches-to-research.qmd
+        - chapters/03-purpose-and-products.qmd
+    - part: "Design"
+      chapters:
+        - chapters/04-research-questions.qmd
+        - chapters/05-reviewing-the-literature.qmd
+        - chapters/06-strategies-survey-design-experiment.qmd
+        - chapters/07-strategies-case-action-ethnography.qmd
+    - part: "Data and ethics"
+      chapters:
+        - chapters/08-quantitative-data.qmd
+        - chapters/09-qualitative-data.qmd
+        - chapters/10-ethics.qmd
+    - part: "Writing"
+      chapters:
+        - chapters/11-producing-the-essay.qmd
+        - chapters/12-summing-up.qmd
+  appendices:
+    - appendix/reading-list.qmd
+    - appendix/how-to-annotate.qmd
+format:
+  html:
+    # Light/dark theme pair: every page gets the dark-mode toggle.
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
+    toc: true
+    number-sections: true
+    include-in-header:
+      - includes/hypothesis.html
+      - includes/noindex.html
+    # Interactive exercise engine (sort/order/pick widgets in the chapters)
+    include-after-body: includes/interactive.html

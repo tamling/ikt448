@@ -1,0 +1,23 @@
+<!-- Answer key - source-only. answers/ is excluded from every render (see _quarto.yml), so this never appears on the site. -->
+
+# Chapter 3 - sketch answers {.unnumbered}
+
+The questions are in `chapters/03-purpose-and-products.qmd`; the sketch answers below are the `\answer{}` texts of the LaTeX script, moved out of the chapter. They are not the only possible answers; the reasoning behind them is what matters.
+
+## Questions from the reading
+
+1. **6Ps** (@exr-03-6ps) — Purpose, Products, Process, Participants, Paradigm, Presentation --- Ch. 2 focuses on **purpose** and **products**.
+
+2. **Reasons for doing research** (@exr-03-reasons-for-doing-research) — Personal --- but the book's list includes: solving a problem, curiosity, qualification, contributing to knowledge. For you, the honest first answer is the qualification --- and that is fine.
+
+3. **Output** (@exr-03-output) — Outputs are everything the project produces; the **contribution** is the *new knowledge* added --- new or improved evidence, methodology, analysis, concepts/theories, or products.
+
+4. **Reading question 4** (@exr-03-reading-question-4) — The **research question(s)** --- in Fig. 3.1 the literature review feeds into (and refines) the questions before strategy and methods follow.
+
+## Questions for discussion
+
+1. **Your topic through the funnel** (@exr-03-your-topic-through-the-funnel) — If the sentence needs two "and"s, the topic is still too wide. The purpose statement names one problem, one owner and one intended use of the result --- that is Part I of the essay in miniature.
+
+2. **The hardest P** (@exr-03-the-hardest-p) — Usually products and paradigm: the study reports what it did, but rarely what kind of knowledge it claims to add or which worldview its design assumes. Both must be made explicit in your essay, which is why they have their own sessions.
+
+3. **Your contribution** (@exr-03-your-contribution) — A contribution to practice names a decision that becomes better informed; a contribution to academia names a gap in the literature that becomes smaller. At master's level one of the two, clearly stated, is sufficient.

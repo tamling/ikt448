@@ -1,0 +1,23 @@
+<!-- Answer key - source-only. answers/ is excluded from every render (see _quarto.yml), so this never appears on the site. -->
+
+# Chapter 12 - sketch answers {.unnumbered}
+
+The questions are in `chapters/12-summing-up.qmd`; the sketch answers below are the `\answer{}` texts of the LaTeX script, moved out of the chapter. They are not the only possible answers; the reasoning behind them is what matters.
+
+## Questions from the reading
+
+1. **6Ps** (@exr-12-6ps) — Purpose, products, process, participants, paradigm, presentation. Products and paradigm are usually implicit in drafts; both must be stated.
+
+2. **Strategy** (@exr-12-strategy) — The strategy is the overall approach to answering the question (survey, design and creation, experiment, case study, action research, ethnography); the methods are the techniques for generating and analysing data (interviews, questionnaires, observation, documents; quantitative or qualitative analysis).
+
+3. **Evaluation criteria** (@exr-12-evaluation-criteria) — Purpose stated; sources of appropriate quality; search documented and repeatable; literature critically evaluated and synthesised rather than listed; the review connected to the study's own question.
+
+4. **Research question** (@exr-12-research-question) — It follows from the purpose, it is precise and researchable with the resources available, it implies a strategy, and it can be answered --- or, for an essay, it can be shown how it would be answered.
+
+## Questions for discussion
+
+1. **Your golden thread** (@exr-12-your-golden-thread) — Where the thread breaks is where the examiner's first question will come from. Typical break: a strategy chosen in Part III that the question in Part I does not require.
+
+2. **The mismatch clinic** (@exr-12-the-mismatch-clinic) — The first asks a why-question with a breadth strategy; the second has no comparison and therefore no cause; the third lacks the immersion the strategy needs. Each is a strategy--question mismatch, the most common failure in Part III.
+
+3. **One sentence for the oral exam** (@exr-12-one-sentence-for-the-oral-exam) — The answer is the describe--justify pair from Part III, spoken: the question asks for X; this strategy produces X; the alternatives would not, because ... If that sentence exists, the oral exam is a conversation, not an interrogation.

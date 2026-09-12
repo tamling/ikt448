@@ -1,0 +1,10 @@
+\begin{tikzpicture}[node distance=0.5cm and 1.0cm]
+      \node[kbox, minimum width=3.6cm, minimum height=1.3cm] (q1)
+        {\textbf{QUANT}\\survey, n = 500\\regression};
+      \node[gbox, minimum width=3.6cm, minimum height=1.3cm, right=of q1] (q2)
+        {\textbf{qual}\\10 follow-up interviews\\on surprising results};
+      \node[kbox, minimum width=3.6cm, minimum height=1.3cm, right=of q2] (int)
+        {\textbf{Integration}\\joint interpretation\\\& recommendations};
+      \draw[karrow] (q1) -- node[above,font=\scriptsize]{informs} (q2);
+      \draw[karrow] (q2) -- (int);
+    \end{tikzpicture}

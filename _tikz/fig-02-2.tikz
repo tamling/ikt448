@@ -1,0 +1,15 @@
+\begin{tikzpicture}[node distance=0.32cm and 0.8cm]
+      \node[kbox, text width=11.6cm] (l1)
+        {\textbf{Research approach} \;{\scriptsize(Creswell)}\quad
+         \emph{the overall plan: quantitative, qualitative or mixed methods}};
+      \node[kbox, text width=11.6cm, below=of l1] (l2)
+        {\textbf{Research design} \;{\scriptsize(Creswell)} \;=\;
+         \textbf{research strategy} \;{\scriptsize(Oates)}\quad
+         \emph{the type of study: survey, experiment, case study, ethnography, \dots}};
+      \node[kbox, text width=11.6cm, below=of l2] (l3)
+        {\textbf{Research methods}\quad
+         \emph{the concrete techniques: questionnaire, interview, observation,
+         statistical or thematic analysis}};
+      \draw[karrow] (l1) -- node[right=2pt,font=\scriptsize\itshape,kgrey]{from broad\dots} (l2);
+      \draw[karrow] (l2) -- node[right=2pt,font=\scriptsize\itshape,kgrey]{\dots to specific} (l3);
+    \end{tikzpicture}

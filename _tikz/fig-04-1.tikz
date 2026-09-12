@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+      \node[kbox, text width=6.4cm, minimum height=1.0cm] (g) at (0,0)
+        {\textbf{Goal:} improve the password-manager \emph{onboarding}
+         (object) for \emph{new users} (viewpoint) at the client (context)};
+      \node[gbox, text width=4.4cm, minimum height=0.85cm] (q1) at (-3.0,-1.7)
+        {\textbf{Q1:} where do users abort?};
+      \node[gbox, text width=4.4cm, minimum height=0.85cm] (q2) at (3.0,-1.7)
+        {\textbf{Q2:} how long does setup take?};
+      \node[kbox, text width=4.4cm, minimum height=0.85cm] (m1) at (-3.0,-3.2)
+        {\textbf{M1:} drop-off rate per step};
+      \node[kbox, text width=4.4cm, minimum height=0.85cm] (m2) at (3.0,-3.2)
+        {\textbf{M2:} median time to first stored login};
+      \draw[karrow] (g) -- (q1); \draw[karrow] (g) -- (q2);
+      \draw[karrow] (q1) -- (m1); \draw[karrow] (q2) -- (m2);
+    \end{tikzpicture}

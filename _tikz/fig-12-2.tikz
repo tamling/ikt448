@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+      \node[kbox, text width=2.4cm, minimum height=0.95cm, anchor=west] (a) at (0,0)   {keyword table};
+      \node[kbox, text width=2.4cm, minimum height=0.95cm, anchor=west] (b) at (3.4,0) {string + log};
+      \node[kbox, text width=2.4cm, minimum height=0.95cm, anchor=west] (c) at (6.8,0) {criteria + PRISMA};
+      \node[kbox, text width=2.4cm, minimum height=0.95cm, anchor=west] (d) at (10.2,0) {concept matrix};
+      \node[kbox, text width=2.4cm, minimum height=0.95cm, anchor=west] (e) at (13.6,0){four moves};
+      \draw[karrow] (a)--(b); \draw[karrow] (b)--(c); \draw[karrow] (c)--(d); \draw[karrow] (d)--(e);
+    \end{tikzpicture}

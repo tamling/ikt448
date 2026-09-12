@@ -1,0 +1,79 @@
+# Reading list {#sec-reading-list .unnumbered}
+
+This list gathers, in one place, the sources named at the end of each chapter, in the order in which they first appear - the same order as the course's reading folder. A source cited again in a later chapter is listed only once, under the session in which it first appears.
+
+## Session 1: Introduction {.unnumbered}
+
+- Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapter 1.
+- Sapkota, R., Roumeliotis, K. I., & Karkee, M. (2025). AI agents vs. agentic AI: A conceptual taxonomy, applications and challenges. *Information Fusion*, *126*, 103599. <https://doi.org/10.1016/j.inffus.2025.103599>
+- Laudon, K. C., & Laudon, J. P. (2022). *Management information systems: Managing the digital firm* (17th ed., Global ed.). Pearson. --- Chapter 1, section 1-3.
+
+## Session 2: Approaches to Research {.unnumbered}
+
+- Biloš, A., & Budimir, B. (2024). Understanding the adoption dynamics of ChatGPT among Generation Z: Insights from a modified UTAUT2 model. *Journal of Theoretical and Applied Electronic Commerce Research*, *19*(2), 863--879. <https://doi.org/10.3390/jtaer19020045>
+- Huy, L. V., Nguyen, H. T. T., Vo-Thanh, T., Thinh, N. H. T., & Tran, T. T. D. (2024). Generative AI, why, how, and outcomes: A user adoption study. *AIS Transactions on Human-Computer Interaction*, *16*(1), 1--27. <https://doi.org/10.17705/1thci.00198>
+- Presthus, W., & Munkvold, B. E. (2016). How to frame your contribution to knowledge? *NOKOBIT*, Bergen.
+- Venkatesh, V. (2022). Adoption and use of AI tools: A research agenda grounded in UTAUT. *Annals of Operations Research*, *308*(1), 641--652. <https://doi.org/10.1007/s10479-020-03918-9>
+- Venkatesh, V., Brown, S. A., & Bala, H. (2013). Bridging the qualitative--quantitative divide: Guidelines for conducting mixed methods research in information systems. *MIS Quarterly*, *37*(1), 21--54. <https://doi.org/10.25300/MISQ/2013/37.1.02>
+- Venkatesh, V., Brown, S. A., & Sullivan, Y. W. (2016). Guidelines for conducting mixed-methods research: An extension and illustration. *Journal of the Association for Information Systems*, *17*(7), 435--494. <https://doi.org/10.17705/1jais.00433>
+- Mayer, A.-S., Baygi, R. M., & Buwalda, R. (2025). Generation AI: Job crafting by entry-level professionals in the age of generative AI. *Business & Information Systems Engineering*, *67*(5), 595--613. <https://doi.org/10.1007/s12599-025-00959-x>
+- Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research methods for business students* (8th ed.). Pearson.
+
+## Session 3: Purpose and Products of Research {.unnumbered}
+
+- Hevner, A. R. (2021). The duality of science: Knowledge in information systems research. *Journal of Information Technology*, *36*(1), 72--76. <https://doi.org/10.1177/0268396220945714>
+- McAfee, A., & Brynjolfsson, E. (2008). Investing in the IT that makes a competitive difference. *Harvard Business Review*, *86*(7/8), 98--107.
+- DiMaggio, P. J., & Powell, W. W. (1983). The iron cage revisited: Institutional isomorphism and collective rationality in organizational fields. *American Sociological Review*, *48*(2), 147--160.
+- Gibbons, M., Limoges, C., Nowotny, H., Schwartzman, S., Scott, P., & Trow, M. (1994). *The new production of knowledge*. SAGE.
+- Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, *28*(1), 75--105.
+- Meyer, J. W., & Rowan, B. (1977). Institutionalized organizations: Formal structure as myth and ceremony. *American Journal of Sociology*, *83*(2), 340--363.
+- Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. *Journal of Management Information Systems*, *24*(3), 45--77.
+- Rousseau, D. M. (2006). Is there such a thing as evidence-based management? *Academy of Management Review*, *31*(2), 256--269.
+- Van de Ven, A. H., & Johnson, P. E. (2006). Knowledge for theory and practice. *Academy of Management Review*, *31*(4), 802--821.
+
+## Session 4: Formulating Research Questions {.unnumbered}
+
+- Enholm, I. M., Papagiannidis, E., Mikalef, P., & Krogstie, J. (2022). Artificial intelligence and business value: A literature review. *Information Systems Frontiers*, *24*, 1709--1734. <https://doi.org/10.1007/s10796-021-10186-w>
+- Woodruff, A., Shelby, R., Kelley, P. G., Rousso-Schindler, S., Smith-Loud, J., & Wilcox, L. (2024). How knowledge workers think generative AI will (not) transform their industries. In *Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24)*. ACM. <https://doi.org/10.1145/3613904.3642700>
+- Boodraj, M., Fairbanks, J., Davies, C., & Akcakaya, O. (2026). Beyond the firewall: The rise of the cybersecurity project manager. In *AMCIS 2026 Proceedings* (Emergent Research Forum paper). AIS. <https://aisel.aisnet.org/amcis2026/sig_itpm/sig_itpm/2>
+
+## Session 5: Reviewing the Literature {.unnumbered}
+
+- Amling, T., et al. (under review). When Robotic Process Automation takes over --- do employees cheer or jeer? A systematic literature review.
+- Kitchenham, B., & Charters, S. (2007). *Guidelines for performing systematic literature reviews in software engineering* (EBSE Technical Report EBSE-2007-01). Keele University and Durham University.
+- Kitchenham, B., Pearl Brereton, O., Budgen, D., Turner, M., Bailey, J., & Linkman, S. (2009). Systematic literature reviews in software engineering --- A systematic literature review. *Information and Software Technology*, *51*(1), 7--15.
+- Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, *372*, n71. <https://doi.org/10.1136/bmj.n71>
+- vom Brocke, J., Simons, A., Niehaves, B., Riemer, K., Plattfaut, R., & Cleven, A. (2009). Reconstructing the giant: On the importance of rigour in documenting the literature search process. In *Proceedings of the 17th European Conference on Information Systems (ECIS 2009)*.
+- Watson, R. T., & Webster, J. (2020). Analysing the past to prepare for the future: Writing a literature review a roadmap for release 2.0. *Journal of Decision Systems*, *29*(3), 129--147. <https://doi.org/10.1080/12460125.2020.1798591>
+- Webster, J., & Watson, R. T. (2002). Analyzing the past to prepare for the future: Writing a literature review. *MIS Quarterly*, *26*(2), xiii--xxiii.
+
+## Session 6: Research Strategies 1: Survey, Design and Creation, Experiment {.unnumbered}
+
+- Grassini, S., Aasen, M. L., & Møgelvang, A. (2024). Understanding university students' acceptance of ChatGPT: Insights from the UTAUT2 model. *Applied Artificial Intelligence*, *38*(1), 2371168. <https://doi.org/10.1080/08839514.2024.2371168>
+- Jo, H., & Park, D.-H. (2024). AI in the workplace: Examining the effects of ChatGPT on information support and knowledge acquisition. *International Journal of Human--Computer Interaction*, *40*(23), 8091--8106. <https://doi.org/10.1080/10447318.2023.2278283>
+- von Nordenflycht, A. (2010). What is a professional service firm? Toward a theory and taxonomy of knowledge-intensive firms. *Academy of Management Review*, *35*(1), 155--174.
+- Camerer, C. F., Dreber, A., Holzmeister, F., Ho, T.-H., Huber, J., Johannesson, M., et al. (2018). Evaluating the replicability of social science experiments in *Nature* and *Science* between 2010 and 2015. *Nature Human Behaviour*, *2*(9), 637--644. <https://doi.org/10.1038/s41562-018-0399-z>
+- Sparrow, B., Liu, J., & Wegner, D. M. (2011). Google effects on memory: Cognitive consequences of having information at our fingertips. *Science*, *333*(6043), 776--778. <https://doi.org/10.1126/science.1207745>
+
+## Session 7: Research Strategies 2: Case Study, Action Research, Ethnography {.unnumbered}
+
+- Cocq, C. (2022). Revisiting the digital humanities through the lens of Indigenous studies --- or how to question the cultural blindness of our technologies and practices. *Journal of the Association for Information Science and Technology*, *73*(2), 333--344.
+
+## Session 8: Quantitative Data Collection and Analysis {.unnumbered}
+
+- Hair, J. F., Hult, G. T. M., Ringle, C. M., & Sarstedt, M. (2022). *A primer on partial least squares structural equation modeling (PLS-SEM)* (3rd ed.). SAGE. --- Chapter 1.
+- Venkatesh, V., Thong, J. Y. L., & Xu, X. (2012). Consumer acceptance and use of information technology: Extending the unified theory of acceptance and use of technology. *MIS Quarterly*, *36*(1), 157--178. <https://doi.org/10.2307/41410412>
+- Venkatesh, V., Thong, J. Y. L., & Xu, X. (2016). Unified theory of acceptance and use of technology: A synthesis and the road ahead. *Journal of the Association for Information Systems*, *17*(5), 328--376. <https://doi.org/10.17705/1jais.00428>
+
+## Session 9: Qualitative Data Collection and Analysis {.unnumbered}
+
+- Malterud, K., Siersma, V. D., & Guassora, A. D. (2016). Sample size in qualitative interview studies: Guided by information power. *Qualitative Health Research*, *26*(13), 1753--1760. <https://doi.org/10.1177/1049732315617444>
+
+## Session 10: Ethics in Research {.unnumbered}
+
+- Université de Montréal. (2018). *Montréal Declaration for a Responsible Development of Artificial Intelligence*. <https://montrealdeclaration-responsibleai.com>
+
+## Session 11: Producing the Essay {.unnumbered}
+
+- Presthus, W., & Sørum, H. (2025). Consumer perspectives on the increasing use of artificial intelligence: It is helpful, scary or so wrong? *Procedia Computer Science*, *256*, 158--165. <https://doi.org/10.1016/j.procs.2025.02.108>
+- Robinson, F. P. (1946). *Effective study*. Harper & Brothers.

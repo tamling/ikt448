@@ -1,0 +1,49 @@
+\begin{tikzpicture}[every node/.style={align=center, text=ink, inner sep=1pt}, scale=0.86, transform shape]
+\path[use as bounding box] (-4.85,-3.45) rectangle (8.60,2.95);
+\fill[uiared!30!white, draw=black!55, line width=0.4pt] (0.00,0) ellipse (4.72 and 2.85);
+\fill[uiared!24!white, draw=black!55, line width=0.4pt] (-0.24,0) ellipse (4.15 and 2.54);
+\fill[uiared!18!white, draw=black!55, line width=0.4pt] (-0.59,0) ellipse (3.46 and 2.17);
+\fill[uiared!12!white, draw=black!55, line width=0.4pt] (-0.96,0) ellipse (2.74 and 1.80);
+\fill[uiared!6!white] (-1.81,0) ellipse (1.61 and 1.04);
+\draw[uiared!85!black, line width=0.6pt, dash pattern=on 1.5pt off 1.3pt] (-1.81,0) ellipse (1.61 and 1.04);
+\fill[white, draw=black!55, line width=0.4pt] (-2.03,0) ellipse (1.25 and 0.44);
+\node[font=\onionopt] at (-0.55,2.62) {Positivism};
+\node[font=\onionopt] at (2.84,2.00) {Critical\\realism};
+\node[font=\onionopt] at (4.10,-0.15) {Interpretivism};
+\node[font=\onionopt] at (3.10,-1.85) {Post-\\modernism};
+\node[font=\onionopt] at (-0.55,-2.62) {Pragmatism};
+\node[font=\onionopt] at (-0.54,2.20) {Deduction};
+\node[font=\onionopt] at (3.03,1.00) {Abduction};
+\node[font=\onionopt] at (-0.54,-2.20) {Induction};
+\node[font=\onionopt] at (-0.89,1.87) {Mono-method\\quantitative};
+\node[font=\onionopt] at (1.49,1.35) {Mono-method\\qualitative};
+\node[font=\onionopt] at (2.20,0.55) {Multi-method\\quantitative};
+\node[font=\onionopt] at (2.20,-0.55) {Multi-method\\qualitative};
+\node[font=\onionopt] at (1.49,-1.35) {Mixed-method\\simple};
+\node[font=\onionopt] at (-0.89,-1.87) {Mixed method\\complex};
+\node[font=\onionopt] at (-1.89,1.42) {Experiment};
+\node[font=\onionopt] at (-0.03,1.42) {Survey};
+\node[font=\onionopt] at (0.20,0.90) {Archival research};
+\node[font=\onionopt] at (0.72,0.35) {Case study};
+\node[font=\onionopt] at (0.72,-0.35) {Ethnography};
+\node[font=\onionopt] at (0.20,-0.90) {Action research};
+\node[font=\onionopt] at (-1.92,-1.42) {Narrative\\inquiry};
+\node[font=\onionopt] at (-0.08,-1.42) {Grounded\\theory};
+\node[font=\onionopt] at (-1.81,0.62) {Cross-sectional};
+\node[font=\onionopt] at (-1.81,-0.62) {Longitudinal};
+\node[font=\onionsub] at (-2.03,0.00) {Data collection\\and data analysis};
+\ldr{( 1.20, 2.62) -- (5.05, 2.62)}
+\node[font=\onionlay, anchor=west] at (5.15, 2.62) {Philosophy};
+\ldr{( 1.30, 2.20) -- (5.05, 2.20)}
+\node[font=\onionlay, anchor=west] at (5.15, 2.14) {Approach to theory\\development};
+\ldr{( 0.90, 1.78) -- (5.05, 1.78) -- (5.05, 1.30)}
+\node[font=\onionlay, anchor=west] at (5.15, 1.30) {Methodological\\choice};
+\ldr{( 1.30, 0.02) -- (5.05, 0.02)}
+\node[font=\onionlay, anchor=west] at (5.15, 0.02) {Strategy (ies)};
+\ldr{(-0.70,-0.62) -- (3.30,-2.55) -- (5.05,-2.55)}
+\node[font=\onionlay, anchor=west] at (5.15,-2.55) {Time horizon};
+\ldr{(-2.70,-0.36) -- (-2.70,-3.10) -- (3.55,-3.10)}
+\node[font=\onionlay, anchor=west] at (3.65,-3.10) {Techniques and\\procedures};
+\draw[-{Stealth[length=2.4mm]}, uiared, line width=0.9pt] (7.95,2.62) -- (7.95,-3.10);
+\node[font=\fontsize{6pt}{7pt}\selectfont, text=uiared, rotate=-90] at (8.35,-0.24) {read from the outside in};
+\end{tikzpicture}

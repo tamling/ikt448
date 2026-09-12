@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+// Same as theme-light.scss: no Google-Fonts @import (a hanging request
+// there would keep the dark stylesheet from ever applying).
+$web-font-path: false;
+
+/*-- scss:rules --*/
+// The chapter figures are SVGs with transparent background and dark
+// ink; give them a light backing card so they stay readable in dark mode.
+.quarto-figure img,
+table img,
+p > img {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 0.6rem;
+}

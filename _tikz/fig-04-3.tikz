@@ -1,0 +1,11 @@
+\begin{tikzpicture}[node distance=0.35cm]
+      \node[gbox, text width=11.6cm] (v1)
+        {\textbf{Draft:} ``Can we build a tool that makes code reviews better?''\\
+         {\scriptsize\color{kgrey}``better'' unmeasured; ``can we build'' is almost always yes}};
+      \node[kbox, text width=11.6cm, below=of v1] (v2)
+        {\textbf{Good:} ``To what extent does an automated review-checklist
+         bot reduce review turnaround time and missed-defect rate in a small
+         backend team, compared to the team's current process?''\\
+         {\scriptsize\color{kgrey}artefact named, two outcomes, comparison baseline, population}};
+      \draw[karrow] (v1) -- (v2);
+    \end{tikzpicture}

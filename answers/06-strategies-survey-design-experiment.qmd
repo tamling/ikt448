@@ -1,0 +1,23 @@
+<!-- Answer key - source-only. answers/ is excluded from every render (see _quarto.yml), so this never appears on the site. -->
+
+# Chapter 6 - sketch answers {.unnumbered}
+
+The questions are in `chapters/06-strategies-survey-design-experiment.qmd`; the sketch answers below are the `\answer{}` texts of the LaTeX script, moved out of the chapter. They are not the only possible answers; the reasoning behind them is what matters.
+
+## Questions from the reading
+
+1. **Strategy** (@exr-06-strategy) — The strategy is the **overall plan** (six on the menu); a data generation method is how the data is produced *within* it --- questionnaire, interview, observation, documents.
+
+2. **Sampling frame** (@exr-06-sampling-frame) — The actual **list** the sample is drawn from --- your claims generalise to the frame's population, not beyond it.
+
+3. **Five steps** (@exr-06-five-steps) — Awareness → suggestion → development → evaluation → conclusion --- iterative, not a waterfall.
+
+4. **Internal** (@exr-06-internal) — Internal: the manipulation --- not a confound --- caused the effect. External: the effect survives outside the experimental setting.
+
+## Questions for discussion
+
+1. **Score the three** (@exr-06-score-the-three) — Write the answer as the justification paragraph: *we choose X because it fits the question in this way and our resources in that way; we rejected Y because ...*. The rejected alternatives with reasons are what examiners read for.
+
+2. **If you build something** (@exr-06-if-you-build-something) — Without an evaluation plan the artefact is a development project, not design and creation research. A usability test with eight users, a benchmark against a named baseline, or an expert review with explicit criteria each turns the artefact into evidence.
+
+3. **Your included papers** (@exr-06-your-included-papers) — That is evidence for your own choice: if the field answers questions like yours with surveys, choosing an experiment needs an argument; if it never uses experiments, an experiment may be a contribution in itself --- provided the controls are feasible.

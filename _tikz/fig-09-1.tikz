@@ -1,0 +1,20 @@
+\begin{tikzpicture}
+      \node[gbox, text width=2.5cm, minimum height=1.2cm, anchor=west] (fam) at (0,0)
+        {\textbf{1.\ Familiarise}\\ \scriptsize read all transcripts, first impressions};
+      % the cycle: 2 -> 3 -> 4 -> 2
+      \node[kbox, text width=2.5cm, minimum height=1.1cm] (code) at (5.6,1.5)
+        {\textbf{2.\ Code}\\ \scriptsize label segments, close to the words};
+      \node[kbox, text width=2.5cm, minimum height=1.1cm] (thm) at (8.6,-0.2)
+        {\textbf{3.\ Build themes}\\ \scriptsize group codes};
+      \node[kbox, text width=2.5cm, minimum height=1.1cm] (rev) at (5.6,-1.9)
+        {\textbf{4.\ Review}\\ \scriptsize check themes against \emph{all} data};
+      \node[gbox, text width=2.6cm, minimum height=1.2cm, anchor=west] (wr) at (11.6,-0.2)
+        {\textbf{5.\ Define \& write}\\ \scriptsize name themes, evidence with quotes};
+      \draw[karrow] (fam.east) -- (code.west);
+      \draw[karrow] (code.east) to[bend left=25] (thm.north);
+      \draw[karrow] (thm.south) to[bend left=25] (rev.east);
+      \draw[karrow] (rev.west) to[bend left=30]
+        node[left,font=\scriptsize,kristiania]{recode} (code.west);
+      \draw[garrow] (thm.east) -- node[above,font=\scriptsize,kgrey]{when stable} (wr.west);
+      \node[font=\scriptsize\color{kgrey}] at (6.7,-0.2) {cycle 2--4};
+    \end{tikzpicture}

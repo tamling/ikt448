@@ -1,0 +1,15 @@
+\begin{tikzpicture}[scale=1.0]
+      % axis
+      \draw[very thick, kgrey, {Stealth}-{Stealth}] (-5.6,0) -- (5.6,0);
+      % three anchors
+      \node[kbox, minimum width=3.2cm] (quant) at (-4.2,1.1) {\textbf{Quantitative}\\numbers, variables,\\testing theories};
+      \node[gbox, minimum width=3.2cm] (mixed) at (0,1.1) {\textbf{Mixed methods}\\integrating both\\kinds of data};
+      \node[kbox, minimum width=3.2cm] (qual)  at (4.2,1.1) {\textbf{Qualitative}\\words, meanings,\\exploring settings};
+      \draw[garrow] (quant) -- (-4.2,0.15);
+      \draw[garrow] (mixed) -- (0,0.15);
+      \draw[garrow] (qual)  -- (4.2,0.15);
+      % labels below
+      \node[font=\scriptsize\itshape, kgrey] at (-4.2,-0.45) {closed-ended data};
+      \node[font=\scriptsize\itshape, kgrey] at (0,-0.45)    {both};
+      \node[font=\scriptsize\itshape, kgrey] at (4.2,-0.45)  {open-ended data};
+    \end{tikzpicture}

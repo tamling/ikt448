@@ -1,0 +1,23 @@
+<!-- Answer key - source-only. answers/ is excluded from every render (see _quarto.yml), so this never appears on the site. -->
+
+# Chapter 10 - sketch answers {.unnumbered}
+
+The questions are in `chapters/10-ethics.qmd`; the sketch answers below are the `\answer{}` texts of the LaTeX script, moved out of the chapter. They are not the only possible answers; the reasoning behind them is what matters.
+
+## Questions from the reading
+
+1. **Rights** (@exr-10-rights) — Five: the right **not to participate**, to **withdraw**, to **informed consent**, to **anonymity**, to **confidentiality** --- and organisations hold them too.
+
+2. **Anonymity** (@exr-10-anonymity) — Anonymity protects **identity** (pseudonyms, disguise --- sometimes even gender, in a small department); confidentiality protects the **data** and the link --- kept safe, never passed on.
+
+3. **Publicly visible** (@exr-10-publicly-visible) — Public visibility is not consent to be *studied*: ownership of posts is unclear, people treat "public" groups as private, consent at scale is impractical, and data linkage defeats anonymisation.
+
+4. **Responsibilities** (@exr-10-responsibilities) — Respect expectations of anonymity and confidentiality; never coerce --- especially from a position of power; obtain informed consent and do not deceive unless there is no alternative and no harm can ensue.
+
+## Questions for discussion
+
+1. **Data inventory** (@exr-10-data-inventory) — E-mail addresses, IP addresses, voice recordings and free-text answers are personal data; so are job titles in a small organisation, because they identify indirectly. If anything on the list is personal, the SIKT decision follows.
+
+2. **Consent** (@exr-10-consent) — Purpose, what participation involves, storage and deletion, the right to withdraw, and who to contact. Promise confidentiality; promise anonymity only if you will never be able to link data to a person --- which is rarely true of interviews.
+
+3. **Your ethics paragraph** (@exr-10-your-ethics-paragraph) — Scope: testing systems you are not authorised to test, and reporting vulnerabilities to examiners who have signed no NDA. State the authorisation you have and what stays out of the graded essay.

@@ -1,0 +1,289 @@
+# Research Strategies 2: Case Study, Action Research, Ethnography {#sec-07-strategies-case-action-ethnography}
+
+::: {.callout-note appearance="simple" icon="false"}
+**Session 7** · Thursday 22 October 2026 · reading: Oates, Chapters 10--12
+:::
+
+The second group of strategies studies a phenomenon in its setting: the case study, action research and ethnography. Each answers different questions and carries a different burden of justification --- above all the question of what can be claimed beyond the case. The chapter uses a current case study, an example from Sámi research and a workshop study as illustrations, and shows how strategies can be combined, with a worked case from my own research.
+
+## Case study {#sec-07-case-study}
+
+::: {.callout-note}
+## Case study
+
+A case study refers to the study of one instance of the thing being investigated --- an organisation, a department, a system, a project --- in depth, in its natural setting, using multiple sources of evidence.
+:::
+
+Depth is the strategy's strength and generalisation its burden. A case study cannot generalise statistically to a population, and it does not try to; it generalises analytically, by testing or refining a theory or an explanation that can then be applied elsewhere. Every case study in an essay therefore needs one sentence that says what the case is a case *of*. Cases are selected for a reason --- typical, extreme, critical, revelatory --- and the reason is stated. The data come from interviews, documents, observations and, where available, quantitative records, and their combination is what Oates calls triangulation.
+
+Mayer, Baygi and Buwalda (2025) show a current case study in a setting close to this course. Their case was one large consultancy that had integrated generative AI into its work, chosen because the phenomenon is visible there early and in depth. Their data were semi-structured interviews, first with entry-level professionals and then with senior consultants and managers, about 45 minutes each, transcribed verbatim, with the interview guide published in an appendix. Their analysis used job crafting as the lens --- task, relational and cognitive crafting --- and a fourth form emerged from the data, signal crafting. Their generalisation is analytical: the extension of job-crafting theory travels to other knowledge-work settings; the numbers do not.
+
+## Action research {#sec-07-action-research}
+
+::: {.callout-note}
+## Action research
+
+Action research refers to a strategy in which the researcher works with practitioners to change a real situation and, through the cycle of planning, acting, observing and reflecting, produces knowledge about both the change and the practice.
+:::
+
+The strategy differs from design and creation in its object: design and creation produces an artefact and evaluates it; action research changes a practice and learns from the change, with the practitioners as participants rather than subjects. The cycle is iterative, the researcher is part of the situation, and the knowledge claim concerns what happened when the practice was changed in this setting and what that suggests for others. The risk is the same as the strength: involvement makes the researcher a stakeholder, and the essay must say how that was handled. A security team that introduces a new incident-triage routine with a researcher and studies what changes is doing action research; a researcher who builds a triage tool and measures its effect is doing design and creation.
+
+## Ethnography {#sec-07-ethnography}
+
+::: {.callout-note}
+## Ethnography
+
+Ethnography refers to the study of a culture --- a group of people and their shared practices, meanings and rules --- from the inside, through prolonged participation and observation in the group's own setting.
+:::
+
+Ethnography is time-hungry and insight-rich. It shows what people actually do with technology in their own setting, security practice included, rather than what they report doing. Its data are field notes, observations, conversations and documents; its analysis is interpretive; and its claims are about meaning and practice in this setting. Digital ethnography extends the strategy to online communities, and netnography to communities that exist only online.
+
+Coppélie Cocq's research on Sámi communities illustrates the strategy and one of its ethical lessons. Sámi communities were early adopters of digital communication --- to connect across a large territory and to be heard --- and Cocq's studies follow Sámi use of social media, forums and digital archives over years. Online and offline communities overlap so much that the "online community" cannot be studied as a separate, virtual place; the ethnographer's toolbox has to be adapted, with observation across channels, long engagement, and participants as co-interpreters. The ethics combine Indigenous research methodologies with digital media ethics: consent and benefit for the community, Indigenous data sovereignty, and a critical view of how data are harvested, categorised and shared (Cocq, 2022). For a cyber security thesis the lesson is that "the data are public" is not an argument: access is not consent, and communities have rights in their data (Session 10).
+
+Some studies sit between the strategies and say so. Woodruff et al. (2024) asked how knowledge workers expect generative AI to affect their industries and answered with participatory research workshops in seven industries, 54 participants in three US cities, in which participants discussed scenarios and produced material together while the researchers analysed the discourse thematically. The dominant narrative across groups was generative AI as a tool for menial work under human review, not the disruption projected in the media, and the study names four social forces it may amplify: deskilling, dehumanisation, disconnection and disinformation. It is neither an ethnography, since there is no immersion over time, nor a case study, since there is no single bounded case; a workshop study borrows from both, and the paper says so. Name the strategy you actually use --- and its limits.
+
+## Combining strategies {#sec-07-combining-strategies}
+
+Strategies can be combined when the question has two parts that need different evidence, for instance a case study to understand a practice followed by a survey to check its breadth. One strategy chosen for a clear reason beats two chosen for safety, and a combination must be justified as a combination. A combination must be justified as a combination, and the justification names what each strategy contributes that the other cannot.
+
+## The decision {#sec-07-the-decision}
+
+All six strategies can be placed on one table with the same four columns: the question they answer, the data they generate, the knowledge they claim, and their main risk. The decision for the essay is one paragraph in Part III --- chosen strategy, fit to question, fit to resources, rejected alternatives with reasons --- and one sentence about what can be claimed beyond the study. A strategy without named data generation methods is a plan without a data plan, and Part IV cannot be written from it; Sessions 8 and 9 supply the methods.
+
+## Worked examples and tables {#sec-07-worked-examples-and-tables}
+
+### Generalisation and assessment of the case study
+
+**Statistical generalisation**\
+from a *sample* to a *population*\
+*the survey's and experiment's logic --- a case study (n = 1) cannot do this, and should not pretend to.*
+
+**Analytical generalisation**\
+from a *case* to a *theory or concept*\
+*"this case shows the mechanism X can occur under conditions Y" --- knowledge that transfers to comparable settings.*
+
+::: {.callout-note}
+## Example (cyber)
+
+**RQ:** how does a small Norwegian software company recover operational trust after a ransomware incident?\
+One company, four months: interviews with staff and management, incident documents, observation of the changed routines. The product is a *mechanism description* others can learn from --- not a percentage.
+:::
+
+**Strong at**
+
+-   real-life complexity kept intact
+
+-   *how* and *why* questions
+
+-   multiple data sources, natural triangulation
+
+-   fits master's theses with **one client company**
+
+**Weak at**
+
+-   no statistical generalisation
+
+-   access is everything --- and can be withdrawn
+
+-   risk of drowning in unstructured data
+
+-   boundary discipline: what is *in* the case, what is not?
+
+For most of you, the client of your **master's thesis** is a natural case --- the strategy question is whether your research question is about *that setting* or about something the setting merely hosts.
+
+::: {#tbl-07-1}
+  **Single case: one SMB after ransomware**            **Multiple: three SMBs after incidents**
+  ---------------------------------------------------- ---------------------------------------------------------
+  depth: four months inside one recovery               breadth: what repeats across recoveries?
+  access: one willing gatekeeper                       access: three gatekeepers --- three times the risk
+  claim: how it happened *here*, mechanism described   claim: the mechanism recurs (or varies) across settings
+  master's-feasible: yes                               feasible only with shallow data per case
+
+Single and multiple case studies compared
+:::
+
+Rule of thumb at master's scale: **one deep case beats three shallow ones** --- unless comparison *is* the question.
+
+### Action research --- example, assessment, and the common confusion
+
+::: {.callout-note}
+## Example (cyber)
+
+**RQ:** how can alert triage in a small security team be improved, and what explains the improvement?\
+Cycle 1: introduce a severity-tagging rule with the team; measure triage time and missed alerts for four weeks; reflect with the team. Cycle 2: adjust the rule based on what was learned; measure again. The knowledge product: *which* intervention worked, *under which conditions*, and *why* --- documented across cycles.
+:::
+
+**Strong at:** relevance, practitioner buy-in, studying change itself; natural fit when your master's thesis *changes* something at the client.
+
+**Weak at:** the researcher is *inside* the change --- rigour demands documented cycles and honest reflection, not success stories. Time: at least two cycles.
+
+::: {#tbl-07-2}
+                      **Design & creation**             **Action research**
+  ------------------- --------------------------------- ---------------------------------------
+  centre of gravity   the **artefact**                  the **practice / organisation**
+  what is evaluated   how well the artefact works       how the practice changed
+  people involved     users evaluate                    practitioners **co-drive** the change
+  typical output      artefact + evaluation knowledge   documented change across cycles
+
+Design and creation and action research: the common confusion resolved
+:::
+
+They can combine: build a tool (design & creation) *and* study its introduction into the team's practice over two cycles (action research). If you combine, say so --- and be clear which strategy answers which (sub-)question.
+
+### Ethnography --- example and assessment
+
+::: {.callout-note}
+## Example (development culture)
+
+**RQ:** how does an open-source project's community actually enforce code-review norms --- beyond what the written guidelines say?\
+Three months inside the project: observing pull-request discussions, participating, field notes, informal chats with maintainers. Finding the *unwritten* rules is exactly what only immersion can do.
+:::
+
+**Strong at:** the taken-for-granted; unwritten rules; questions where asking people directly gets you the official story, not the real one.
+
+**Weak at:** time (usually beyond one master's semester unless the setting is online and access exists); ethics of observation (session 10); generalisation.
+
+::: {.callout-note}
+## RQ: how does a security operations team really decide which alerts matter?
+
+Six weeks embedded in the SOC (with written access agreement): observing shift handovers, sitting with analysts, field notes on the informal shortcuts --- "that rule always cries wolf", "if it's from that subnet, escalate".
+:::
+
+-   The written runbook says one thing; the **lived triage culture** does another --- only presence over time reveals the gap
+
+-   Contrast with session 9's methods: an interview would return the runbook version; observation returns practice
+
+-   Ethics preview: overt observation, team informed, no individual-level reporting --- session 10 formalises this
+
+### Combining strategies
+
+::: {#tbl-07-3}
+  **Combination**                  **Who answers what**
+  -------------------------------- ----------------------------------------------------------------------------------------------------------------------------------
+  Design & creation + case study   D&C builds and evaluates the review bot (main RQ); the case study examines its introduction into the client team's practice (SQ)
+  Survey + interviews (mixed)      survey establishes how widespread password reuse is (SQ1); interviews explain the decisions behind it (SQ2)
+
+Combining strategies: who answers what
+:::
+
+Two rules for combinations: (1) each strategy is **assigned** to a (sub-)question --- no strategy without a job; (2) cost counts double --- two strategies means two data plans, two analyses, one deadline.
+
+### Mismatch clinic and the fit of all six
+
+::: {#tbl-07-4}
+  **Pairing**                                       **Why it fails**
+  ------------------------------------------------- -------------------------------------------------------------------------------
+  "How do admins *experience* audits?" + survey     experience questions need depth; closed items flatten them --- interviews fit
+  "Does caching reduce latency?" + case study       a causal claim needs manipulation and control --- experiment fits
+  "How widespread is MFA adoption?" + ethnography   a prevalence question needs breadth --- survey fits; immersion is overkill
+
+The mismatch clinic: question-strategy pairings that fail, and why
+:::
+
+In each case the strategy is respectable --- it is just answering **someone else's question**. This is the single most common Part III error.
+
+::: {#tbl-07-5}
+  **If your question sounds like...**                          **...consider**     **...you will need**
+  ------------------------------------------------------------ ------------------- ----------------------------------------
+  how widespread / which factors are associated                survey              enough respondents
+  can X be built --- how well does it work                     design & creation   build skills + evaluation plan
+  does A cause B                                               experiment          control, randomisation
+  how / why does it happen in *this* setting                   case study          deep access to one setting
+  how can this practice be improved --- and why does it work   action research     a client willing to change; ≥ 2 cycles
+  what are the unwritten rules of this group                   ethnography         time, immersion, access
+
+The fit of all six strategies to question wording
+:::
+
+Strategies can be **combined** --- but every combination must be justified per (sub-)question, and each extra strategy costs time you do not have twice.
+
+## Terms from this session {#sec-07-terms-from-this-session .unnumbered}
+
+::: {#tbl-07-terms}
+  --------------------------------- ------------------------------------------------------------------------------
+  **Case study**                    in-depth study of one instance in its natural setting, multiple data sources
+  **Analytical generalisation**     generalising from a case to a theory or mechanism, not to a population
+  **Action research**               researcher and practitioners change practice and study the change in cycles
+  **Plan--act--observe--reflect**   one action-research cycle; rigour requires at least two
+  **Ethnography**                   extended immersion to understand a group's culture
+  **Thick description**             an account rich enough to convey *why* things are done as they are
+  **Virtual ethnography**           ethnography of an online setting (project, community, platform)
+  **Reflexivity**                   documenting the researcher's own influence on the setting
+  --------------------------------- ------------------------------------------------------------------------------
+
+Terms from Session 7
+:::
+
+## Questions from the reading {#sec-07-questions-from-the-reading .unnumbered}
+
+::: {#exr-07-generalisation}
+## Generalisation
+
+What kind of **generalisation** can a case study legitimately claim?
+:::
+
+::: {#exr-07-dual-aim}
+## Dual aim
+
+What is the **dual aim** of action research?
+:::
+
+::: {#exr-07-ethnography}
+## Ethnography
+
+What makes **ethnography** different from a very long case study?
+:::
+
+::: {#exr-07-reading-question-4}
+## Reading question 4
+
+What kind of data does an ethnographer primarily produce?
+:::
+
+## Questions for discussion {#sec-07-questions-for-discussion .unnumbered}
+
+::: {#exr-07-the-final-call}
+## The final call
+
+**The final call** --- single strategy or a justified combination? Rewrite your justification paragraph: chosen strategy, fit to question, fit to resources, rejected alternatives with reasons.
+:::
+
+::: {#exr-07-generalisation}
+## Generalisation
+
+**Generalisation** --- if you choose a case study, what can you claim beyond the case?
+:::
+
+::: {#exr-07-data-generation-methods}
+## Data generation methods
+
+**Data generation methods** --- which methods does your strategy imply: questionnaire, interviews, observation, documents?
+:::
+
+## Interactive exercises {#sec-07-interactive-exercises .unnumbered}
+
+Sort, order and pick: every exercise below is answerable from this chapter and checks itself.
+
+{{< include _07-interactive.qmd >}}
+
+## Key points {#sec-07-key-points .unnumbered}
+
+-   Case study: one instance in depth --- and the generalisation question it must answer
+
+-   Action research: change practice and generate knowledge from the change --- not design and creation
+
+-   Ethnography: a culture from the inside --- time-hungry, insight-rich
+
+-   All six strategies on one table: one decision, one justification
+
+## Sources {#sec-07-sources .unnumbered}
+
+-   Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 10--12 (Case studies; Action research; Ethnography).
+
+-   Cocq, C. (2022). Revisiting the digital humanities through the lens of Indigenous studies --- or how to question the cultural blindness of our technologies and practices. *Journal of the Association for Information Science and Technology*, *73*(2), 333--344.
+
+-   Woodruff, A., Shelby, R., Kelley, P. G., Rousso-Schindler, S., Smith-Loud, J., & Wilcox, L. (2024). How knowledge workers think generative AI will (not) transform their industries. In *Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24)*. ACM. <https://doi.org/10.1145/3613904.3642700>
+
+-   Mayer, A.-S., Baygi, R. M., & Buwalda, R. (2025). Generation AI: Job crafting by entry-level professionals in the age of generative AI. *Business & Information Systems Engineering*, *67*(5), 595--613. <https://doi.org/10.1007/s12599-025-00959-x>
+
+-   Laudon, K. C., & Laudon, J. P. (2022). *Management information systems: Managing the digital firm* (17th ed., Global ed.). Pearson. --- Chapter 3 (Information systems, organizations, and strategy) --- the organisational context of case studies.

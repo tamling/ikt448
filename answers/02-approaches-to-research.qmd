@@ -1,0 +1,23 @@
+<!-- Answer key - source-only. answers/ is excluded from every render (see _quarto.yml), so this never appears on the site. -->
+
+# Chapter 2 - sketch answers {.unnumbered}
+
+The questions are in `chapters/02-approaches-to-research.qmd`; the sketch answers below are the `\answer{}` texts of the LaTeX script, moved out of the chapter. They are not the only possible answers; the reasoning behind them is what matters.
+
+## Questions from the reading
+
+1. **Positivism** (@exr-02-positivism) — That the world exists independently of us and is ordered and regular (ontology), and that we can discover it through observation and measurement --- the scientific method (epistemology).
+
+2. **Interpretivism** (@exr-02-interpretivism) — An understanding of the social context: how people make sense of their world, with multiple subjective realities and the researcher as part of the situation studied.
+
+3. **Critical research** (@exr-02-critical-research) — It goes beyond understanding: it identifies and challenges power relations, conflicts and contradictions, with the aim of emancipation and change.
+
+4. **Reading question 4** (@exr-02-reading-question-4) — Experiments and surveys lean positivist; case studies, action research and ethnography lean interpretive or critical; design and creation can be carried out under any paradigm.
+
+## Questions for discussion
+
+1. **Your topic** (@exr-02-your-topic) — Most topics allow both. The quantitative form needs measurable variables and enough cases; the qualitative form needs access to people and time for analysis. Decide with today's three criteria: fit to the question, fit to your resources, and the audience of the result.
+
+2. **The telemetry study** (@exr-02-the-telemetry-study) — Mixed methods, explanatory sequential: the quantitative phase finds the pattern, the qualitative phase explains it. The worldview is pragmatist: the question decides the method.
+
+3. **Your client's question** (@exr-02-your-client-s-question) — The first is postpositivist: an objective outcome, measured and compared. The second is constructivist: meaning as experienced by users, reconstructed from their accounts. Recognising this in a client's wording is today's content applied to your own thesis.

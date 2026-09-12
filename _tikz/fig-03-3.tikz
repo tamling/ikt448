@@ -1,0 +1,16 @@
+\begin{tikzpicture}[node distance=0.35cm and 0.5cm]
+      \node[gbox, text width=3.1cm] (exp) {\textbf{Experiences \&\\motivation}};
+      \node[kbox, text width=3.1cm, right=of exp] (lit) {\textbf{Literature\\review}};
+      \node[kbox, text width=3.1cm, right=of lit] (rq) {\textbf{Research\\question(s)}};
+      \node[kbox, text width=3.1cm, right=of rq] (str) {\textbf{Strategy}};
+      \node[kbox, text width=3.1cm, below=0.9cm of str] (dgm) {\textbf{Data generation\\method(s)}};
+      \node[kbox, text width=3.1cm, left=of dgm] (ana) {\textbf{Data\\analysis}};
+      \node[gbox, text width=3.1cm, left=of ana] (ans) {\textbf{Answers \&\\contribution}};
+      \draw[karrow] (exp) -- (lit);
+      \draw[karrow] (lit) -- (rq);
+      \draw[karrow] (rq) -- (str);
+      \draw[karrow] (str) -- (dgm);
+      \draw[karrow] (dgm) -- (ana);
+      \draw[karrow] (ana) -- (ans);
+      \draw[garrow, dashed] (ans.north) to[out=90,in=-140] node[above,font=\scriptsize,kgrey,pos=0.4]{new questions emerge} (rq.south west);
+    \end{tikzpicture}

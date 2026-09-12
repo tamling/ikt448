@@ -1,0 +1,36 @@
+# How to use this script {#sec-how-to-use .unnumbered}
+
+# The course in twelve Thursdays {#the-course-in-twelve-thursdays .unnumbered}
+
+Each chapter corresponds to one session. Read the assigned chapters of the textbook first, then the chapter of this script, then bring your questions to the session. The table lists the sessions, their dates and the reading.
+
+::: {#tbl-sessions}
+       **Date**   **Session**                                                       **Reading (Oates)**
+  ---- ---------- ----------------------------------------------------------------- ---------------------
+     1 10.09      Introduction                                                      Ch. 1
+     2 17.09      Approaches to research                                            Ch. 19--20
+     3 24.09      Purpose, products and process of research                         Ch. 1--3
+     4 01.10      Formulating research questions                                    Ch. 2
+     5 08.10      Reviewing the literature                                          Ch. 6
+     6 15.10      Research strategies 1: survey, design and creation, experiment    Ch. 7--9
+     7 22.10      Research strategies 2: case study, action research, ethnography   Ch. 10--12
+     8 29.10      Quantitative data and analysis                                    Ch. 15, 17
+     9 05.11      Qualitative data and analysis                                     Ch. 13--14, 16, 18
+    10 12.11      Ethics: privacy and social responsibility                         Ch. 4--5
+    11 19.11      Producing the essay                                               Ch. 21
+    12 26.11      Summing-up and supervision                                        everything
+
+The twelve sessions, their dates and the reading
+:::
+
+# Learning outcomes {#learning-outcomes .unnumbered}
+
+After completing the course, the student should (LO1) have an overview of qualitative and quantitative research methods within ICT research, with an emphasis on methods used within cyber security; (LO2) have an understanding of the use of formal methods and models, and the validity of these methods; (LO3) be able to assess research-ethical aspects, with an emphasis on privacy and social responsibility; (LO4) have insight into the chosen project and how cyber security fits into an overall ICT setting; (LO5) have an understanding of the structure of scientific investigations within ICT and cyber security, the relationship between breadth and depth, and what limitations such investigations have; and (LO6) be able to choose a suitable method in relation to the topic of a scientific investigation and problem solving within cyber security, such as a master's thesis.
+
+# Assessment {#assessment .unnumbered}
+
+The grade rests on three parts: presence and participation in discussions (20 %), a small project presented in a group (20 %), and the essay (60 %: written report 40 %, presentation and discussion in the final oral exam 20 %). Approved mandatory submissions and presentations are the condition for taking the exam; details and dates are announced separately. The essay has four building blocks --- introduction and question (Part I), relevant work (Part II), choice of methods (Part III), data, analysis, ethics and limitations (Part IV) --- and Chapter 11 presents it as a paper with six sections.
+
+# The book and the papers {#the-book-and-the-papers .unnumbered}
+
+The textbook is the only required book. Chapter references follow the second edition (2022); a third edition (2025/26) is almost identical and mainly adds material on AI in research. The papers discussed in the sessions are listed at the end of each chapter and collected in the reading folder, numbered by the session in which they first appear.

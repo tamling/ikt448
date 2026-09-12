@@ -1,0 +1,19 @@
+\begin{tikzpicture}[node distance=0.32cm]
+      \node[gbox, text width=11.8cm] (t)
+        {\textbf{Topic} (broad area of interest)\\
+         {\scriptsize\color{kgrey}``password security''}};
+      \node[kbox, text width=9.6cm, below=of t] (pr)
+        {\textbf{Problem} (something specific that is wrong, unknown or needed)\\
+         {\scriptsize\color{kgrey}``employees reuse passwords across systems ---
+          despite mandatory awareness training''}};
+      \node[kbox, text width=7.4cm, below=of pr] (pu)
+        {\textbf{Purpose} (what this study will find out, for whom)\\
+         {\scriptsize\color{kgrey}``to identify which factors drive password
+          reuse among employees of small businesses, so that training can
+          target them''}};
+      \node[gbox, text width=5.2cm, below=of pu] (rq)
+        {\textbf{Research question}\\ {\scriptsize\color{kgrey}$\rightarrow$ next session!}};
+      \draw[karrow] (t) -- (pr);
+      \draw[karrow] (pr) -- (pu);
+      \draw[garrow] (pu) -- (rq);
+    \end{tikzpicture}

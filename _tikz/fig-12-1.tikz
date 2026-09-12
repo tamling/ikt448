@@ -1,0 +1,19 @@
+\begin{tikzpicture}
+      \node[kbox, text width=2.0cm, minimum height=1.15cm, anchor=west] (a) at (0,0)
+        {\textbf{Problem \&}\\ \textbf{purpose}\\ \scriptsize S3};
+      \node[kbox, text width=2.0cm, minimum height=1.15cm, anchor=west] (b) at (2.5,0)
+        {\textbf{Research}\\ \textbf{question}\\ \scriptsize S4};
+      \node[kbox, text width=2.0cm, minimum height=1.15cm, anchor=west] (c) at (5.0,0)
+        {\textbf{Literature}\\ \textbf{review}\\ \scriptsize S5};
+      \node[kbox, text width=2.0cm, minimum height=1.15cm, anchor=west] (d) at (7.5,0)
+        {\textbf{Strategy}\\ \scriptsize S6--7};
+      \node[kbox, text width=2.0cm, minimum height=1.15cm, anchor=west] (e) at (10.0,0)
+        {\textbf{Methods \&}\\ \textbf{analysis}\\ \scriptsize S8--9};
+      \node[kbox, text width=2.0cm, minimum height=1.15cm, anchor=west] (f) at (12.5,0)
+        {\textbf{Ethics \&}\\ \textbf{report}\\ \scriptsize S10--11};
+      \draw[karrow] (a)--(b); \draw[karrow] (b)--(c);
+      \draw[karrow] (c)--(d); \draw[karrow] (d)--(e); \draw[karrow] (e)--(f);
+      \node[gbox, text width=6.0cm, minimum height=0.8cm] (base) at (7.2,-1.7)
+        {\textbf{Approach \& worldview} (S2) --- underneath every step};
+      \draw[garrow] (base.north) -- (7.2,-0.62);
+    \end{tikzpicture}

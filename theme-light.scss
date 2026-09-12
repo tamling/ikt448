@@ -1,0 +1,5 @@
+/*-- scss:defaults --*/
+// Don't pull fonts from fonts.googleapis.com: a blocked/hanging request
+// there stalls the whole stylesheet (and the dark-mode toggle with it).
+// System fonts are used instead.
+$web-font-path: false;

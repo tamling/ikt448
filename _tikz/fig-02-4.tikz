@@ -1,0 +1,36 @@
+\begin{tikzpicture}[node distance=0.38cm and 1.4cm]
+      % deductive column
+      \node[kbox, text width=4.9cm] (t1)
+        {\textbf{1.\ Theory}\\{\scriptsize\color{kgrey}e.g.\ self-determination theory:
+          external rewards undermine intrinsic motivation}};
+      \node[kbox, text width=4.9cm, below=of t1] (h1)
+        {\textbf{2.\ Hypothesis}\\{\scriptsize\color{kgrey}Hypothesis 1 (H1): reward-driven users
+          abandon the app more often}};
+      \node[kbox, text width=4.9cm, below=of h1] (d1)
+        {\textbf{3.\ Data collection}\\{\scriptsize\color{kgrey}questionnaire, 500 users,
+          validated scales}};
+      \node[kbox, text width=4.9cm, below=of d1] (c1)
+        {\textbf{4.\ Confirm / reject}\\{\scriptsize\color{kgrey}statistics support H1 $\rightarrow$
+          theory survives this test}};
+      \draw[karrow] (t1) -- (h1);
+      \draw[karrow] (h1) -- (d1);
+      \draw[karrow] (d1) -- (c1);
+      \node[above=0.22cm of t1, font=\bfseries] {Deductive = theory-\emph{testing}};
+      % inductive column
+      \node[gbox, text width=4.9cm, right=1.6cm of c1] (d2)
+        {\textbf{1.\ Data collection}\\{\scriptsize\color{kgrey}12 open interviews with
+          former users}};
+      \node[gbox, text width=4.9cm, above=of d2] (p2)
+        {\textbf{2.\ Patterns (codes)}\\{\scriptsize\color{kgrey}``felt judged'', ``lost my
+          streak'', ``relief after deleting''}};
+      \node[gbox, text width=4.9cm, above=of p2] (th2)
+        {\textbf{3.\ Themes}\\{\scriptsize\color{kgrey}codes condense into
+          ``quantified guilt''}};
+      \node[gbox, text width=4.9cm, above=of th2] (g2)
+        {\textbf{4.\ Theory / model}\\{\scriptsize\color{kgrey}a model of how self-tracking
+          turns into pressure}};
+      \draw[garrow] (d2) -- (p2);
+      \draw[garrow] (p2) -- (th2);
+      \draw[garrow] (th2) -- (g2);
+      \node[above=0.22cm of g2, font=\bfseries] {Inductive = theory-\emph{building}};
+    \end{tikzpicture}

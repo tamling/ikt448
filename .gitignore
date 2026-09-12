@@ -1,0 +1,7 @@
+# Quarto build output
+_site/
+.quarto/
+/.quarto/
+
+# Annotation audit trail: raw Hypothesis export contains real usernames
+data/annotations_raw.json

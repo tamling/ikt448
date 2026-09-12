@@ -1,0 +1,24 @@
+\begin{tikzpicture}
+      \draw[very thick, uiagrey] (0,0) -- (15.6,0);
+      \foreach \x in {0.6,2.4,4.2,6.0,7.8,9.6,11.4,13.2,15.0}{\fill[uiared] (\x,0) circle (0.09);}
+      \node[gbox, text width=2.3cm, minimum height=1.25cm, font=\scriptsize] at (0.6,1.15)
+        {\textbf{$\sim$350 BCE} Aristotle\\ observation + logic};
+      \node[gbox, text width=2.3cm, minimum height=1.25cm, font=\scriptsize] at (4.2,1.15)
+        {\textbf{1620} Bacon\\ empiricism: knowledge from evidence};
+      \node[gbox, text width=2.3cm, minimum height=1.25cm, font=\scriptsize] at (7.8,1.15)
+        {\textbf{1665} first journals\\ peer review begins};
+      \node[gbox, text width=2.3cm, minimum height=1.25cm, font=\scriptsize] at (11.4,1.15)
+        {\textbf{1934} Popper\\ falsifiability: claims must be testable};
+      \node[gbox, text width=2.3cm, minimum height=1.25cm, font=\scriptsize] at (15.0,1.15)
+        {\textbf{today}\\ open science, replication};
+      \node[kbox, text width=2.3cm, minimum height=1.25cm, font=\scriptsize] at (2.4,-1.15)
+        {\textbf{$\sim$1021} Ibn al-Haytham\\ systematic experiments};
+      \node[kbox, text width=2.3cm, minimum height=1.25cm, font=\scriptsize] at (6.0,-1.15)
+        {\textbf{1637} Descartes\\ doubt as method};
+      \node[kbox, text width=2.3cm, minimum height=1.25cm, font=\scriptsize] at (9.6,-1.15)
+        {\textbf{1687} Newton\\ theory + experiment united};
+      \node[kbox, text width=2.3cm, minimum height=1.25cm, font=\scriptsize] at (13.2,-1.15)
+        {\textbf{1962} Kuhn\\ paradigms: science moves in worldviews};
+      \foreach \x in {0.6,4.2,7.8,11.4,15.0}{\draw[uiagrey] (\x,0.09)--(\x,0.5);}
+      \foreach \x in {2.4,6.0,9.6,13.2}{\draw[uiagrey] (\x,-0.09)--(\x,-0.5);}
+    \end{tikzpicture}

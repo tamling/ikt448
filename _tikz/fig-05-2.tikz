@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+      \node[kbox, text width=4.1cm, minimum height=2.5cm, anchor=west] (pl) at (0,0)
+        {\textbf{1.\ Planning}\\[2pt]
+         {\scriptsize identify the need for a review\\
+          formulate the review question(s)\\
+          write the \textbf{review protocol}:\\
+          sources, search string, criteria,\\
+          quality-assessment plan}};
+      \node[kbox, text width=4.1cm, minimum height=2.5cm, anchor=west] (co) at (4.75,0)
+        {\textbf{2.\ Conducting}\\[2pt]
+         {\scriptsize execute the search\\
+          select studies (criteria)\\
+          \textbf{quality assessment}\\
+          data extraction\\
+          synthesis}};
+      \node[kbox, text width=4.1cm, minimum height=2.5cm, anchor=west] (re) at (9.5,0)
+        {\textbf{3.\ Reporting}\\[2pt]
+         {\scriptsize document every step\\
+          (this is where PRISMA\\
+          enters) so the review is\\
+          \textbf{replicable} and its limits\\
+          are visible}};
+      \draw[karrow] (pl) -- (co);
+      \draw[karrow] (co) -- (re);
+    \end{tikzpicture}

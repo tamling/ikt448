@@ -1,0 +1,30 @@
+\documentclass[border=5pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,calc,decorations.pathreplacing}
+\usepackage{pgffor}
+% the figures were laid out against the A4 text width of the LaTeX script
+\setlength{\textwidth}{449pt}
+% ---- colours (UiA brand book), as in legacy/IKT448_Script.tex ----------
+\definecolor{uiared}{HTML}{C8102E}
+\definecolor{uiablue}{HTML}{131E29}
+\definecolor{uiagrey}{HTML}{595959}
+\definecolor{uiamutedred}{HTML}{FEE7E8}
+\definecolor{uiamutedblue}{HTML}{E1EDF9}
+\colorlet{kristiania}{uiared}
+\colorlet{kgrey}{uiagrey}
+\colorlet{ink}{uiablue}
+% ---- TikZ styles and helpers from the script preamble ----------------
+\newcommand{\onionopt}{\fontsize{5.0pt}{5.9pt}\selectfont}
+\newcommand{\onionlay}{\fontsize{5.6pt}{6.4pt}\selectfont\bfseries}
+\newcommand{\onionsub}{\fontsize{4.6pt}{5.4pt}\selectfont}
+\newcommand{\ldr}[1]{\draw[black!65, line width=0.4pt, dash pattern=on 1.5pt off 1.3pt] #1;}
+\tikzset{
+  kbox/.style={draw=uiared, thick, rounded corners=2pt, fill=uiared!6, align=center, inner sep=5pt, font=\small},
+  gbox/.style={draw=uiagrey!70, thick, rounded corners=2pt, fill=gray!8, align=center, inner sep=5pt, font=\small},
+  karrow/.style={-{Stealth[length=2.5mm]}, thick, uiared},
+  garrow/.style={-{Stealth[length=2.5mm]}, thick, uiagrey},
+}
+\begin{document}

@@ -1,0 +1,23 @@
+<!-- Answer key - source-only. answers/ is excluded from every render (see _quarto.yml), so this never appears on the site. -->
+
+# Chapter 11 - sketch answers {.unnumbered}
+
+The questions are in `chapters/11-producing-the-essay.qmd`; the sketch answers below are the `\answer{}` texts of the LaTeX script, moved out of the chapter. They are not the only possible answers; the reasoning behind them is what matters.
+
+## Questions from the reading
+
+1. **Methodology chapter** (@exr-11-methodology-chapter) — Your chosen **combination of strategy and data generation methods --- and why**; Oates notes it is often the easiest chapter to draft early: you know what you did and why.
+
+2. **Describing** (@exr-11-describing) — Describing states what was done; justifying builds the **argument**: what question, how answered, what evidence, and *so what* --- a thesis *is* an argument.
+
+3. **Criticisable** (@exr-11-criticisable) — Full documentation opens the work to **scrutiny**: readers can check the process --- which is session 1's criticisability, delivered.
+
+4. **Structure and signposting** (@exr-11-structure-and-signposting) — The conventional structure (introduction → review → methodology → results → discussion → limitations → conclusions), meaningful headings, and **signposts** telling the reader what came and what comes next.
+
+## Questions for discussion
+
+1. **Self-assessment** (@exr-11-self-assessment) — In most drafts Part III is weakest: the strategy is named but not argued. The missing sentence usually begins with "we rejected ... because".
+
+2. **Describe and justify** (@exr-11-describe-and-justify) — "We use semi-structured interviews (describe) because the question asks for practitioners' reasoning, which a questionnaire cannot capture (justify; Oates, Ch. 13)." Every choice in Part III and IV carries a because.
+
+3. **Limitations** (@exr-11-limitations) — Limitations are graded as judgement, not confessed as faults. A limitation that comes with the design that would remove it (a larger sample, a second site, a longer period) reads as a researcher's sentence, not a student's.

@@ -1,0 +1,15 @@
+\begin{tikzpicture}[node distance=0.4cm]
+      \node[gbox, text width=11.4cm] (v1)
+        {\textbf{Draft:} ``How can companies protect themselves against phishing?''\\
+         {\scriptsize\color{kgrey}too broad; ``protect'' unmeasurable; which companies?}};
+      \node[kbox, text width=11.4cm, below=of v1] (v2)
+        {\textbf{Better:} ``Does anti-phishing training reduce click rates?''\\
+         {\scriptsize\color{kgrey}focused --- but which training, whom, over what period?}};
+      \node[kbox, text width=11.4cm, below=of v2] (v3)
+        {\textbf{Good:} ``To what extent does quarterly simulation-based
+         anti-phishing training reduce click-through rates on phishing e-mails
+         among employees of Norwegian SMBs over six months?''\\
+         {\scriptsize\color{kgrey}population, intervention, outcome, timeframe --- PICO-complete}};
+      \draw[karrow] (v1) -- (v2);
+      \draw[karrow] (v2) -- (v3);
+    \end{tikzpicture}

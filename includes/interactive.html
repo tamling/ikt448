@@ -1,0 +1,294 @@
+<!-- Interactive exercise engine, loaded on every page via include-after-body
+     in _quarto.yml. Three widget types, each declared in the chapter qmd as
+       <div class="grc-ex" data-type="sort|order|pick">
+         <script type="application/json">{...config...}</script>
+       </div>
+     sort:  {"buckets":[{"id","label","desc"?}], "chips":[{"t","b"}]}  (b=null -> distractor stays in pool)
+     order: {"steps":["first", ...], "hint"?}
+     pick:  {"options":[{"t","ok"}], "prompt"?}
+     Self-contained, theme-aware via Bootstrap CSS variables, no dependencies. -->
+<style>
+.grc-ex { max-width: 680px; margin: 0.5rem auto 0; font-size: 0.92rem; }
+.grc-ex .gx-buckets { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 0.75rem; }
+.grc-ex .gx-bucket {
+  flex: 1 1 150px; min-height: 90px; padding: 6px 8px; border-radius: 6px;
+  border: 2px dashed var(--bs-border-color, #999); background: var(--bs-body-bg, #fff);
+  text-align: center; cursor: pointer;
+}
+.grc-ex .gx-bucket h5 { margin: 0 0 2px; font-size: 0.95rem; }
+.grc-ex .gx-bucket .gx-desc { font-size: 0.78rem; font-style: italic; opacity: 0.75; }
+.grc-ex .gx-bucket.gx-armed { border-color: #C8102E; }
+.grc-ex .gx-pool, .grc-ex .gx-seq {
+  display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center;
+  min-height: 46px; padding: 8px; border-radius: 6px;
+  border: 1px solid var(--bs-border-color, #ccc); margin-bottom: 0.75rem;
+}
+.grc-ex .gx-seq { border-style: dashed; }
+.grc-ex .gx-seq:empty::before, .grc-ex .gx-pool:empty::before {
+  content: attr(data-empty); font-size: 0.8rem; font-style: italic; opacity: 0.6;
+}
+.grc-ex .gx-chip {
+  padding: 4px 12px; border-radius: 999px; cursor: pointer; user-select: none;
+  border: 1.5px solid #C8102E; color: var(--bs-body-color, #222);
+  background: var(--bs-body-bg, #fff); font-weight: 600; max-width: 100%;
+}
+.grc-ex .gx-bucket .gx-chip { display: inline-block; margin: 3px 2px 0; font-weight: 500; }
+.grc-ex .gx-chip.gx-picked { outline: 3px solid #C8102E; outline-offset: 2px; }
+.grc-ex .gx-chip.gx-sel { background: #C8102E; color: #fff; }
+.grc-ex .gx-chip.gx-right { border-color: #2e7d32; box-shadow: 0 0 0 1.5px #2e7d32 inset; }
+.grc-ex .gx-chip.gx-wrong { border-color: #C8102E; box-shadow: 0 0 0 1.5px #C8102E inset; background: rgba(200,16,46,0.12); }
+.grc-ex .gx-seq .gx-chip::before { content: attr(data-n) ". "; opacity: 0.6; }
+.grc-ex .gx-controls { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.grc-ex button {
+  padding: 5px 14px; border-radius: 6px; border: 1px solid var(--bs-border-color, #999);
+  background: var(--bs-body-bg, #fff); color: var(--bs-body-color, #222); cursor: pointer;
+}
+.grc-ex .gx-msg { font-weight: 700; min-height: 1.4em; text-align: center; margin-top: 0.5rem; }
+.grc-ex .gx-msg.ok { color: #2e7d32; }
+.grc-ex .gx-msg.bad { color: #C8102E; }
+.grc-ex .gx-explain {
+  display: none; font-size: 0.85rem; font-style: italic; text-align: center;
+  margin: 0.35rem auto 0; max-width: 560px; opacity: 0.85;
+}
+.grc-ex .gx-explain.gx-show { display: block; }
+</style>
+<script>
+(function () {
+  function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+  function el(tag, cls, txt) {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (txt !== undefined) e.textContent = txt;
+    return e;
+  }
+  function controls(root, onCheck, onReset, onSolve, cfg) {
+    const c = el('div', 'gx-controls');
+    const bc = el('button', '', 'Check'); bc.type = 'button';
+    const br = el('button', '', 'Reset'); br.type = 'button';
+    const bs = el('button', '', 'Show solution'); bs.type = 'button';
+    const msg = el('div', 'gx-msg'); msg.setAttribute('role', 'status');
+    // explanation + "see ..." reference, revealed with a correct answer
+    // or the solution
+    let exp = null;
+    if (cfg && cfg.explain) {
+      exp = el('div', 'gx-explain', cfg.explain + ' ');
+      if (cfg.ref) {
+        const a = document.createElement('a');
+        a.href = '#' + cfg.ref;
+        a.textContent = cfg.reflabel || 'this section';
+        exp.append('(see ', a, ').');
+      }
+    }
+    function explain(show) { if (exp) exp.classList.toggle('gx-show', show); }
+    let armed = false;
+    bc.addEventListener('click', () => {
+      armed = false; onCheck(msg);
+      explain(msg.className.indexOf('ok') !== -1);
+    });
+    br.addEventListener('click', () => {
+      armed = false; onReset(); explain(false);
+      msg.textContent = ''; msg.className = 'gx-msg';
+    });
+    bs.addEventListener('click', () => {
+      if (!armed) {
+        armed = true;
+        say(msg, 'Sure? No fun in clicking straight to the answer - try it first. Click again to reveal.', '');
+        return;
+      }
+      armed = false;
+      onSolve();
+      say(msg, 'Solution shown - hit Reset to try it yourself.', 'ok');
+      explain(true);
+    });
+    c.append(bc, br, bs);
+    root.append(c, msg);
+    if (exp) root.append(exp);
+    return msg;
+  }
+  function say(msg, text, cls) { msg.textContent = text; msg.className = 'gx-msg' + (cls ? ' ' + cls : ''); }
+
+  // ---- sort: chips into buckets; b=null chips are distractors -------------
+  function buildSort(root, cfg) {
+    const buckets = el('div', 'gx-buckets');
+    const pool = el('div', 'gx-pool');
+    pool.dataset.empty = 'all terms placed';
+    let picked = null;
+    function unpick() {
+      if (picked) picked.classList.remove('gx-picked');
+      picked = null;
+      root.querySelectorAll('.gx-bucket').forEach(b => b.classList.remove('gx-armed'));
+    }
+    function clearMarks() {
+      root.querySelectorAll('.gx-chip').forEach(c => c.classList.remove('gx-right', 'gx-wrong'));
+    }
+    const chips = shuffle(cfg.chips.slice()).map(spec => {
+      const c = el('span', 'gx-chip', spec.t);
+      c.dataset.answer = spec.b === null || spec.b === undefined ? '' : spec.b;
+      c.draggable = true;
+      c.addEventListener('dragstart', e => e.dataTransfer.setData('text/plain', spec.t));
+      c.addEventListener('click', e => {
+        e.stopPropagation();
+        if (c.parentElement !== pool) { pool.appendChild(c); unpick(); clearMarks(); return; }
+        if (picked === c) { unpick(); return; }
+        unpick(); picked = c; c.classList.add('gx-picked');
+        root.querySelectorAll('.gx-bucket').forEach(b => b.classList.add('gx-armed'));
+      });
+      return c;
+    });
+    function chipByText(t) {
+      return [...root.querySelectorAll('.gx-chip')].find(c => c.textContent === t);
+    }
+    cfg.buckets.forEach(bs => {
+      const b = el('div', 'gx-bucket');
+      b.dataset.id = bs.id;
+      b.appendChild(el('h5', '', bs.label));
+      if (bs.desc) b.appendChild(el('div', 'gx-desc', bs.desc));
+      b.addEventListener('click', () => { if (picked) { const c = picked; unpick(); b.appendChild(c); clearMarks(); } });
+      b.addEventListener('dragover', e => e.preventDefault());
+      b.addEventListener('drop', e => {
+        e.preventDefault();
+        const c = chipByText(e.dataTransfer.getData('text/plain'));
+        if (c) { b.appendChild(c); unpick(); clearMarks(); }
+      });
+      buckets.appendChild(b);
+    });
+    pool.addEventListener('dragover', e => e.preventDefault());
+    pool.addEventListener('drop', e => {
+      e.preventDefault();
+      const c = chipByText(e.dataTransfer.getData('text/plain'));
+      if (c) { pool.appendChild(c); unpick(); clearMarks(); }
+    });
+    chips.forEach(c => pool.appendChild(c));
+    root.append(buckets, pool);
+    controls(root, msg => {
+      clearMarks();
+      let wrong = 0, unplaced = 0;
+      chips.forEach(c => {
+        const inBucket = c.parentElement.classList.contains('gx-bucket');
+        const want = c.dataset.answer;
+        if (inBucket) {
+          const ok = c.parentElement.dataset.id === want;
+          c.classList.add(ok ? 'gx-right' : 'gx-wrong');
+          if (!ok) wrong++;
+        } else if (want) { unplaced++; }
+        else { c.classList.add('gx-right'); }   // distractor correctly left out
+      });
+      if (!wrong && !unplaced) say(msg, '✓ All correct.', 'ok');
+      else if (!wrong) say(msg, unplaced + ' term(s) still to place.', '');
+      else say(msg, '✗ Not yet - the red chips are in the wrong place' + (cfg.chips.some(s => !s.b) ? ' (distractors belong in the pool)' : '') + '.', 'bad');
+    }, () => {
+      chips.forEach(c => pool.appendChild(c));
+      unpick(); clearMarks();
+    }, () => {
+      unpick(); clearMarks();
+      chips.forEach(c => {
+        const want = c.dataset.answer;
+        if (want) {
+          const b = [...root.querySelectorAll('.gx-bucket')].find(x => x.dataset.id === want);
+          if (b) b.appendChild(c);
+        } else pool.appendChild(c);
+        c.classList.add('gx-right');
+      });
+    }, cfg);
+  }
+
+  // ---- order: click chips into sequence ----------------------------------
+  function buildOrder(root, cfg) {
+    const seq = el('div', 'gx-seq');
+    seq.dataset.empty = cfg.hint || 'click the steps below in the right order';
+    const pool = el('div', 'gx-pool');
+    pool.dataset.empty = 'all steps used';
+    function renumber() {
+      [...seq.children].forEach((c, i) => c.dataset.n = i + 1);
+    }
+    function clearMarks() {
+      root.querySelectorAll('.gx-chip').forEach(c => c.classList.remove('gx-right', 'gx-wrong'));
+    }
+    const chips = shuffle(cfg.steps.slice()).map(t => {
+      const c = el('span', 'gx-chip', t);
+      c.addEventListener('click', () => {
+        clearMarks();
+        if (c.parentElement === pool) seq.appendChild(c); else pool.appendChild(c);
+        renumber();
+      });
+      return c;
+    });
+    chips.forEach(c => pool.appendChild(c));
+    root.append(seq, pool);
+    controls(root, msg => {
+      clearMarks();
+      const placed = [...seq.children];
+      if (placed.length < cfg.steps.length) { say(msg, 'Place all ' + cfg.steps.length + ' steps first.', ''); return; }
+      let wrong = 0;
+      placed.forEach((c, i) => {
+        const ok = c.textContent === cfg.steps[i];
+        c.classList.add(ok ? 'gx-right' : 'gx-wrong');
+        if (!ok) wrong++;
+      });
+      if (!wrong) say(msg, '✓ Correct order.', 'ok');
+      else say(msg, '✗ Not yet - the red steps are out of place (click a step to send it back).', 'bad');
+    }, () => {
+      chips.forEach(c => pool.appendChild(c));
+      renumber(); clearMarks();
+    }, () => {
+      clearMarks();
+      cfg.steps.forEach(t => {
+        const c = chips.find(x => x.textContent === t);
+        if (c) { seq.appendChild(c); c.classList.add('gx-right'); }
+      });
+      renumber();
+    }, cfg);
+  }
+
+  // ---- pick: select the correct subset ------------------------------------
+  function buildPick(root, cfg) {
+    const pool = el('div', 'gx-pool');
+    const chips = shuffle(cfg.options.slice()).map(spec => {
+      const c = el('span', 'gx-chip', spec.t);
+      c.dataset.ok = spec.ok ? '1' : '';
+      c.addEventListener('click', () => {
+        c.classList.toggle('gx-sel');
+        root.querySelectorAll('.gx-chip').forEach(x => x.classList.remove('gx-right', 'gx-wrong'));
+      });
+      return c;
+    });
+    chips.forEach(c => pool.appendChild(c));
+    root.append(pool);
+    controls(root, msg => {
+      let wrong = 0;
+      chips.forEach(c => {
+        c.classList.remove('gx-right', 'gx-wrong');
+        const sel = c.classList.contains('gx-sel');
+        const ok = !!c.dataset.ok;
+        if (sel === ok) { if (sel) c.classList.add('gx-right'); }
+        else { c.classList.add('gx-wrong'); wrong++; }
+      });
+      if (!wrong) say(msg, '✓ Exactly right.', 'ok');
+      else say(msg, '✗ Not yet - red chips are wrongly selected or missing.', 'bad');
+    }, () => {
+      chips.forEach(c => c.classList.remove('gx-sel', 'gx-right', 'gx-wrong'));
+    }, () => {
+      chips.forEach(c => {
+        c.classList.remove('gx-sel', 'gx-right', 'gx-wrong');
+        if (c.dataset.ok) c.classList.add('gx-sel', 'gx-right');
+      });
+    }, cfg);
+  }
+
+  const BUILDERS = { sort: buildSort, order: buildOrder, pick: buildPick };
+  document.querySelectorAll('.grc-ex').forEach(root => {
+    const cfgEl = root.querySelector('script[type="application/json"]');
+    if (!cfgEl) return;
+    let cfg;
+    try { cfg = JSON.parse(cfgEl.textContent); } catch (e) { return; }
+    const build = BUILDERS[root.dataset.type];
+    if (build) build(root, cfg);
+  });
+})();
+</script>
