@@ -433,17 +433,6 @@ INDEX_HEAD = """# Preface {.unnumbered}
 """
 
 INDEX_TAIL = """
-::: {.callout-note}
-## How this script was written
-
-The chapters were drafted with the help of a large language model
-(Anthropic's Claude), working from the lecturer's session decks and notes,
-and were reviewed and edited by the lecturer before publication. Drafting
-this way is fast but not infallible: If something looks wrong, it may well
-be - [annotate the passage](appendix/how-to-annotate.qmd) and it will be
-checked, corrected and credited.
-:::
-
 ::: {.callout-tip}
 ## Annotate this script
 
