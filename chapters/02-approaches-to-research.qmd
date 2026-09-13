@@ -38,7 +38,7 @@ Four recent studies illustrate the ends of the continuum. Biloš and Budimir (20
 
 In contrast, Mayer, Baygi and Buwalda (2025) studied one consultancy with semi-structured interviews, first with entry-level professionals and later with senior consultants and managers, using job crafting as a theoretical lens. They found that entry-level professionals use generative AI to craft tasks, relationships and the meaning of their work, and that a new form appears --- signal crafting, the use of AI to shape how others perceive the value of one's work. The study is inductive and set in a real context, with meaning as its object; the theory is a lens rather than a hypothesis, and the study extends it rather than tests it.
 
-Mixed methods have their own guidelines in our field. Venkatesh, Brown and Bala (2013) ask three questions: whether a mixed methods approach is appropriate for the question at all; how meta-inferences --- the conclusions that integrate both strands --- are developed; and how their quality is validated. They list seven purposes for combining the strands: complementarity, completeness, developmental sequencing, expansion, corroboration or confirmation, compensation, and diversity. Venkatesh, Brown and Sullivan (2016) turn the guidelines into fourteen design properties with a decision tree, from the research questions and the paradigm stance to the mixing strategy, the timing of the strands and the validation of inferences. For your essay the consequence is simple: a mixed-methods proposal states its purpose in these terms, the sequence of the strands, which strand has priority, and where the two are integrated. Without these four decisions it is two studies, not one.
+Mixed methods have their own guidelines in our field. Venkatesh, Brown and Bala (2013) ask three questions: whether a mixed methods approach is appropriate for the question at all; how meta-inferences --- the conclusions that integrate both strands --- are developed; and how their quality is validated. They list seven purposes for combining the strands: complementarity, completeness, developmental sequencing, expansion, corroboration or confirmation, compensation, and diversity. Venkatesh, Brown and Sullivan (2016) turn the guidelines into fourteen design properties with a decision tree, from the research questions and the paradigm stance to the mixing strategy, the timing of the strands and the validation of inferences. For your essay the consequence is simple: a mixed-methods proposal states its purpose in these terms, the sequence of the strands, which strand has priority, and where the two are integrated. Without these four decisions it is two studies, not one. The two papers have since grown into an open-access textbook, Venkatesh, Brown and Sullivan's *Conducting Mixed-Methods Research* (2023), whose thirteen chapters run from mixed methods as the third research approach to paper templates and advice for reviewers. Chapter 4 treats the appropriateness of the approach and the seven purposes; Chapter 5 sets out five aspects of design --- the investigation strategy, exploratory or confirmatory; the strands of the study; the time orientation, concurrent or sequential; the priority of the approaches; and the mixing strategy --- and connects them to the purpose in a decision model; Chapter 10 explains how meta-inferences are generated; and Chapter 11 supplies the paper templates that Session 11 returns to. The book is in the reading folder. The same authors have since collected the guidelines, the design decisions and worked examples from published research in an open-access book (Venkatesh, Brown & Sullivan, 2023), which is the reference to consult when a mixed-methods design is actually planned.
 
 ## Worldviews {#sec-02-worldviews}
 
@@ -161,7 +161,7 @@ The 2016 extension turns the guidelines into design decisions: 14 properties of 
 
 -   **Inference quality** --- how the meta-inferences are validated
 
-*For your essay: a mixed-methods proposal states the purpose, the sequence of strands, which strand has priority, and where the two are integrated. Without these four decisions it is two studies, not one.*
+*For your essay: a mixed-methods proposal states the purpose, the sequence of strands, which strand has priority, and where the two are integrated. Without these four decisions it is two studies, not one. The full treatment, with worked examples from published research, is the same authors' open-access book (Venkatesh, Brown & Sullivan, 2023).*
 
 ### Three mini-studies to classify
 
@@ -454,9 +454,13 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 
 -   Venkatesh, V., Brown, S. A., & Sullivan, Y. W. (2016). Guidelines for conducting mixed-methods research: An extension and illustration. *Journal of the Association for Information Systems*, *17*(7), 435--494. <https://doi.org/10.17705/1jais.00433>
 
+-   Venkatesh, V., Brown, S., & Sullivan, Y. (2023). *Conducting mixed-methods research: From classical social sciences to the age of big data and analytics*. Virginia Tech Pamplin College of Business and Virginia Tech Publishing. <https://doi.org/10.21061/conducting-mixed-methods-research>
+
 -   Mayer, A.-S., Baygi, R. M., & Buwalda, R. (2025). Generation AI: Job crafting by entry-level professionals in the age of generative AI. *Business & Information Systems Engineering*, *67*(5), 595--613. <https://doi.org/10.1007/s12599-025-00959-x>
 
 -   Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research methods for business students* (8th ed.). Pearson.
+
+-   Venkatesh, V., Brown, S. A., & Sullivan, Y. W. (2023). *Conducting mixed-methods research: From classical social sciences to the age of big data and analytics*. Virginia Tech Pamplin College of Business in association with Virginia Tech Publishing. <https://doi.org/10.21061/conducting-mixed-methods-research>
 
 -   Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 19 (Philosophical paradigms: positivism) and 20 (Alternative philosophical paradigms).
 

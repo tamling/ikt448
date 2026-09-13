@@ -38,6 +38,10 @@ Structural equation modelling comes in two forms, and the choice is stated in th
 
 Two PLS-SEM studies of ChatGPT show what the checklist produces. Grassini, Aasen and Møgelvang (2024) asked which UTAUT2 constructs explain students' intention to use ChatGPT; their sample was 104 students at universities in West and Central Norway, with a stop rule set in advance; they analysed with PLS-SEM in SmartPLS 4 and bootstrapping; performance expectancy had the strongest effect, followed by habit. Jo and Park (2024) asked how ChatGPT's perceived intelligence and self-learning affect information support, knowledge acquisition and use at work; their sample was 351 workers aged 20 to 40 in Korea, recruited through a polling company's panel; perceived intelligence and self-learning led to information support and knowledge acquisition, these to utilitarian benefits, and benefits to intention, with intention rather than benefits driving use. The two sampling decisions --- a small convenience sample with a pre-registered stop rule, and a paid panel --- are both defensible if stated and discussed, and neither generalises to "Norwegian students" or "Korean workers" as populations.
 
+## Big data and mixed methods {#sec-08-big-data-and-mixed-methods}
+
+Surveys are not the only source of numbers. Venkatesh, Brown and Sullivan (2023, Chapter 9) describe big data as data whose scale and complexity exceed conventional database tools --- large in volume, varied in source and form, fast in arrival --- and list its sources: clicks, transactions, user-generated content, social media and sensors. In security the list continues with logs, alerts and tickets. The authors' point is that both strands apply to such data: numbers, text, audio and video can be codified as quantitative and as qualitative data, analytics finds the patterns and relationships, and qualitative work supplies the meaning the numbers cannot. The design strategies for analytics research follow the same five aspects as any mixed-methods design --- what is explored and what confirmed, how many strands, in which order, with which priority, and where the strands are mixed. For a cyber security thesis the consequence is concrete: a SIEM export is a quantitative strand waiting for a question, and interviews with the analysts who triage the alerts are the qualitative strand that explains the pattern. Stating the purpose of the combination (Chapter 2) turns two data sets into one study.
+
 ## Worked examples and tables {#sec-08-worked-examples-and-tables}
 
 ### Item wording --- failures and repairs
@@ -402,5 +406,7 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 -   Venkatesh, V., Thong, J. Y. L., & Xu, X. (2012). Consumer acceptance and use of information technology: Extending the unified theory of acceptance and use of technology. *MIS Quarterly*, *36*(1), 157--178. <https://doi.org/10.2307/41410412>
 
 -   Venkatesh, V., Thong, J. Y. L., & Xu, X. (2016). Unified theory of acceptance and use of technology: A synthesis and the road ahead. *Journal of the Association for Information Systems*, *17*(5), 328--376. <https://doi.org/10.17705/1jais.00428>
+
+-   Venkatesh, V., Brown, S. A., & Sullivan, Y. W. (2023). *Conducting mixed-methods research: From classical social sciences to the age of big data and analytics*. Virginia Tech Pamplin College of Business in association with Virginia Tech Publishing. <https://doi.org/10.21061/conducting-mixed-methods-research>
 
 -   Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 15 (Questionnaires) and 17 (Quantitative data analysis).

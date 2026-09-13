@@ -1,0 +1,273 @@
+% ============================================================
+%  beamerthemeUiA.sty  (clean / airy variant for IKT448, UiA)
+%  Derived from beamerthemeKristiania.sty (Timo Amling, 2026).
+%  Minimal default theme, one accent colour (UiA red), dark
+%  UiA blue for structure, custom footline with part bubbles
+%  and a slide progress bar, small UiA logo top-right.
+%  Colours from the UiA brand book (uia.no/english/about-uia/
+%  brand-book/colours.html): UiA red #C8102E, UiA blue #131E29.
+% ============================================================
+\ProvidesPackage{beamerthemeUiA}[2026/09/08 UiA clean theme for IKT448]
+\mode<presentation>
+
+\usetheme{default}
+\setbeamertemplate{navigation symbols}{}
+\RequirePackage{pgffor}
+\RequirePackage{graphicx}
+\RequirePackage{textcomp}
+\RequirePackage{tikz}
+
+% ---- Colours --------------------------------------------------------
+\definecolor{uiared}{HTML}{C8102E}     % UiA red (Pantone 186)
+\definecolor{uiablue}{HTML}{131E29}    % UiA blue (Pantone 7547)
+\definecolor{uiagrey}{HTML}{595959}    % secondary text
+\definecolor{uiamutedred}{HTML}{FEE7E8}
+\definecolor{uiamutedblue}{HTML}{E1EDF9}
+% Aliases so slide sources written for the Kristiania theme keep working
+\colorlet{kristiania}{uiared}
+\colorlet{kgrey}{uiagrey}
+
+\setbeamercolor{normal text}{fg=uiablue}
+\setbeamercolor{structure}{fg=uiared}
+\setbeamercolor{title}{fg=uiared}
+\setbeamercolor{subtitle}{fg=uiablue}
+\setbeamercolor{frametitle}{fg=uiared}
+\setbeamercolor{framesubtitle}{fg=uiagrey}
+\setbeamercolor{itemize item}{fg=uiared}
+\setbeamercolor{itemize subitem}{fg=uiared}
+\setbeamercolor{itemize subsubitem}{fg=uiared}
+\setbeamercolor{enumerate item}{fg=uiared}
+\setbeamercolor{description item}{fg=uiared}
+\setbeamercolor{block title}{bg=uiamutedred,fg=uiared}
+\setbeamercolor{block body}{bg=gray!7,fg=uiablue}
+\setbeamercolor{block title alerted}{bg=uiared,fg=white}
+\setbeamercolor{block body alerted}{bg=uiamutedred,fg=uiablue}
+\setbeamercolor{block title example}{bg=uiamutedblue,fg=uiablue}
+\setbeamercolor{block body example}{bg=gray!7,fg=uiablue}
+\setbeamercolor{button}{bg=uiared,fg=white}
+
+% ---- Fonts (Computer Modern / Latin Modern -- house rule) -----------
+\setbeamerfont{title}{size=\Huge,series=\bfseries}
+\setbeamerfont{subtitle}{size=\large,series=\normalfont}
+\setbeamerfont{frametitle}{size=\Large,series=\bfseries}
+\setbeamerfont{framesubtitle}{size=\small,series=\normalfont}
+
+% ---- Course constants (one edit here updates every deck) ------------
+\newcommand{\coursecode}{IKT448}
+\newcommand{\coursename}{ICT Research Methods}
+\newcommand{\coursesemester}{Autumn 2026}
+\newcommand{\lecturername}{Timo Amling}
+\newcommand{\lecturertitle}{Assistant Professor}
+\newcommand{\lecturermail}{timo.d.amling@uia.no}
+\newcommand{\institution}{University of Agder}
+\newcommand{\faculty}{Faculty of Engineering and Science}
+
+% ---- Logo (top-right of content slides) -----------------------------
+% Drop the official file named uia-logo.png next to the .tex to show it.
+\newcommand{\UiALogo}{%
+  \IfFileExists{uia-logo.png}{%
+    \includegraphics[height=0.62cm]{uia-logo}}{}}
+
+% ---- Frame title: clean, no bar, small logo top-right ---------------
+\setbeamertemplate{frametitle}{%
+  \vskip0.55em%
+  \hbox to \textwidth{%
+    \begin{minipage}[t]{\dimexpr\textwidth-1.2cm\relax}%
+      \raggedright\hspace*{0.1em}{\usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle}\insertframetitle}%
+      \ifx\insertframesubtitle\empty\else%
+        \\[0.1em]\hspace*{0.1em}{\usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle}%
+      \fi%
+    \end{minipage}%
+    \hfill
+    % right edge of the logo flush with the "Slide n / N" text in the footer
+    % (text margin 1cm minus the footer's 0.35cm inset = 0.65cm into the margin)
+    \makebox[0pt][r]{\raisebox{-0.2cm}[0pt][0pt]{\UiALogo}\hspace*{-0.65cm}}%
+  }%
+  \vskip0.35em%
+}
+
+% ---- Session position (set per deck: \renewcommand{\sessionno}{N}) ----
+\newcommand{\sessionno}{0}
+\newcommand{\sessionstrip}{%
+  \foreach \i in {1,...,12}{%
+    \ifnum\i=\sessionno\relax{\color{uiared}\rule{0.16cm}{0.16cm}}%
+    \else\ifnum\i<\sessionno\relax{\color{uiared!40}\rule{0.16cm}{0.16cm}}%
+    \else{\color{uiagrey!30}\rule{0.16cm}{0.16cm}}\fi\fi\hspace{0.05cm}}}
+
+% ---- Progress-bubble state (set by \partmark / \partdivider) --------
+\newcommand{\Lnumparts}{5}      % parts per session (override per file if needed)
+\newcounter{Lcurpart}\setcounter{Lcurpart}{0}
+\newcommand{\Lcurtopic}{Overview}
+
+% ---- Foot line: course tag | topic bubbles | counter ----------------
+% On a first pass the total frame count is unknown (1); the guard below
+% keeps the bar from overflowing TeX's dimension range on long decks.
+\newcount\uia@total
+% The progress bar divides before multiplying: the old form
+% \paperwidth*\insertframenumber overflowed TeX's dimension range
+% from frame 36 onwards ("Arithmetic overflow").
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox to \paperwidth{%
+    \hskip0.35cm{\color{uiagrey}\scriptsize\textbf{\coursecode}~$\cdot$~\coursename~$\cdot$~\lecturername}%
+    \hfill
+    {\footnotesize
+      \foreach \i in {1,...,\Lnumparts}{%
+        \ifnum\i=\value{Lcurpart}{\color{uiared}$\bullet$}%
+        \else\ifnum\i<\value{Lcurpart}{\color{uiared!50}$\bullet$}%
+        \else{\color{uiagrey!45}$\circ$}\fi\fi\,%
+      }%
+    }\;{\color{uiared}\scriptsize\bfseries\Lcurtopic}%
+    \hfill
+    {\color{uiagrey}\scriptsize Slide~\insertframenumber\,/\,\inserttotalframenumber}\hskip0.35cm%
+  }%
+  \vskip2pt%
+  \hbox{\color{uiared!18}\rule{\paperwidth}{1.4pt}}%
+  \par\nointerlineskip\vskip-1.4pt%
+  \uia@total=\inserttotalframenumber\relax
+  \ifnum\uia@total<\insertframenumber\relax\uia@total=\insertframenumber\relax\fi
+  \hbox{\color{uiared}\rule{\dimexpr(\paperwidth/\uia@total)*\insertframenumber\relax}{1.4pt}}%
+}
+
+% ---- Red title page (white text on UiA red) -------------------------
+\newcommand{\redtitlepage}{%
+  {\setbeamertemplate{footline}{}%
+   \setbeamercolor{background canvas}{bg=uiared}%
+   \setbeamercolor{title}{fg=white}\setbeamercolor{subtitle}{fg=white}%
+   \setbeamercolor{author}{fg=white}\setbeamercolor{institute}{fg=white}%
+   \setbeamercolor{date}{fg=white}\setbeamercolor{normal text}{fg=white}%
+   \begin{frame}[plain]
+     \titlepage
+   \end{frame}}}
+
+% ---- Part marker without a slide (keeps the 25-slide budget) --------
+\newcommand{\partmark}[2]{\setcounter{Lcurpart}{#1}\gdef\Lcurtopic{#2}}
+
+% ---- Red part divider (costs one slide; optional) -------------------
+\newcommand{\partdivider}[3]{%
+  \setcounter{Lcurpart}{#1}\gdef\Lcurtopic{#2}%
+  {\setbeamertemplate{footline}{}%
+   \setbeamercolor{background canvas}{bg=uiared}%
+   \begin{frame}[plain]
+     \vfill
+     \begin{center}
+       {\color{white}\large\bfseries PART #1}\\[0.9em]
+       {\color{white}\Huge\bfseries #2}\\[0.9em]
+       \begin{minipage}{0.74\textwidth}\centering\itshape\color{white}#3\end{minipage}
+     \end{center}
+     \vfill
+   \end{frame}}%
+}
+
+% ---- Thursday timetable (lecture with breaks, questions at the end) ---
+% \timetable{<what the questions block covers>}
+\newcommand{\timetable}[1]{%
+  {\footnotesize
+   \renewcommand{\arraystretch}{1.2}%
+   \begin{tabular}{@{}l@{\hspace{0.7em}}p{4.4cm}@{}}
+     {\color{uiagrey}08:15--11:00} & \textbf{Lecture} --- three blocks, breaks at 09:00 and 10:00\\
+     {\color{uiagrey}11:15--12:00} & \textbf{Questions and discussion} --- #1\\
+   \end{tabular}}%
+}
+
+% ---- Course overview slide (call \courseoverview{N}) ----------------
+% Dates: Thursdays, autumn 2026. Exam dates: to be announced -- confirm
+% with the study administration and the TP timetable.
+\def\courseoverviewcur{0}
+\newcommand{\sn}[1]{\ifnum#1=\courseoverviewcur\relax\textcolor{uiared}{\bfseries S#1}\else S#1\fi}
+\newcommand{\sd}[2]{\ifnum#1=\courseoverviewcur\relax\textcolor{uiared}{\bfseries #2}\else{\color{uiagrey}#2}\fi}
+\newcommand{\st}[2]{\ifnum#1=\courseoverviewcur\relax\textcolor{uiared}{\bfseries #2}\else #2\fi}
+\newcommand{\courseoverview}[1]{%
+  \def\courseoverviewcur{#1}%
+  \begin{frame}{Course overview --- 12 Thursdays}
+    \footnotesize
+    \renewcommand{\arraystretch}{1.12}
+    \begin{tabular}{@{}r@{\hspace{0.6em}}l@{\hspace{0.6em}}l@{\hspace{0.6em}}l@{}}
+      & \textbf{Date} & \textbf{Session} & \textbf{Reading}\\
+      \sn{1}  & \sd{1}{10.09}  & \st{1}{Introduction}                                    & Oates Ch.\ 1\\
+      \sn{2}  & \sd{2}{17.09}  & \st{2}{Approaches to research}                          & Oates Ch.\ 19--20\\
+      \sn{3}  & \sd{3}{24.09}  & \st{3}{Purpose, products and process of research}       & Oates Ch.\ 1--3\\
+      \sn{4}  & \sd{4}{01.10}  & \st{4}{Formulating research questions}                  & Oates Ch.\ 2\\
+      \sn{5}  & \sd{5}{08.10}  & \st{5}{Reviewing the literature}                        & Oates Ch.\ 6\\
+      \sn{6}  & \sd{6}{15.10}  & \st{6}{Research strategies 1: survey, design and creation, experiment} & Oates Ch.\ 7--9\\
+      \sn{7}  & \sd{7}{22.10}  & \st{7}{Research strategies 2: case study, action research, ethnography} & Oates Ch.\ 10--12\\
+      \sn{8}  & \sd{8}{29.10}  & \st{8}{Quantitative data and analysis}                  & Oates Ch.\ 15, 17\\
+      \sn{9}  & \sd{9}{05.11}  & \st{9}{Qualitative data and analysis}                   & Oates Ch.\ 13--14, 16, 18\\
+      \sn{10} & \sd{10}{12.11} & \st{10}{Ethics: privacy and social responsibility}      & Oates Ch.\ 4--5\\
+      \sn{11} & \sd{11}{19.11} & \st{11}{Producing the essay (methodology report)}       & Oates Ch.\ 21\\
+      \sn{12} & \sd{12}{26.11} & \st{12}{Summing-up and supervision}                     & everything\\
+    \end{tabular}
+    \vspace{0.45em}
+
+    {\color{uiagrey}Essay submission and oral exam: dates to be announced.}
+  \end{frame}%
+}
+
+% ---- Learning outcomes slide (call \learningoutcomes{<today's focus>}) ---
+% Wording is the official IKT448 text (uia.no, autumn 2026).
+\newcommand{\learningoutcomes}[1]{%
+  \begin{frame}{Learning outcomes --- \coursecode}
+    \footnotesize After completing the course, the student should
+    \vspace{0.1em}
+    \renewcommand{\arraystretch}{1.25}
+    \begin{tabular}{@{}p{0.9cm}p{12.6cm}@{}}
+      \textbf{LO1} & have an overview of qualitative and quantitative research methods within ICT research, with an emphasis on methods used within cyber security\\
+      \textbf{LO2} & have an understanding of the use of formal methods and models, and the validity of these methods\\
+      \textbf{LO3} & be able to assess research-ethical aspects, with an emphasis on privacy and social responsibility\\
+      \textbf{LO4} & have insight into the chosen project and how cyber security fits into an overall ICT setting\\
+      \textbf{LO5} & have an understanding of the structure of scientific investigations within ICT and cyber security, the relationship between breadth and depth, and what limitations such investigations have\\
+      \textbf{LO6} & be able to choose a suitable method in relation to the topic of a scientific investigation and problem solving within cyber security, such as e.g.\ a master's thesis\\
+    \end{tabular}
+    \vspace{0.45em}
+    \begin{alertblock}{\small Today's session serves}
+      \small #1
+    \end{alertblock}
+  \end{frame}%
+}
+
+% ---- Reading break-even slide (call \readingbreakeven{<session no>}) ----
+\newcommand{\readingbreakeven}[1]{%
+  \begin{frame}{Why the reading list exists}
+    \begin{center}
+      \begin{tikzpicture}[scale=0.68]
+        \draw[uiagrey,->] (0,0) -- (12.4,0) node[right,font=\scriptsize]{session};
+        \draw[uiagrey,->] (0,0) -- (0,4.8) node[rotate=90, anchor=south east, font=\scriptsize] at (0,4.7) {effort to follow};
+        \foreach \s in {1,...,12}{\draw[uiagrey] (\s*0.95,0)--(\s*0.95,-0.1) node[below,font=\tiny]{\s};}
+        \draw[very thick, uiagrey] (0.95,1.0) -- (11.4,4.3);
+        \node[font=\scriptsize\color{uiagrey}, align=center, rotate=17] at (6.1,3.15) {skipping the reading};
+        \draw[very thick, uiared] (0.95,2.5) -- (11.4,1.7);
+        \node[font=\scriptsize\color{uiared}] at (10.0,1.3) {reading first};
+        \fill[black] (4.77,2.21) circle (0.08);
+        \node[below,font=\scriptsize] at (4.77,2.05) {break-even};
+        \draw[dashed, uiared] (#1*0.95, -0.55) -- (#1*0.95, 4.45);
+        \node[font=\scriptsize\bfseries\color{uiared}, fill=white, inner sep=1pt, anchor=north]
+          at (#1*0.95, -0.6) {you are here};
+        % --- the monster of unread chapters, growing along the grey line ---
+        \begin{scope}[shift={(3.2,2.05)}, scale=0.45]
+          \fill[uiagrey!45, draw=uiagrey, thick] (0,0) ellipse (0.6 and 0.5);
+          \fill[white] (-0.2,0.14) circle (0.12); \fill[white] (0.22,0.14) circle (0.12);
+          \fill[black] (-0.17,0.14) circle (0.055); \fill[black] (0.25,0.14) circle (0.055);
+          \draw[white, thick] (-0.32,-0.14) -- (-0.16,-0.26) -- (0,-0.14) -- (0.16,-0.26) -- (0.32,-0.14);
+        \end{scope}
+        \begin{scope}[shift={(10.6,4.55)}, scale=1.0]
+          \fill[uiagrey!55, draw=uiagrey, very thick] (0,0) ellipse (0.75 and 0.6);
+          \fill[uiagrey!55, draw=uiagrey, very thick] (-0.45,0.5) -- (-0.25,0.85) -- (-0.15,0.45) -- cycle;
+          \fill[uiagrey!55, draw=uiagrey, very thick] (0.45,0.5) -- (0.25,0.85) -- (0.15,0.45) -- cycle;
+          \fill[white] (-0.25,0.16) circle (0.15); \fill[white] (0.27,0.16) circle (0.15);
+          \fill[black] (-0.21,0.16) circle (0.07); \fill[black] (0.31,0.16) circle (0.07);
+          \draw[white, very thick] (-0.42,-0.16) -- (-0.24,-0.34) -- (-0.06,-0.16) -- (0.12,-0.34) -- (0.3,-0.16);
+        \end{scope}
+        \node[font=\scriptsize\bfseries, text=uiagrey] at (10.6,3.5) {it bites};
+      \end{tikzpicture}
+    \end{center}
+    {\small Skipping the chapter is cheaper \emph{this} week --- and more
+    expensive every week after, because each session builds on terms the
+    reading introduced. \textbf{Do not grow the monster:} every skipped
+    chapter feeds it --- small and harmless in week 2, it bites in
+    submission month. Readers cross the break-even early: lectures become
+    confirmation and questions, and the curriculum is read once before the
+    essay is due.}
+  \end{frame}%
+}
+
+\mode<all>

@@ -16,8 +16,10 @@ This list gathers, in one place, the sources named at the end of each chapter, i
 - Venkatesh, V. (2022). Adoption and use of AI tools: A research agenda grounded in UTAUT. *Annals of Operations Research*, *308*(1), 641--652. <https://doi.org/10.1007/s10479-020-03918-9>
 - Venkatesh, V., Brown, S. A., & Bala, H. (2013). Bridging the qualitative--quantitative divide: Guidelines for conducting mixed methods research in information systems. *MIS Quarterly*, *37*(1), 21--54. <https://doi.org/10.25300/MISQ/2013/37.1.02>
 - Venkatesh, V., Brown, S. A., & Sullivan, Y. W. (2016). Guidelines for conducting mixed-methods research: An extension and illustration. *Journal of the Association for Information Systems*, *17*(7), 435--494. <https://doi.org/10.17705/1jais.00433>
+- Venkatesh, V., Brown, S., & Sullivan, Y. (2023). *Conducting mixed-methods research: From classical social sciences to the age of big data and analytics*. Virginia Tech Pamplin College of Business and Virginia Tech Publishing. <https://doi.org/10.21061/conducting-mixed-methods-research>
 - Mayer, A.-S., Baygi, R. M., & Buwalda, R. (2025). Generation AI: Job crafting by entry-level professionals in the age of generative AI. *Business & Information Systems Engineering*, *67*(5), 595--613. <https://doi.org/10.1007/s12599-025-00959-x>
 - Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research methods for business students* (8th ed.). Pearson.
+- Venkatesh, V., Brown, S. A., & Sullivan, Y. W. (2023). *Conducting mixed-methods research: From classical social sciences to the age of big data and analytics*. Virginia Tech Pamplin College of Business in association with Virginia Tech Publishing. <https://doi.org/10.21061/conducting-mixed-methods-research>
 
 ## Session 3: Purpose and Products of Research {.unnumbered}
 
