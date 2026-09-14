@@ -103,8 +103,14 @@ def cmd_fetch(args: argparse.Namespace) -> None:
     prefix = args.uri_prefix or site_url_from_remote()
     if not prefix:
         sys.exit("Cannot derive the site URL from the git remote – pass --uri-prefix.")
+    # Search the whole host and filter by path below: GitHub Pages serves
+    # the repo name case-insensitively (…/GRC1100/ and …/grc1100/ are the
+    # same site) but Hypothesis stores the URL exactly as the browser had
+    # it, and wildcard_uri matches case-sensitively.
+    prefix = prefix.rstrip("*")
+    host = urllib.parse.urlsplit(prefix)
     params = {"limit": 200, "sort": "updated", "order": "asc",
-              "wildcard_uri": prefix.rstrip("*") + "*"}
+              "wildcard_uri": f"{host.scheme}://{host.netloc}/*"}
     if args.group:
         params["group"] = args.group
 
@@ -125,6 +131,16 @@ def cmd_fetch(args: argparse.Namespace) -> None:
             break
         search_after = batch[-1]["updated"]
 
+    on_host = len(rows)
+    rows = [a for a in rows if a.get("uri", "").lower().startswith(prefix.lower())]
+    if not rows:
+        where = f"group {args.group}" if args.group else "the Public layer"
+        print(f"0 annotations on {prefix} in {where} "
+              f"({on_host} on {host.netloc} in total).")
+        print("Check: was the annotation posted to the course group (sidebar "
+              "selector) rather than Public? Is HYPOTHESIS_TOKEN the token of "
+              "a group member? Run without --group to see Public posts, or "
+              "with --uri-prefix if the site URL differs.")
     (DATA / "annotations_raw.json").write_text(json.dumps(rows, indent=1))
 
     with (DATA / "annotations.csv").open("w", newline="") as fh:
