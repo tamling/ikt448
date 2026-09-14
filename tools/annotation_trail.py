@@ -4,7 +4,9 @@
 Sub-commands
   fetch   export annotations from the Hypothesis API (pseudonymised CSV + raw JSON)
   git     parse the repository history for Annotation/Type/Origin trailers
-  join    match annotations to commits and write trail.csv + summary.md
+  sheet   write data/coding_<coder>.xlsx: one row per annotation, dropdown columns to code
+  kappa   compare two coding sheets (Cohen's kappa + agreement per column)
+  join    match annotations to commits (+ coding sheet if present), write trail.csv + summary.md
 
 Stdlib only. Run from the repository root.
 """
@@ -171,10 +173,100 @@ def cmd_git(args: argparse.Namespace) -> None:
     print(f"{n} commits -> data/commits.csv")
 
 
+# ---------------------------------------------------------------- coding sheet
+CODEBOOK = {
+    "kind_coded": ["question", "correction", "example", "other"],
+    "subtype": ["factual", "outdated", "oversimplified", "unsourced", "editorial",
+                "comprehension", "scope", "application", "n/a"],
+    "topic": ["regulatory", "technical", "process", "n/a"],
+    "valid": ["yes", "no", "unclear"],
+}
+CODE_COLS = list(CODEBOOK)
+
+
+def cmd_sheet(args: argparse.Namespace) -> None:
+    from openpyxl import Workbook
+    from openpyxl.worksheet.datavalidation import DataValidation
+    from openpyxl.styles import Font, PatternFill, Alignment
+    anns = [a for a in csv.DictReader((DATA / "annotations.csv").open())
+            if a["is_reply"] == "0" and a["user"] != "instructor"]
+    wb = Workbook(); ws = wb.active; ws.title = "coding"
+    head = ["id", "chapter", "kind", "quote", "text"] + CODE_COLS + ["note"]
+    ws.append(head)
+    for a in anns:
+        ws.append([a["id"], a["chapter"], a["kind"], a["quote"], a["text"]] + [""] * (len(CODE_COLS) + 1))
+    n = len(anns) + 1
+    for col, name in enumerate(CODE_COLS, start=6):
+        dv = DataValidation(type="list", formula1='"' + ",".join(CODEBOOK[name]) + '"', allow_blank=True)
+        ws.add_data_validation(dv)
+        letter = ws.cell(row=1, column=col).column_letter
+        dv.add(f"{letter}2:{letter}{max(n, 2)}")
+        ws.column_dimensions[letter].width = 16
+    for c in ws[1]:
+        c.font = Font(bold=True); c.fill = PatternFill("solid", fgColor="F2DCDB")
+    ws.column_dimensions["A"].width = 24; ws.column_dimensions["B"].width = 8
+    ws.column_dimensions["D"].width = 45; ws.column_dimensions["E"].width = 55
+    ws.column_dimensions[ws.cell(row=1, column=len(head)).column_letter].width = 30
+    for row in ws.iter_rows(min_row=2, max_col=5):
+        for c in row:
+            c.alignment = Alignment(wrap_text=True, vertical="top")
+    ws.freeze_panes = "F2"
+    cb = wb.create_sheet("codebook")
+    cb.append(["column", "values"])
+    for k, v in CODEBOOK.items():
+        cb.append([k, ", ".join(v)])
+    cb.append(["", ""]); cb.append(["subtype for correction", "factual outdated oversimplified unsourced editorial"])
+    cb.append(["subtype for question", "comprehension scope application"])
+    cb.append(["valid", "is the student's point correct? (yes/no/unclear)"])
+    out = DATA / f"coding_{args.coder}.xlsx"
+    wb.save(out)
+    print(f"{len(anns)} annotations -> {out}  (dropdowns in columns {CODE_COLS})")
+
+
+def _read_sheet(path: Path) -> dict[str, dict]:
+    from openpyxl import load_workbook
+    ws = load_workbook(path, read_only=True)["coding"]
+    rows = ws.iter_rows(values_only=True)
+    head = [str(h) for h in next(rows)]
+    out = {}
+    for r in rows:
+        if r and r[0]:
+            out[str(r[0])] = {h: (str(v).strip() if v is not None else "") for h, v in zip(head, r)}
+    return out
+
+
+def _kappa(a: list[str], b: list[str]) -> float:
+    n = len(a)
+    cats = set(a) | set(b)
+    po = sum(x == y for x, y in zip(a, b)) / n
+    pe = sum((a.count(c) / n) * (b.count(c) / n) for c in cats)
+    return (po - pe) / (1 - pe) if pe < 1 else 1.0
+
+
+def cmd_kappa(args: argparse.Namespace) -> None:
+    A, B = _read_sheet(Path(args.a)), _read_sheet(Path(args.b))
+    ids = [i for i in A if i in B and all(A[i].get(c) and B[i].get(c) for c in ["kind_coded"])]
+    print(f"{len(ids)} annotations coded by both")
+    for col in CODE_COLS:
+        pairs = [(A[i][col], B[i][col]) for i in ids if A[i].get(col) and B[i].get(col)]
+        if not pairs:
+            continue
+        a, b = zip(*pairs)
+        agree = sum(x == y for x, y in pairs) / len(pairs)
+        print(f"  {col:12s} n={len(pairs):3d}  agreement={agree:.2f}  kappa={_kappa(list(a), list(b)):.2f}")
+        for i in ids:
+            if A[i].get(col) and B[i].get(col) and A[i][col] != B[i][col]:
+                print(f"      disagree {i}: {A[i][col]} vs {B[i][col]}")
+
+
 # ---------------------------------------------------------------- join
 def cmd_join(args: argparse.Namespace) -> None:
     anns = list(csv.DictReader((DATA / "annotations.csv").open()))
     commits = list(csv.DictReader((DATA / "commits.csv").open()))
+    coding = {}
+    if args.coding and Path(args.coding).exists():
+        coding = _read_sheet(Path(args.coding))
+        print(f"coding sheet {args.coding}: {sum(1 for v in coding.values() if v.get('kind_coded'))} coded rows")
 
     by_ann: dict[str, list[dict]] = defaultdict(list)
     for c in commits:
@@ -188,8 +280,10 @@ def cmd_join(args: argparse.Namespace) -> None:
         latency = ""
         if first:
             latency = round((iso(first["date"]) - iso(a["created"])).total_seconds() / 86400, 1)
+        code = coding.get(a["id"], {})
         trail.append({
             **{k: a[k] for k in ("id", "created", "user", "chapter", "kind", "is_reply")},
+            **{c: code.get(c, "") for c in CODE_COLS},
             "revised": int(bool(first)),
             "commit": first["hash"][:10] if first else "",
             "commit_date": first["date"] if first else "",
@@ -225,6 +319,10 @@ def cmd_join(args: argparse.Namespace) -> None:
         f"{statistics.median(lat):.1f} days" if lat else "- median latency: n/a", "",
         "## Per chapter", table(Counter(t["chapter"] for t in top), "chapter"), "",
         "## Per annotation kind (student tags)", table(Counter(t["kind"] for t in top), "kind"), "",
+        "## Coded kind / subtype / topic (from coding sheet)",
+        table(Counter(t["kind_coded"] or "-" for t in top), "kind_coded"), "",
+        table(Counter(t["subtype"] or "-" for t in top if t["kind_coded"] == "correction"), "subtype (corrections)"), "",
+        table(Counter(t["topic"] or "-" for t in top), "topic"), "",
         "## Revisions per type", table(Counter(t["type"] or "?" for t in revised), "type"), "",
         "## Revisions per origin", table(Counter(t["origin"] or "?" for t in revised), "origin"), "",
         "## Annotations per student (distribution)",
@@ -245,9 +343,14 @@ def main() -> None:
                    help="site URL; default derived from the git remote (<user>.github.io/<repo>/)")
     f.add_argument("--instructor", default="", help="your Hypothesis userid, e.g. acct:name@hypothes.is")
     sub.add_parser("git", help="parse commit trailers")
-    sub.add_parser("join", help="join annotations and commits, write summary")
+    sh = sub.add_parser("sheet", help="write an Excel coding sheet with dropdowns")
+    sh.add_argument("--coder", default="A", help="label for the file name, e.g. A or B")
+    kp = sub.add_parser("kappa", help="inter-coder agreement between two sheets")
+    kp.add_argument("a"); kp.add_argument("b")
+    jn = sub.add_parser("join", help="join annotations, commits and coding; write summary")
+    jn.add_argument("--coding", default="data/coding_A.xlsx", help="coding sheet to merge (default data/coding_A.xlsx)")
     args = p.parse_args()
-    {"fetch": cmd_fetch, "git": cmd_git, "join": cmd_join}[args.cmd](args)
+    {"fetch": cmd_fetch, "git": cmd_git, "sheet": cmd_sheet, "kappa": cmd_kappa, "join": cmd_join}[args.cmd](args)
 
 
 if __name__ == "__main__":
