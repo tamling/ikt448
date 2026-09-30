@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Summing-up {#sec-12-summing-up}
 
 ::: {.callout-note appearance="simple" icon="false"}

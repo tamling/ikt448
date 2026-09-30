@@ -1,0 +1,3 @@
+::: {.callout-note appearance="simple" icon=false}
+**AI-drafted, lecturer-edited.** This chapter was drafted with a generative AI tool from the lecture material and edited by the course leader. It can contain errors. If a passage is wrong or unclear, annotate it in the course group — see [How to annotate](../appendix/how-to-annotate.qmd).
+:::

@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Reviewing the Literature {#sec-05-reviewing-the-literature}
 
 ::: {.callout-note appearance="simple" icon="false"}

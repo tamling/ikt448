@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Introduction {#sec-01-introduction}
 
 ::: {.callout-note appearance="simple" icon="false"}

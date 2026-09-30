@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Research Strategies 1: Survey, Design and Creation, Experiment {#sec-06-strategies-survey-design-experiment}
 
 ::: {.callout-note appearance="simple" icon="false"}

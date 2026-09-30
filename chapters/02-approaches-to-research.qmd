@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Approaches to Research {#sec-02-approaches-to-research}
 
 ::: {.callout-note appearance="simple" icon="false"}

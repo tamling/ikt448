@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Purpose and Products of Research {#sec-03-purpose-and-products}
 
 ::: {.callout-note appearance="simple" icon="false"}

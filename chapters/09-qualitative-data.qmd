@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Qualitative Data Collection and Analysis {#sec-09-qualitative-data}
 
 ::: {.callout-note appearance="simple" icon="false"}

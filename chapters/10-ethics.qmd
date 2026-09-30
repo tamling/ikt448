@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Ethics in Research {#sec-10-ethics}
 
 ::: {.callout-note appearance="simple" icon="false"}

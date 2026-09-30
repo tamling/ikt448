@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Producing the Essay {#sec-11-producing-the-essay}
 
 ::: {.callout-note appearance="simple" icon="false"}

@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Quantitative Data Collection and Analysis {#sec-08-quantitative-data}
 
 ::: {.callout-note appearance="simple" icon="false"}

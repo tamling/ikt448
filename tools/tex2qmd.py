@@ -495,6 +495,7 @@ def main() -> None:
         main = preprocess(ch)
         md = pandoc("\\chapter{%s}\n" % ch.title + main)
         md = postprocess(md, ch, captions)
+        md = "{{< include ../includes/ai-note.qmd >}}\n\n" + md   # AI-drafted note at the top of every chapter
         tail_md, key_md = render_tail(ch, captions)
         md = md.rstrip() + "\n\n" + tail_md.rstrip() + "\n"
         (ROOT / "chapters" / f"{ch.nn}-{ch.slug}.qmd").write_text(md)

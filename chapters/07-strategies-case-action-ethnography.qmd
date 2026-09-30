@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Research Strategies 2: Case Study, Action Research, Ethnography {#sec-07-strategies-case-action-ethnography}
 
 ::: {.callout-note appearance="simple" icon="false"}

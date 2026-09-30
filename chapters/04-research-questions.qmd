@@ -1,3 +1,5 @@
+{{< include ../includes/ai-note.qmd >}}
+
 # Formulating Research Questions {#sec-04-research-questions}
 
 ::: {.callout-note appearance="simple" icon="false"}
