@@ -29,7 +29,7 @@ After completing the course, the student should (LO1) have an overview of qualit
 
 # Assessment {#assessment .unnumbered}
 
-The grade rests on three parts: presence and participation in discussions (20 %), a small project presented in a group (20 %), and the essay (60 %: written report 40 %, presentation and discussion in the final oral exam 20 %). Approved mandatory submissions and presentations are the condition for taking the exam; details and dates are announced separately. The essay has four building blocks --- introduction and question (Part I), relevant work (Part II), choice of methods (Part III), data, analysis, ethics and limitations (Part IV) --- and Chapter 11 presents it as a paper with six sections.
+The grade rests on three parts: participation, earned by annotating this script in the course group (20 %), a small project presented in a group (20 %), and the essay (60 %: written report 40 %, presentation and discussion in the final oral exam 20 %). Approved mandatory submissions and presentations are the condition for taking the exam; details and dates are announced separately. The essay has four building blocks --- introduction and question (Part I), relevant work (Part II), choice of methods (Part III), data, analysis, ethics and limitations (Part IV) --- and Chapter 11 presents it as a paper with six sections.
 
 # The book and the papers {#the-book-and-the-papers .unnumbered}
 
