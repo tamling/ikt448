@@ -262,16 +262,17 @@ Not a straight line in practice --- the dashed arrow is where real projects loop
 ## Terms from this session {#sec-03-terms-from-this-session .unnumbered}
 
 ::: {#tbl-03-terms}
-  ----------------------------- ------------------------------------------------------------------------------------------------------------
+  ----------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------
   **6Ps**                       Purpose, Products, Process, Participants, Paradigm, Presentation --- the aspects every study must consider
   **Purpose**                   why the study is done: topic, importance, question(s), objectives
   **Products**                  the outcomes, especially the contribution to knowledge
   **Topic vs. problem**         broad area of interest vs. a specific wrong/unknown/needed thing with an owner and a cost
   **Purpose statement**         one sentence: *to (find out X) so that (Y benefits)*
   **Output vs. contribution**   the thing produced vs. what the world knows or can do now
+  **Heuristics**                rules of thumb offered as a contribution: guidance distilled from experience or evidence --- weaker than a tested theory, stronger than an opinion
   **Research process**          literature → questions → strategy → data generation → analysis → answers
   **Master's expectation**      not original research --- methodology known, applied well, justified
-  ----------------------------- ------------------------------------------------------------------------------------------------------------
+  ----------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Terms from Session 3
 :::
