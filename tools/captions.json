@@ -24,7 +24,6 @@
   "fig-11-2": "Describe and justify: the pair every paragraph of Part III consists of.",
   "fig-12-1": "The pipeline of the course: from problem and purpose to ethics and report, with the approach and worldview underneath every step.",
   "fig-12-2": "The literature-review toolchain in five moves: keyword table, search string and log, criteria and PRISMA, concept matrix, four moves.",
-
   "tbl-01-1": "Tracing two claims to their source with the four questions",
   "tbl-01-2": "Science and pseudo-science: Popper's argument in three rows",
   "tbl-01-3": "Three workplace claims, tested for precision, observability and refutability",
@@ -102,5 +101,7 @@
   "tbl-12-4": "The running example, assembled: problem, purpose, question and literature",
   "tbl-12-5": "The running example, assembled: strategy, data, analysis, ethics and report",
   "tbl-12-6": "Submission FAQ",
-  "tbl-12-7": "What separates the grades: reproduction versus judgement"
+  "tbl-12-7": "What separates the grades: reproduction versus judgement",
+  "tbl-02-worldviews": "The four worldviews: assumption about reality, typical question and typical design",
+  "tbl-05-matrix-example": "A concept matrix with three papers and four concepts: P = positive, N = negative, B = both"
 }
