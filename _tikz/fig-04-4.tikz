@@ -1,9 +1,9 @@
 \begin{tikzpicture}[node distance=0.45cm and 0.5cm]
       \node[kbox, text width=10.6cm] (mq)
         {\textbf{Main RQ:} which factors are associated with password reuse
-         among SMB employees?};
+         among SME employees?};
       \node[gbox, text width=5.1cm, below left=0.5cm and -4.6cm of mq] (s1)
-        {\textbf{SQ1:} how widespread is reuse in the studied SMBs? {\scriptsize(descriptive)}};
+        {\textbf{SQ1:} how widespread is reuse in the studied SMEs? {\scriptsize(descriptive)}};
       \node[gbox, text width=5.1cm, below right=0.5cm and -4.6cm of mq] (s2)
         {\textbf{SQ2:} how do employees explain their reuse decisions? {\scriptsize(qualitative)}};
       \draw[karrow] (mq) -- (s1);

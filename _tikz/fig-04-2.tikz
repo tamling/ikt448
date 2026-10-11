@@ -8,7 +8,7 @@
       \node[kbox, text width=11.4cm, below=of v2] (v3)
         {\textbf{Good:} ``To what extent does quarterly simulation-based
          anti-phishing training reduce click-through rates on phishing e-mails
-         among employees of Norwegian SMBs over six months?''\\
+         among employees of Norwegian SMEs over six months?''\\
          {\scriptsize\color{kgrey}population, intervention, outcome, timeframe --- PICO-complete}};
       \draw[karrow] (v1) -- (v2);
       \draw[karrow] (v2) -- (v3);
