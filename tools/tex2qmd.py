@@ -279,7 +279,9 @@ def preprocess(ch: Chapter) -> str:
     def tbl_named(m):
         tid = m.group(1)
         ch.tbls.append((tid, heading_before(main, m.start())))
-        return "\\begin{tblwrap}\n%s\n\nTBLCAP:%s\n\\end{tblwrap}\n" % (m.group(2), tid)
+        # keep the generic pass below from wrapping this tabular a second time
+        body = m.group(2).replace("\\begin{tabular}", "\\begin{tabular@}", 1)
+        return "\\begin{tblwrap}\n%s\n\nTBLCAP:%s\n\\end{tblwrap}\n" % (body, tid)
     main = re.sub(r"\\tblid\{([\w-]+)\}\s*(\\begin\{tabular\}.*?\\end\{tabular\})", tbl_named, main, flags=re.S)
     seq = [0]
     def tbl(m):
@@ -289,6 +291,7 @@ def preprocess(ch: Chapter) -> str:
         return "\\begin{tblwrap}\n%s\n\nTBLCAP:%s\n\\end{tblwrap}\n" % (m.group(0), tid)
     main = fix_colspecs(main)
     main = re.sub(r"\\begin\{tabular\}.*?\\end\{tabular\}", tbl, main, flags=re.S)
+    main = main.replace("\\begin{tabular@}", "\\begin{tabular}")
     # --- blocks: title as a \paragraph so pandoc keeps inline markup
     main = re.sub(r"\\begin\{(block|alertblock)\}\{", lambda m: "\\begin{%s}\\paragraph{" % m.group(1), main)
     main = strip_layout(main)

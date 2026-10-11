@@ -60,8 +60,7 @@ A worldview refers to a basic set of beliefs that guide action: an ontology, or 
 
 Four worldviews carry most of the weight. Postpositivism assumes an objective reality that can be measured imperfectly, favours deductive testing, and produces claims such as "which factors predict abandonment of fitness apps". Constructivism assumes multiple realities constructed through experience, favours inductive understanding, and produces claims about what quitting an app means to the person who quits. The transformative worldview starts from politics and power, researches with marginalised groups, and aims at change. Pragmatism starts from the problem, uses whatever works, and underlies most mixed-methods research. Creswell's framework connects the worldview to a research design and to methods: the three components together constitute the approach.
 
-:::: tblwrap
-::: {#tbl-02-1}
+::: {#tbl-02-worldviews}
   **Worldview**    **Assumption about reality**                         **Typical question**                                            **Typical design**
   ---------------- ---------------------------------------------------- --------------------------------------------------------------- -----------------------------------------------------------
   Postpositivism   one objective reality, measurable imperfectly        which factors predict abandonment of fitness apps?              survey or experiment; deductive testing
@@ -69,11 +68,8 @@ Four worldviews carry most of the weight. Postpositivism assumes an objective re
   Transformative   reality shaped by politics and power                 how can the design include the people it has so far excluded?   participatory or action research with the group concerned
   Pragmatism       whatever works to solve the problem                  does it work --- and how do users experience it?                mixed methods
 
-Two current quantitative studies of ChatGPT adoption, side by side
+The four worldviews: assumption about reality, typical question and typical design
 :::
-
-TBLCAP:tbl-02-worldviews
-::::
 
 ### The research onion
 
@@ -129,7 +125,7 @@ Deduction runs **top-down** from theory (typical for quantitative research); ind
 
 ### Two current quantitative studies
 
-::: {#tbl-02-2}
+::: {#tbl-02-1}
              **Biloš & Budimir (2024)**                                                                                                                                                                                          **Huy et al. (2024)**
   ---------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------
   Sample     694 Generation Z respondents, Croatia; online questionnaire, seven-point Likert                                                                                                                                     671 ChatGPT users, Vietnam; questionnaire, face-to-face and online
@@ -137,7 +133,7 @@ Deduction runs **top-down** from theory (typical for quantitative research); ind
   Analysis   Confirmatory and exploratory factor analysis; hierarchical regression                                                                                                                                               Reliability, EFA/CFA, then covariance-based SEM (AMOS): use → continuance intention → word of mouth; curiosity as moderator
   Result     Performance expectancy, social influence, hedonic motivation, habit and personal innovativeness predict intention; effort expectancy, facilitating conditions and price value do not (65 % of variance explained)   Most UTAUT2 and TTF factors affect use; effort expectancy, social influence and trust do not; use drives continuance and recommendation
 
-The seven purposes of mixed methods research (Venkatesh, Brown & Bala, 2013)
+Two current quantitative studies of ChatGPT adoption, side by side
 :::
 
 Both are deductive and postpositivist: theory → hypotheses → measurement → test. Same theory family, two samples, partly different results --- replication in practice.
@@ -146,7 +142,7 @@ Both are deductive and postpositivist: theory → hypotheses → measurement →
 
 Mixed methods research combines quantitative and qualitative methods in the same inquiry. The guidelines address three questions: (1) is a mixed methods approach **appropriate**; (2) how are **meta-inferences** --- the conclusions that integrate both strands --- developed; (3) how is their quality **validated**.
 
-::: {#tbl-02-3}
+::: {#tbl-02-2}
   **Purpose**                    **Why combine the two strands**
   ------------------------------ ---------------------------------------------------------------------------------------
   Complementarity                To gain complementary views of the same phenomenon or relationship
@@ -157,7 +153,7 @@ Mixed methods research combines quantitative and qualitative methods in the same
   Compensation                   To compensate for the weaknesses of one approach with the other
   Diversity                      To obtain divergent views of the same phenomenon
 
-Creswell's four worldviews, with an IT or health example for each
+The seven purposes of mixed methods research (Venkatesh, Brown & Bala, 2013)
 :::
 
 *Purposes adapted from Venkatesh et al. (2013), Table 1. An essay that proposes mixed methods names its purpose in these terms.*
@@ -204,7 +200,7 @@ Three short descriptions to classify along the way --- quantitative, qualitative
 
 Approach = worldview + design + methods, made consistent. *Adapted from Creswell & Creswell (2018), Fig. 1.1*
 
-::: {#tbl-02-4}
+::: {#tbl-02-3}
   **Worldview**        **Knowledge is...**                                 **Typical IT/health example**
   -------------------- --------------------------------------------------- ---------------------------------------------------------------------------
   **Postpositivism**   objective; found by measuring and testing causes    A/B test: which onboarding flow reduces app churn?
@@ -212,14 +208,14 @@ Approach = worldview + design + methods, made consistent. *Adapted from Creswell
   **Transformative**   tied to power and change; research should empower   Co-designing an accessible web frontend *with* visually impaired users
   **Pragmatism**       whatever works to solve the problem                 Mixed-methods evaluation of a password manager
 
-Layer 1 of the onion: five philosophical positions and their typical consequences
+Creswell's four worldviews, with an IT or health example for each
 :::
 
 *Based on Creswell & Creswell (2018), Ch. 1*
 
 ### The layers of the onion
 
-::: {#tbl-02-5}
+::: {#tbl-02-4}
   **Position**       **Ontology**                                  **Typical consequence**
   ------------------ --------------------------------------------- ------------------------------------------------
   Positivism         One observer-independent reality              Hypothesis testing, large samples
@@ -228,7 +224,7 @@ Layer 1 of the onion: five philosophical positions and their typical consequence
   Postmodernism      Reality as an effect of language and power    Deconstruction of dominant narratives
   Pragmatism         Reality judged by problem solving             Method follows the research question
 
-One question, three studies, side by side: quantitative, qualitative and mixed
+Layer 1 of the onion: five philosophical positions and their typical consequences
 :::
 
 *Every subsequent layer depends on this choice. Oates (Ch. 19--20) covers positivism, interpretivism and critical research; Saunders adds critical realism, postmodernism and pragmatism.*
@@ -337,7 +333,7 @@ How common each theme is; you cannot generalise to "users in general".
 
 This is an **explanatory sequential design**: quantitative first, qualitative second to *explain* the numbers. Note the deliberate order and integration point --- that is what makes it a design, not a coincidence. *Notation:* CAPITAL letters (QUANT) mark the **dominant** component, lower-case (qual) the supporting one --- a standard convention in mixed methods research.
 
-::: {#tbl-02-6}
+::: {#tbl-02-5}
                **Study A (quant)**          **Study B (qual)**             **Study C (mixed)**
   ------------ ---------------------------- ------------------------------ -----------------------
   Worldview    postpositivist               constructivist                 pragmatist
@@ -346,7 +342,7 @@ This is an **explanatory sequential design**: quantitative first, qualitative se
   Claim type   generalisable pattern        rich understanding             pattern + explanation
   Weakness     no "why"                     no "how many"                  cost, complexity
 
-One question, three studies --- side by side
+One question, three studies, side by side: quantitative, qualitative and mixed
 :::
 
 ::: {.callout-important}

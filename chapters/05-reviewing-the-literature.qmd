@@ -36,19 +36,15 @@ Enholm, Papagiannidis, Mikalef and Krogstie (2022) show the same procedure in a 
 
 Reading for a review is different from reading for interest. A paper is read in the right order --- abstract, conclusion, figures and tables, method, and only then the full text --- and read for extraction: what is the question, the method, the sample, the finding, and the limitation. The extraction goes into a concept matrix, which Webster and Watson (2002) introduced as the instrument of synthesis: one row per paper, one column per concept, and in each cell what the paper says about the concept. Watson and Webster (2020) extended the idea for the age of graph databases, in which the matrix becomes a network of concepts and relationships; Session 11 returns to both. The matrix from the lecture, cut down to three papers, looks like this:
 
-:::: tblwrap
-::: {#tbl-05-1}
+::: {#tbl-05-matrix-example}
                                **Security fatigue**   **Convenience**   **Risk perception**   **Training effect**
   --------------------------- ---------------------- ----------------- --------------------- ---------------------
   Smith (2021), survey                  N                    P                               
   Lee (2022), experiment                                     P                                         P
   Hansen (2023), interviews             N                                        B           
 
-The five phases of a literature review, walked through
+A concept matrix with three papers and four concepts: P = positive, N = negative, B = both
 :::
-
-TBLCAP:tbl-05-matrix-example
-::::
 
 A cell says what the paper found about the concept --- P for a positive effect, N for negative, B for both --- and an empty cell says the paper is silent on it. The column, not the row, is the unit of writing.
 
@@ -66,7 +62,7 @@ Two habits keep the review under control. The reference manager --- Zotero, free
 
 ### The five phases, walked through
 
-::: {#tbl-05-2}
+::: {#tbl-05-1}
   **Phase**                 **What you decide / do**                                                 **Example**
   ------------------------- ------------------------------------------------------------------------ -------------------------------------------------------------------------------------
   1. Review scope           focus, goal, coverage, audience                                          empirical studies on workplace password behaviour, 2015--2026
@@ -75,14 +71,14 @@ Two habits keep the review under control. The reference manager --- Zotero, free
   4. Analysis & synthesis   extract by **concept**, not by paper                                     the concept matrix (later this session)
   5. Research agenda        what remains open --- and therefore your study                           the gap paragraph ending in your question
 
-Source types: examples and what to use them for
+The five phases of a literature review, walked through
 :::
 
 *vom Brocke et al. (2009). Phase 5 is the bridge from Part II to Part I: the review *ends* where your question *begins*.*
 
 ### Source types and databases
 
-::: {#tbl-05-3}
+::: {#tbl-05-2}
   **Source type**          **Examples**                                                     **Use for**
   ------------------------ ---------------------------------------------------------------- --------------------------------------
   Peer-reviewed journals   *IEEE TSE, Computers & Security*                                 core evidence
@@ -91,12 +87,12 @@ Source types: examples and what to use them for
   Grey literature          standards (NIST, OWASP), industry reports (DORA, Verizon DBIR)   practice context --- flag it as grey
   Blogs, vendor pages      engineering blogs, marketing                                     leads only --- verify elsewhere
 
-Databases and what each is good for
+Source types: examples and what to use them for
 :::
 
 Computing is unusual: **top conferences are peer-reviewed and count as much as journals**. But a vendor whitepaper is not evidence --- session 1's "95 % human error" claim lives exactly there.
 
-::: {#tbl-05-4}
+::: {#tbl-05-3}
   **Database**                  **What it is good for**
   ----------------------------- -------------------------------------------------------------------------------------------------
   **Oria**                      the library's front door --- searches most of the below
@@ -108,7 +104,7 @@ Computing is unusual: **top conferences are peer-reviewed and count as much as j
   **Google Scholar**            broadest recall --- but no quality filter; use for snowballing
   **SAGE Research Methods**     not papers --- *methods*: look up any method you meet in this course
 
-From question to search string: concepts, synonyms and variants
+Databases and what each is good for
 :::
 
 Strategy: run your string in **two or three** databases, not ten --- and **snowball**: follow the reference lists (backward) and citations (forward) of your best hits. *(AIS eLibrary, EBSCOhost and the ACM DL are the three used in the real review later in this session.)*
@@ -119,14 +115,14 @@ The three steps of the systematic search on the running example: the keyword tab
 
 Take the question apart into **concepts**, then collect **synonyms** per concept:
 
-::: {#tbl-05-5}
+::: {#tbl-05-4}
   **Concept**      **Synonyms & variants**
   ---------------- ---------------------------------------------------------------------
   password reuse   password reuse, credential reuse, password sharing, password habits
   employees        employee\*, staff, worker\*, end user\*
   small business   SMB, SME, "small and medium-sized enterprise\*"
 
-A published systematic review (Enholm et al., 2022), step by step
+From question to search string: concepts, synonyms and variants
 :::
 
 Tricks of the trade: `*` truncation (`employee*` finds *employees*), `"quotation marks"` for exact phrases, and check the **keywords** of your first good hit --- authors hand you their vocabulary for free.
@@ -223,7 +219,7 @@ For your essay: the diagram plus documented criteria are the visible artefacts -
 
 ### A published systematic review, step by step
 
-::: {#tbl-05-6}
+::: {#tbl-05-5}
   ----------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Protocol    Written first, following the Cochrane handbook: questions, search strategy, criteria, quality assessment, synthesis method
   Questions   \(1\) What enables or inhibits AI use in organisations? (2) What are the types of AI use? (3) Through which mechanisms is AI value realised?
@@ -233,7 +229,7 @@ For your essay: the diagram plus documented criteria are the visible artefacts -
   Result      43 papers extracted into a **concept matrix**; synthesis in three parts (enablers and inhibitors, typologies of use, first- and second-order effects) and a research agenda
   ----------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The concept matrix: concepts as columns, papers as rows
+A published systematic review (Enholm et al., 2022), step by step
 :::
 
 Everything Part II of your essay asks for is visible in one paper: protocol, strings, databases, dates, criteria, counts, matrix. Their Figure 1 is the PRISMA-style flow of the selection.
@@ -256,7 +252,7 @@ While reading, extract into your **literature table** --- or, one step better, a
 
 Concepts as **columns** (from your conceptualisation, phase 2), papers as **rows**; a cell marks that the paper addresses the concept:
 
-::: {#tbl-05-7}
+::: {#tbl-05-6}
              **Concept A**   **Concept B**   **Concept C**   **Concept D**
   --------- --------------- --------------- --------------- ---------------
   Paper 1          ×               ×                        
@@ -264,14 +260,14 @@ Concepts as **columns** (from your conceptualisation, phase 2), papers as **rows
   Paper 3          ×                               ×        
   Paper 4          ×               ×               ×               ×
 
-The concept matrix filled in, with P/N/B cell coding
+The concept matrix: concepts as columns, papers as rows
 :::
 
 Two reading directions: a **row** shows what one paper covers; a **column** shows the state of evidence for one concept --- dense columns mean converging work, sparse columns mean thin evidence, empty columns mean a gap. Cells can carry more than a mark: a finding direction, a method tag, a context. *Webster & Watson (2002)*
 
 The same structure filled in, with the P/N/B cell coding from the real review:
 
-::: {#tbl-05-8}
+::: {#tbl-05-7}
                                **Security fatigue**   **Convenience**   **Risk perception**   **Training effect**
   --------------------------- ---------------------- ----------------- --------------------- ---------------------
   Smith (2021), survey                  N                    P                               
@@ -279,7 +275,7 @@ The same structure filled in, with the P/N/B cell coding from the real review:
   Hansen (2023), interviews             N                                        B           
   Berg (2024), mixed                    N                    B                   N                     P
 
-The toolchain for Part II: job, tool, and why
+The concept matrix filled in, with P/N/B cell coding
 :::
 
 Cells: **P** = reaction/effect reported as positive, **N** = negative, **B** = both. Reading the columns: fatigue is consistently negative (converging evidence), convenience is mostly positive with one "both" (a tension to explain), risk perception is thin and mixed (a gap candidate). The matrix hands you the argument moves. *Webster & Watson (2002); Amling et al. (under review)*
@@ -336,7 +332,7 @@ Every paragraph of your review should end pointing at **your** study: what is kn
 
 ### The toolchain for Part II
 
-::: {#tbl-05-9}
+::: {#tbl-05-8}
   **Job**               **Tool**                **Why / how**
   --------------------- ----------------------- ------------------------------------------------------------------------------------------------------------------------------------------------
   Collect & cite        **Zotero** (free)       browser button saves each hit with full metadata; cite-while-you-write plugins for Word and LaTeX --- start it *today*, not in November
@@ -344,7 +340,7 @@ Every paragraph of your review should end pointing at **your** study: what is kn
   Writing               **Word** or **LaTeX**   pick one *as a group*, now; Word + Zotero plugin is the low-friction default; LaTeX if the group already knows it --- happy to share templates
   Later                 Nettskjema, JASP        data collection (S8) and analysis (S8--9) --- same rule: decide early, learn once
 
-The toolchain for Part II
+The toolchain for Part II: job, tool, and why
 :::
 
 One rule beats all tool debates: **everyone in the group uses the same tools from session 5 on**. Merging two reference managers in submission week has ruined better essays than any examiner.
