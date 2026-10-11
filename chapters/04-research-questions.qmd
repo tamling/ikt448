@@ -26,7 +26,17 @@ An example makes the layers visible. The aim is to understand why employees reus
 A research question refers to a question that is answerable through systematic investigation --- by collecting and analysing data --- within the resources of the study.
 :::
 
-Five criteria decide whether a draft qualifies. It must be anchored, following directly from the problem and purpose; focused, one thing at a time and not double-barrelled; researchable, so that data could actually answer it rather than only opinion, prophecy or morality; feasible with the resources of a three-month study; and open, in the sense that it is not trivially yes or no, and invites analysis.
+Five criteria decide whether a draft qualifies.
+
+1.  **Anchored**: it follows directly from the problem and purpose.
+
+2.  **Focused**: one thing at a time, not double-barrelled.
+
+3.  **Researchable**: data could actually answer it, rather than only opinion, prophecy or morality.
+
+4.  **Feasible**: with the resources of a three-month study.
+
+5.  **Open**: not trivially yes or no; it invites analysis.
 
 Real research questions from the papers read in this course show the range. Presthus and Munkvold (2016) ask what forms of knowledge contribution can be targeted in information systems research --- a descriptive question answered by a taxonomy. Enholm et al. (2022) ask three review questions: what enables or inhibits AI use in organisations, what types of AI use exist, and through which mechanisms AI value is realised --- one topic, three facets. Woodruff et al. (2024) ask how knowledge workers expect generative AI to affect their industries --- exploratory and qualitative, answered by workshops. Boodraj et al. (2026) ask which skills and competencies are most in demand for cyber security project managers --- descriptive, answered from 161,000 job postings. Huy et al. (2024) state no question at all but a model with hypotheses; in quantitative work the hypothesis often replaces the question. Two observations follow: review and qualitative papers state their questions verbatim, and every question names its population and its phenomenon. Test your own draft against the same two markers.
 
