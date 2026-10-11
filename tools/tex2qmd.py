@@ -212,6 +212,7 @@ def convert_inline_styles(tex: str) -> str:
     tex = replace_group(tex, r"\\color\{(?:uiagrey|kgrey)\}\s*(?:\\(?:small|scriptsize|footnotesize)\s*)?", lambda s: r"\textit{" + s.strip() + "}")
     tex = replace_cmd(tex, "src", lambda a: r"\textit{" + a[0].strip() + "}")
     tex = replace_cmd(tex, "textcolor", lambda a: a[1], nargs=2)
+    tex = replace_cmd(tex, "qref", lambda a: "@" + a[0])      # \qref{tbl-02-2} -> Quarto cross-reference
     for k, v in MATH.items():
         tex = tex.replace(k, v)
     tex = re.sub(r"\$\\geq\s*([0-9.]+)\$", r"≥ \1", tex)
@@ -273,9 +274,17 @@ def preprocess(ch: Chapter) -> str:
         return "\\begin{figure}\\centering\\includegraphics{figures/%s.svg}\\caption{FIGCAP:%s}\\label{%s}\\end{figure}\n%s" % (fid, fid, fid, tail)
     main = re.sub(r"(\\resizebox\{[^}]*\}\{!\}\{%?\s*)?(\\begin\{tikzpicture\}.*?\\end\{tikzpicture\})(\})?", fig, main, flags=re.S)
     # --- tables
+    # \tblid{name} directly before a tabular gives it a fixed id, so that a
+    # table added later does not renumber the sequential ids (and captions)
+    def tbl_named(m):
+        tid = m.group(1)
+        ch.tbls.append((tid, heading_before(main, m.start())))
+        return "\\begin{tblwrap}\n%s\n\nTBLCAP:%s\n\\end{tblwrap}\n" % (m.group(2), tid)
+    main = re.sub(r"\\tblid\{([\w-]+)\}\s*(\\begin\{tabular\}.*?\\end\{tabular\})", tbl_named, main, flags=re.S)
+    seq = [0]
     def tbl(m):
-        k = len(ch.tbls) + 1
-        tid = f"tbl-{ch.nn}-{k}"
+        seq[0] += 1
+        tid = f"tbl-{ch.nn}-{seq[0]}"
         ch.tbls.append((tid, heading_before(main, m.start())))
         return "\\begin{tblwrap}\n%s\n\nTBLCAP:%s\n\\end{tblwrap}\n" % (m.group(0), tid)
     main = fix_colspecs(main)
@@ -309,7 +318,7 @@ def postprocess(md: str, ch: Chapter, captions: dict) -> str:
     md = re.sub(r"^::: (block|alertblock)\n#{4,5} (.+)\n", blk, md, flags=re.M)
     md = re.sub(r"^::: sessionhead\n", '::: {.callout-note appearance="simple" icon="false"}\n', md, flags=re.M)
     # table wrappers
-    md = re.sub(r"^::: tblwrap\n(.*?)\n\nTBLCAP:(tbl-[\d-]+)\n:::",
+    md = re.sub(r"^::: tblwrap\n(.*?)\n\nTBLCAP:(tbl-[\w-]+)\n:::",
                 lambda m: "::: {#%s}\n%s\n\n%s\n:::" % (m.group(2), m.group(1), captions.get(m.group(2), default_caption(ch, m.group(2)))),
                 md, flags=re.M | re.S)
     md = re.sub(r"FIGCAP:(fig-[\d-]+)", lambda m: captions.get(m.group(1), default_caption(ch, m.group(1))), md)
