@@ -324,6 +324,7 @@ def postprocess(md: str, ch: Chapter, captions: dict) -> str:
     md = re.sub(r"FIGCAP:(fig-[\d-]+)", lambda m: captions.get(m.group(1), default_caption(ch, m.group(1))), md)
     # pandoc writes a chapter heading as "# Title"
     md = re.sub(r"^# (.+)$", lambda m: f"# {m.group(1)} {{#sec-{ch.nn}-{ch.slug}}}", md, count=1, flags=re.M)
+    md = md.replace("\\@", "@")            # pandoc escapes the @ of a \qref cross-reference
     md = re.sub(r"\n{3,}", "\n\n", md)
     return md
 

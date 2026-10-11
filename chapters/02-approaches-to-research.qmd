@@ -60,6 +60,7 @@ A worldview refers to a basic set of beliefs that guide action: an ontology, or 
 
 Four worldviews carry most of the weight. Postpositivism assumes an objective reality that can be measured imperfectly, favours deductive testing, and produces claims such as "which factors predict abandonment of fitness apps". Constructivism assumes multiple realities constructed through experience, favours inductive understanding, and produces claims about what quitting an app means to the person who quits. The transformative worldview starts from politics and power, researches with marginalised groups, and aims at change. Pragmatism starts from the problem, uses whatever works, and underlies most mixed-methods research. Creswell's framework connects the worldview to a research design and to methods: the three components together constitute the approach.
 
+:::: tblwrap
 ::: {#tbl-02-1}
   **Worldview**    **Assumption about reality**                         **Typical question**                                            **Typical design**
   ---------------- ---------------------------------------------------- --------------------------------------------------------------- -----------------------------------------------------------
@@ -70,6 +71,9 @@ Four worldviews carry most of the weight. Postpositivism assumes an objective re
 
 Two current quantitative studies of ChatGPT adoption, side by side
 :::
+
+TBLCAP:tbl-02-worldviews
+::::
 
 ### The research onion
 
@@ -166,7 +170,7 @@ The 2016 extension turns the guidelines into design decisions: 14 properties of 
 
 -   **Research questions** --- questions, aims or hypotheses; independent or dependent
 
--   **Purpose** --- one of the seven in \@tbl-02-2
+-   **Purpose** --- one of the seven in @tbl-02-2
 
 -   **Paradigm stance** --- single or multiple; pragmatism, critical realism, dialectical
 
