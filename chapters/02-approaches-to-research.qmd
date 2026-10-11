@@ -149,7 +149,7 @@ The 2016 extension turns the guidelines into design decisions: 14 properties of 
 
 -   **Research questions** --- questions, aims or hypotheses; independent or dependent
 
--   **Purpose** --- one of the seven on the previous slide
+-   **Purpose** --- one of the seven in \@tbl-02-2
 
 -   **Paradigm stance** --- single or multiple; pragmatism, critical realism, dialectical
 
