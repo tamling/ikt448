@@ -10,7 +10,7 @@ A research question is the pivot of the essay: it decides the approach, the stra
 
 ## Anatomy {#sec-04-anatomy}
 
-Four terms are often used as if they were one, and the essay must keep them apart.
+Four terms are often used as if they were one, and the essay must keep them apart. Mixing them has predictable costs: an aim written as a question cannot be answered, because it names an intent rather than something data could settle; a hypothesis without a question cannot be tested, because nothing says what it is a predicted answer to; and objectives mistaken for questions turn the essay into a to-do list.
 
 ::: {.callout-note}
 ## Aim, objective, research question, hypothesis
