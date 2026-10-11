@@ -5,3 +5,7 @@ _site/
 
 # Annotation audit trail: raw Hypothesis export contains real usernames
 data/annotations_raw.json
+
+# Python bytecode
+__pycache__/
+*.pyc
