@@ -68,7 +68,7 @@ Synthesis refers to constructing a new, integrated statement out of several sour
 
 The matrix is read by column, and the column produces a paragraph: what the papers agree on, where they diverge, what explains the divergence --- method, setting, definition --- and what the divergence means for your own design. Three papers that disagree therefore appear in the essay not as three paragraphs, one per paper, but as one argument. Four moves make the argument: establish what is known, contrast where sources conflict, locate the gap, and point at the implication for the study. A review written paper by paper is a summary; a review written concept by concept is a synthesis, and the difference is visible in the first paragraph.
 
-Two habits keep the review under control. The reference manager --- Zotero, free, with a browser button and plug-ins for Word and LaTeX --- is set up on the first day of the search, because reconstructing sources in November has ruined better essays than any examiner. And the search log, the keyword table and the concept matrix live in one spreadsheet, so that Part II can be written from the log rather than from memory.
+Two habits keep the review under control. A reference manager --- Zotero, for example, is free and has a browser button and plug-ins for Word and LaTeX --- is set up on the first day of the search, because reconstructing sources in November has ruined better essays than any examiner. And the search log, the keyword table and the concept matrix live in one spreadsheet, so that Part II can be written from the log rather than from memory.
 
 ## Worked examples and tables {#sec-05-worked-examples-and-tables}
 
