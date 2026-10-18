@@ -34,7 +34,7 @@ The five phases of a literature review (vom Brocke et al., 2009), with the runni
 
 ## Where to look {#sec-05-where-to-look}
 
-Sources differ in quality, and the quality hierarchy is not the same as the ease of finding. Peer-reviewed journals --- for our field the AIS basket of eight, *IEEE Transactions on Information Forensics and Security*, *Computers & Security* --- and peer-reviewed conference proceedings --- ICIS, ECIS, USENIX Security, CCS --- form the core; books and textbooks add synthesis; grey literature such as NIST and ENISA reports, vendor white papers and industry surveys adds practice and data but must be labelled as what it is; blogs and vendor pages add currency and marketing. The databases of our field are the AIS eLibrary, IEEE Xplore, the ACM Digital Library, Scopus and Web of Science, with Google Scholar as a wide net and a poor filter. Every database has its own syntax for Boolean operators, wildcards and field limits, and a search log records which syntax was used where.
+Sources differ in quality, and the quality hierarchy is not the same as the ease of finding. Peer-reviewed journals (for us the AIS Basket of Eight, *IEEE Transactions on Information Forensics and Security*, *Computers & Security*) and peer-reviewed conferences (ICIS, ECIS, USENIX Security, CCS) form the core; @tbl-05-2 sorts the source types, from books and grey literature down to blogs and vendor pages. The databases of our field are the AIS eLibrary, IEEE Xplore, the ACM Digital Library, Scopus and Web of Science, with Google Scholar as a wide net and a poor filter. Every database has its own syntax for Boolean operators, wildcards and field limits, and a search log records which syntax was used where.
 
 ## Systematic search {#sec-05-systematic-search}
 
