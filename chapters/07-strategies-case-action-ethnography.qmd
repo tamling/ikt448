@@ -153,7 +153,7 @@ Six weeks embedded in the SOC (with written access agreement): observing shift h
 
 -   The written runbook says one thing; the **lived triage culture** does another --- only presence over time reveals the gap
 
--   Contrast with session 9's methods: an interview would return the runbook version; observation returns practice
+-   Contrast with session 9's methods: interviews about concrete incidents ("tell me about the last time ...") also bring the shortcuts to light; observation shows them without anyone having to be asked
 
 -   Ethics preview: overt observation, team informed, no individual-level reporting --- session 10 formalises this
 
