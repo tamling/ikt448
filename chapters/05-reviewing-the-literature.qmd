@@ -20,6 +20,18 @@ The review does four jobs for the essay. First, it justifies the problem: it sho
 
 vom Brocke et al. (2009) describe the review as a five-phase framework: definition of the review scope, conceptualisation of the topic, the literature search, the analysis and synthesis, and the research agenda. Their argument is that the search must be documented in enough detail to be repeated, which is what turns a review from a reading list into evidence. The chapter follows the phases.
 
+::: {#tbl-05-phases}
+  **Phase**                 **What you decide / do**                                                 **Example**
+  ------------------------- ------------------------------------------------------------------------ -------------------------------------------------------------------------------------
+  1. Review scope           focus, goal, coverage, audience                                          empirical studies on workplace password behaviour, 2015--2026
+  2. Conceptualisation      working definitions of the key terms; the concepts behind the question   what counts as "reuse"? candidate theories (security fatigue)? → your keyword table
+  3. Search process         journals → databases → keywords → backward/forward → evaluation          the search log and criteria
+  4. Analysis & synthesis   extract by **concept**, not by paper                                     the concept matrix
+  5. Research agenda        what remains open --- and therefore your study                           the gap paragraph ending in your question
+
+The five phases of a literature review (vom Brocke et al., 2009), with the running example
+:::
+
 ## Where to look {#sec-05-where-to-look}
 
 Sources differ in quality, and the quality hierarchy is not the same as the ease of finding. Peer-reviewed journals --- for our field the AIS basket of eight, *IEEE Transactions on Information Forensics and Security*, *Computers & Security* --- and peer-reviewed conference proceedings --- ICIS, ECIS, USENIX Security, CCS --- form the core; books and textbooks add synthesis; grey literature such as NIST and ENISA reports, vendor white papers and industry surveys adds practice and data but must be labelled as what it is; blogs and vendor pages add currency and marketing. The databases of our field are the AIS eLibrary, IEEE Xplore, the ACM Digital Library, Scopus and Web of Science, with Google Scholar as a wide net and a poor filter. Every database has its own syntax for Boolean operators, wildcards and field limits, and a search log records which syntax was used where.
