@@ -278,7 +278,7 @@ What are the steps that lead from a **transcript** to a **theme**?
 ::: {#exr-09-coding-a-fragment}
 ## Coding a fragment
 
-**Coding a fragment** --- two people code the same transcript independently. They disagree on a third of the codes. Is that a problem?
+**Coding a fragment** --- two people code the same transcript independently. They disagree on a noticeable share of the codes. Is that a problem?
 :::
 
 ::: {#exr-09-your-qualitative-data-plan}
