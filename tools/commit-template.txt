@@ -9,11 +9,13 @@
 # Uncomment the three lines below. Trailers must be the LAST block.
 #
 # Annotation: <hypothesis id>[, <id2>]    from the URL hypothes.is/a/<id>
-# Type:       error | clarity | extension | editorial
-#             error     = factually/technically wrong statement fixed
-#             clarity   = correct but unclear/too compressed → rewritten
-#             extension = missing content/example added
-#             editorial = typo, formatting, link
+# Type:       factual | outdated | oversimplified | unsourced | pointer | editorial
+#             factual        = statement was wrong
+#             outdated       = statement was right once, the world moved on
+#             oversimplified = right but too compressed; nuance or example added
+#             unsourced      = claim needed a source, or the source was wrong
+#             pointer        = cross-reference or link added/fixed
+#             editorial      = wording, typo, formatting
 # Origin:     model | author | source
 #             model  = introduced by the LLM draft
 #             author = introduced/left in by the lecturer's edits
@@ -21,5 +23,5 @@
 #
 # Example:
 # Annotation: Xk3f9aQ2Ee6hJ1uY7c0lPg
-# Type: error
+# Type: factual
 # Origin: model
