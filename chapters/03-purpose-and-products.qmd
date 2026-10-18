@@ -233,15 +233,15 @@ Practice-based knowledge production: types, examples and their source of legitim
 *These sources are normatively binding without having been tested empirically.*
 
 ::: {#tbl-03-6}
-  **Dimension**      **Research**                         **Standards and practice**
-  ------------------ ------------------------------------ ----------------------------------
-  Type of claim      Descriptive, explanatory             Prescriptive, normative
-  Validation         Evidence, replication, peer review   Consensus, voting, uptake
-  Error correction   Refutation, revision of theory       Revision cycle of the document
-  Pace               Slow                                 Fast, market-driven
-  Reach              Generalisation is the aim            Applicability is the aim
-  Audience           The research community               Organisation, auditor, regulator
-  Failure means      The hypothesis is rejected           The standard is not adopted
+  **Dimension**      **Research**                                                                                                      **Standards and practice**
+  ------------------ ----------------------------------------------------------------------------------------------------------------- ----------------------------------
+  Type of claim      Descriptive, explanatory                                                                                          Prescriptive, normative
+  Validation         Evidence, replication, peer review                                                                                Consensus, voting, uptake
+  Error correction   Refutation, revision of theory                                                                                    Revision cycle of the document
+  Pace               Slow                                                                                                              Fast, market-driven
+  Reach              Generalisation is the aim                                                                                         Applicability is the aim
+  Audience           The research community                                                                                            Organisation, auditor, regulator
+  Failure means      The study could not test its hypothesis --- a cleanly tested and rejected hypothesis is a result, not a failure   The standard is not adopted
 
 Research and standards compared: two systems of knowledge production
 :::
