@@ -76,8 +76,8 @@ Five sentences cover the checklist --- built on the SIKT template, adapted to yo
 
 ::: {#tbl-10-2}
   **As transcribed**                                                                                    **As reported**
-  ----------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
-  "As the only senior backend dev here, I told Anna in March that the payment service was wide open."   "One developer described raising a serious service vulnerability with management months before it was addressed."
+  ----------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------
+  "As the only senior backend dev here, I told Anna in March that the payment service was wide open."   "One developer described raising a serious service vulnerability with management."
 
 Anonymisation: as transcribed and as reported
 :::
