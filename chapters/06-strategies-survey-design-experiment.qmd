@@ -212,17 +212,17 @@ Name the strategy, show it fits the **question**, and show it fits your **resour
 ::: {#tbl-06-6}
   **Paper**                                 **Strategy (Oates)**                            **Data generation**         **Sample and analysis**
   ----------------------------------------- ----------------------------------------------- --------------------------- -----------------------------------------------------------------------
-  [Biloš & Budimir (2024)](#src-06-bilos-2024)                    Survey                                          Questionnaire               694 respondents; factor analysis, hierarchical regression
-  [Huy et al. (2024)](#src-06-huy-2024)                         Survey (with a developmental interview phase)   Questionnaire; interviews   671 respondents; CB-SEM; 20 interviews to build the use scale
-  [Grassini et al. (2024)](#src-06-grassini-2024)                    Survey                                          Questionnaire               104 Norwegian students; PLS-SEM (session 8)
-  [Jo & Park (2024)](#src-06-jo-2024)                          Survey                                          Questionnaire               351 workers via a polling panel; PLS-SEM
-  [Sparrow et al. (2011)](#src-06-sparrow-2011)                     Experiment                                      Laboratory tasks            Four experiments; random assignment; recall as outcome
-  [Mayer et al. (2025)](#src-06-mayer-2025)                       Case study                                      Interviews                  One consultancy; semi-structured interviews (session 7)
-  [Boodraj et al. (2026)](#src-06-boodraj-2026)                     Survey (of documents)                           Documents                   161,000 job postings analysed with Python (session 9)
-  [Woodruff et al. (2024)](#src-06-woodruff-2024)                    Survey (of workshops)[^1]                       Workshops                   54 knowledge workers, seven industries; thematic analysis (session 9)
-  [Enholm et al. (2022)](#src-06-enholm-2022)                      Systematic literature review                    Documents (papers)          43 papers; concept matrix (session 5)
-  [von Nordenflycht (2010)](#src-06-vonnordenflycht-2010)                   Conceptual --- theory and taxonomy              None                        No data; argument from the literature
-  [Sapkota et al. (2025)](#src-06-sapkota-2025); [Venkatesh (2022)](02-approaches-to-research.qmd#src-02-venkatesh-2022)   Conceptual review; research agenda              None                        No data of their own
+  Biloš & Budimir (2024)                    Survey                                          Questionnaire               694 respondents; factor analysis, hierarchical regression
+  Huy et al. (2024)                         Survey (with a developmental interview phase)   Questionnaire; interviews   671 respondents; CB-SEM; 20 interviews to build the use scale
+  Grassini et al. (2024)                    Survey                                          Questionnaire               104 Norwegian students; PLS-SEM (session 8)
+  Jo & Park (2024)                          Survey                                          Questionnaire               351 workers via a polling panel; PLS-SEM
+  Sparrow et al. (2011)                     Experiment                                      Laboratory tasks            Four experiments; random assignment; recall as outcome
+  Mayer et al. (2025)                       Case study                                      Interviews                  One consultancy; semi-structured interviews (session 7)
+  Boodraj et al. (2026)                     Survey (of documents)                           Documents                   161,000 job postings analysed with Python (session 9)
+  Woodruff et al. (2024)                    Survey (of workshops)[^1]                       Workshops                   54 knowledge workers, seven industries; thematic analysis (session 9)
+  Enholm et al. (2022)                      Systematic literature review                    Documents (papers)          43 papers; concept matrix (session 5)
+  von Nordenflycht (2010)                   Conceptual --- theory and taxonomy              None                        No data; argument from the literature
+  Sapkota et al. (2025); Venkatesh (2022)   Conceptual review; research agenda              None                        No data of their own
 
 This semester's papers by strategy, data and analysis
 :::

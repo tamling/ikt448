@@ -133,7 +133,7 @@ Four questions to ask of any claim:
 ::: {#tbl-01-1}
   **"95 % of breaches are human error"**                                                  **"Agentic AI will handle incident response"**
   --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  LinkedIn post → keynote slide → vendor report → **no method section**: the trail ends   Vendor blog → peer-reviewed review ([Sapkota et al., 2025](#src-01-sapkota-2025)) → method visible: literature search and conceptual taxonomy; incident response appears as an **illustrative scenario**, not as an evaluation
+  LinkedIn post → keynote slide → vendor report → **no method section**: the trail ends   Vendor blog → peer-reviewed review (Sapkota et al., 2025) → method visible: literature search and conceptual taxonomy; incident response appears as an **illustrative scenario**, not as an evaluation
   Assessment: unverifiable as stated                                                      Assessment: a documented design proposal; the empirical evidence is still to be produced
 
 Tracing two claims to their source with the four questions
@@ -169,7 +169,7 @@ Three claims from a security workplace, tested against the three conditions of p
 
 ::: {#tbl-01-3}
   ---------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------
-  "Agentic AI shortens incident response time"   **Testable** --- once response time and a baseline are defined. [Sapkota et al. (2025)](#src-01-sapkota-2025) propose the scenario; nobody has measured it yet
+  "Agentic AI shortens incident response time"   **Testable** --- once response time and a baseline are defined. Sapkota et al. (2025) propose the scenario; nobody has measured it yet
   "Our architecture is elegant"                  **Not testable** as stated --- "elegant" predicts nothing observable
   "Zero trust is better"                         **Not testable *yet*** --- it becomes testable once "better" is operationalised: fewer successful lateral movements? lower incident cost?
   ---------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------
@@ -203,7 +203,7 @@ Each of these can **become** research: build the tool *and* evaluate it systemat
 The study of [Sapkota et al. (2025)](#src-01-sapkota-2025) decomposed into the components that the sessions of this course treat one by one.
 
 ::: {#tbl-01-5}
-  **Component**         **In [Sapkota et al. (2025)](#src-01-sapkota-2025)**                                                        **In this course**
+  **Component**         **In Sapkota et al. (2025)**                                                        **In this course**
   --------------------- ----------------------------------------------------------------------------------- --------------------
   Purpose and problem   Two terms conflated; a taxonomy is needed                                           Session 3
   Research question     How do AI agents and agentic AI differ in architecture, autonomy and application?   Session 4
@@ -213,7 +213,7 @@ The study of [Sapkota et al. (2025)](#src-01-sapkota-2025) decomposed into the c
   Ethics                AI writing assistance declared; funding disclosed; open access                      Session 10
   Write-up              The *Information Fusion* article itself                                             Session 11
 
-The components of any study, in [Sapkota et al. (2025)](#src-01-sapkota-2025) and in the sessions of this course
+The components of any study, in Sapkota et al. (2025) and in the sessions of this course
 :::
 
 Every session of this course is one row of this table --- applied to **your own** essay and master's thesis.

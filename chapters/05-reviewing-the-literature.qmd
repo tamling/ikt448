@@ -29,7 +29,7 @@ This chapter's subject, the literature review, does four jobs for the essay. Fir
   4. Analysis & synthesis   extract by **concept**, not by paper                                     the concept matrix
   5. Research agenda        what remains open --- and therefore your study                           the gap paragraph ending in your question
 
-The five phases of a literature review ([vom Brocke et al., 2009](#src-05-vombrocke-2009)), with the running example
+The five phases of a literature review (vom Brocke et al., 2009), with the running example
 :::
 
 ## Where to look {#sec-05-where-to-look}
@@ -251,7 +251,7 @@ For your essay: the diagram plus documented criteria are the visible artefacts -
   Result      43 papers extracted into a **concept matrix**; synthesis in three parts (enablers and inhibitors, typologies of use, first- and second-order effects) and a research agenda
   ----------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-A published systematic review ([Enholm et al., 2022](#src-05-enholm-2022)), step by step
+A published systematic review (Enholm et al., 2022), step by step
 :::
 
 Everything Part II of your essay asks for is visible in one paper: protocol, strings, databases, dates, criteria, counts, matrix. Their Figure 1 is the PRISMA-style flow of the selection.

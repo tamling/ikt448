@@ -383,11 +383,15 @@ def link_citations(md: str, ch: Chapter) -> str:
         return "(" + new + ")" if new != inner else m.group(0)
     paren = re.compile(r"\((" + NAME + r"[^()\n]*?, " + YEAR + r"[^()\n]*)\)")
     out_lines = []
-    in_code = False
+    in_code = in_tbl = False
     for line in md.split("\n"):
         if line.startswith("```"):
             in_code = not in_code
-        if in_code or line.startswith("![") or line.startswith("{{<"):
+        if line.startswith("::: {#tbl-"):      # pandoc simple tables are cut at the dashed line's
+            in_tbl = True                      # column starts: a link would lengthen the row and
+        elif in_tbl and line.strip() == ":::": # split words across cells, so no links in tables
+            in_tbl = False
+        if in_code or in_tbl or line.startswith("![") or line.startswith("{{<"):
             out_lines.append(line)
             continue
         line = narr.sub(n_sub, line)

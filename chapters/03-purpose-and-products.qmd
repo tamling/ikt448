@@ -258,7 +258,7 @@ Research and standards compared: two systems of knowledge production
   Presentation   Journal article: introduction, theory and hypotheses, methodology, results, discussion with contributions and limitations
   -------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[Huy et al. (2024)](#src-03-huy-2024) through the 6Ps
+Huy et al. (2024) through the 6Ps
 :::
 
 Note the 20 interviews inside a quantitative study: a developmental mixed-methods element (session 2), used to build the instrument, not to answer the question.

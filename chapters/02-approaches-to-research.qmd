@@ -126,7 +126,7 @@ Deduction runs **top-down** from theory (typical for quantitative research); ind
 ### Two current quantitative studies
 
 ::: {#tbl-02-1}
-             **[Biloš & Budimir (2024)](#src-02-bilos-2024)**                                                                                                                                                                                          **[Huy et al. (2024)](#src-02-huy-2024)**
+             **Biloš & Budimir (2024)**                                                                                                                                                                                          **Huy et al. (2024)**
   ---------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------
   Sample     694 Generation Z respondents, Croatia; online questionnaire, seven-point Likert                                                                                                                                     671 ChatGPT users, Vietnam; questionnaire, face-to-face and online
   Theory     Extended UTAUT2                                                                                                                                                                                                     UTAUT2 integrated with task--technology fit; trust and curiosity added
@@ -153,7 +153,7 @@ Mixed methods research combines quantitative and qualitative methods in the same
   Compensation                   To compensate for the weaknesses of one approach with the other
   Diversity                      To obtain divergent views of the same phenomenon
 
-The seven purposes of mixed methods research ([Venkatesh, Brown & Bala, 2013](#src-02-venkatesh-2013))
+The seven purposes of mixed methods research (Venkatesh, Brown & Bala, 2013)
 :::
 
 *Purposes adapted from [Venkatesh et al. (2013)](#src-02-venkatesh-2013), Table 1. An essay that proposes mixed methods names its purpose in these terms.*

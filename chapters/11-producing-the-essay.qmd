@@ -263,10 +263,10 @@ One row per paper, one column per concept; the cells hold what the paper says ab
 ::: {#tbl-11-9}
   **Paper**                **Expected impact**                          **Mechanism**                                               **Human role**              **Method**
   ------------------------ -------------------------------------------- ----------------------------------------------------------- --------------------------- ---------------
-  [Woodruff et al. (2024)](#src-11-woodruff-2024)   Not disruptive; amplifies four forces        Deskilling, dehumanisation, disconnection, disinformation   Reviewer of AI output       Workshops, 54
-  [Huy et al. (2024)](#src-11-huy-2024)        Adoption driven by expectancy and fit        UTAUT2 + TTF paths                                          User; curiosity moderates   Survey, 671
-  [Jo & Park (2024)](#src-11-jo-2024)         Information support, knowledge acquisition   Perceived intelligence, self-learning                       Worker aged 20--40          Survey, 351
-  [Enholm et al. (2022)](#src-11-enholm-2022)     Business value, first- and second-order      Enablers, inhibitors, typologies                            Organisation                SLR, 43
+  Woodruff et al. (2024)   Not disruptive; amplifies four forces        Deskilling, dehumanisation, disconnection, disinformation   Reviewer of AI output       Workshops, 54
+  Huy et al. (2024)        Adoption driven by expectancy and fit        UTAUT2 + TTF paths                                          User; curiosity moderates   Survey, 671
+  Jo & Park (2024)         Information support, knowledge acquisition   Perceived intelligence, self-learning                       Worker aged 20--40          Survey, 351
+  Enholm et al. (2022)     Business value, first- and second-order      Enablers, inhibitors, typologies                            Organisation                SLR, 43
 
 The concept matrix with this semester's papers
 :::

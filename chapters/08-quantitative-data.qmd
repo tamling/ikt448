@@ -269,7 +269,7 @@ A validated instrument (the items are in the appendix of the 2012 paper) and a m
   Model      Complex models, many constructs, formative measures        Reflective measures, established theory
   Data       Works with smaller samples and non-normal data             Needs larger samples and near-normal data
   Software   SmartPLS                                                   AMOS, lavaan (R), Mplus
-  Used in    [Grassini et al. (2024)](#src-08-grassini-2024); [Jo & Park (2024)](#src-08-jo-2024)                   [Huy et al. (2024)](#src-08-huy-2024)
+  Used in    Grassini et al. (2024); Jo & Park (2024)                   Huy et al. (2024)
 
 PLS-SEM and CB-SEM compared
 :::
@@ -303,7 +303,7 @@ Every number above appears in the results section of [Grassini et al. (2024)](#s
 :::
 
 ::: {#tbl-08-10}
-             **[Grassini, Aasen & Møgelvang (2024)](#src-08-grassini-2024)**                                                                         **[Jo & Park (2024)](#src-08-jo-2024)**
+             **Grassini, Aasen & Møgelvang (2024)**                                                                         **Jo & Park (2024)**
   ---------- -------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Question   Which UTAUT2 constructs explain students' intention to use ChatGPT, and their use?                             How do ChatGPT's perceived intelligence and self-learning affect information support, knowledge acquisition and use at work?
   Sample     104 students at universities in West and Central Norway; stop rule set in advance (date or 100 participants)   351 workers aged 20--40, Korea, recruited through a polling company's panel
