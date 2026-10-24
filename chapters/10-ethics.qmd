@@ -278,8 +278,6 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 
 ## Sources {#sec-10-sources .unnumbered}
 
--   Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 4--5 (The digital researcher; Participants and research ethics).
-
--   Université de Montréal. (2018). *Montréal Declaration for a Responsible Development of Artificial Intelligence*. <https://montrealdeclaration-responsibleai.com>
-
--   Laudon, K. C., & Laudon, J. P. (2022). *Management information systems: Managing the digital firm* (17th ed., Global ed.). Pearson. --- Chapter 4 (Ethical and social issues in information systems).
+- []{#src-10-oates-2022}Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 4--5 (The digital researcher; Participants and research ethics).
+- Université de Montréal. (2018). *Montréal Declaration for a Responsible Development of Artificial Intelligence*. <https://montrealdeclaration-responsibleai.com>
+- []{#src-10-laudon-2022}Laudon, K. C., & Laudon, J. P. (2022). *Management information systems: Managing the digital firm* (17th ed., Global ed.). Pearson. --- Chapter 4 (Ethical and social issues in information systems).

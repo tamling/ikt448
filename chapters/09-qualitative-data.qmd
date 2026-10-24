@@ -18,7 +18,7 @@ An interview refers to a conversation between researcher and participant that ha
 
 Interviews come in three degrees of structure. A structured interview asks the same fixed questions of everyone and is close to a questionnaire read aloud; a semi-structured interview follows a guide of open questions with room for probes and reordering; an unstructured interview starts from a topic and follows the participant. Most master's theses use the semi-structured form, and the guide is its instrument: an opening that settles the participant, two or three core questions that address the research question, probes that follow the material --- "what happened then?" --- and a closing that asks what was missed. Good questions are open, concrete and not leading: "tell me about the last time you ..." asks for an episode and produces data, whereas "do you think X is important?" produces a yes. The practicalities are known and still neglected: a pre-tested guide, consent obtained before recording, a quiet setting, audio recording and verbatim transcription, and a note after each interview on what surprised the interviewer.
 
-Mayer, Baygi and Buwalda (2025) show what a published interview study reports. They interviewed entry-level professionals first, and then senior consultants and managers once the first interviews raised questions about how seniors perceive the change --- the sample followed the analysis. The interviews were semi-structured, about 45 minutes, audio-recorded and transcribed verbatim, and the guide is published in the appendix. Three known forms of job crafting came out of the data and one new form, signal crafting, which the guide had not asked for. The parts to copy are two: the sampling decision is explained as a consequence of the analysis, and the guide is published. Both belong in Part IV of the essay.
+[Mayer, Baygi and Buwalda (2025)](#src-09-mayer-2025) show what a published interview study reports. They interviewed entry-level professionals first, and then senior consultants and managers once the first interviews raised questions about how seniors perceive the change --- the sample followed the analysis. The interviews were semi-structured, about 45 minutes, audio-recorded and transcribed verbatim, and the guide is published in the appendix. Three known forms of job crafting came out of the data and one new form, signal crafting, which the guide had not asked for. The parts to copy are two: the sampling decision is explained as a consequence of the analysis, and the guide is published. Both belong in Part IV of the essay.
 
 ## Observations and documents {#sec-09-observations-and-documents}
 
@@ -28,7 +28,7 @@ Mayer, Baygi and Buwalda (2025) show what a published interview study reports. T
 Observation refers to watching and recording what people actually do, as opposed to what they say they do, either systematically with a predefined schedule or as a participant in the setting.
 :::
 
-Systematic observation uses a schedule of categories and counts occurrences; participant observation immerses the researcher in the setting and records field notes. Both raise the question of the observer's effect, which the essay addresses rather than ignores. Documents are the third source: policies, incident reports, meeting minutes, logs, job postings and software repositories are data that already exist, and the method questions are the same as for interviews --- which corpus, why, how selected and how coded. Boodraj et al. (2026) show documents at scale: they asked which skills and competencies are most in demand for cyber security project managers, took 5,841 cyber security project manager and 155,436 IT project manager job postings from 2014 to 2025 from a labour market database, analysed them with Python-based text analytics, and plan a market basket analysis of co-occurring skills; their preliminary finding is that employers ask for dual-domain certifications and for interpersonal and team skills.
+Systematic observation uses a schedule of categories and counts occurrences; participant observation immerses the researcher in the setting and records field notes. Both raise the question of the observer's effect, which the essay addresses rather than ignores. Documents are the third source: policies, incident reports, meeting minutes, logs, job postings and software repositories are data that already exist, and the method questions are the same as for interviews --- which corpus, why, how selected and how coded. [Boodraj et al. (2026)](#src-09-boodraj-2026) show documents at scale: they asked which skills and competencies are most in demand for cyber security project managers, took 5,841 cyber security project manager and 155,436 IT project manager job postings from 2014 to 2025 from a labour market database, analysed them with Python-based text analytics, and plan a market basket analysis of co-occurring skills; their preliminary finding is that employers ask for dual-domain certifications and for interpersonal and team skills.
 
 ## Analysis {#sec-09-analysis}
 
@@ -42,7 +42,7 @@ The sequence runs from the transcript to the theme, and every step is visible. F
 
 ## The qualitative data plan {#sec-09-the-qualitative-data-plan}
 
-Part IV of the essay asks for a data plan with five elements: participants, method, handling, analysis and limitations. The number of participants is argued rather than asserted. "Saturation" is tied to grounded theory and used inconsistently; Malterud, Siersma and Guassora (2016) propose information power instead. The more relevant information the sample holds, the fewer participants are needed, and five dimensions decide it: a narrow study aim needs fewer participants than a broad one; a dense sample, whose participants hold exactly the experience sought, needs fewer than a sparse one; a study that applies established theory needs fewer than one that does not; a strong dialogue --- clear, focused, articulate --- needs fewer than a weak one; and case analysis in depth needs fewer than cross-case analysis. "Eight interviews with SOC analysts, a narrow aim, a dense sample and UTAUT as a lens" is an argument; "until saturation" is not, and the argument is revisited during data collection.
+Part IV of the essay asks for a data plan with five elements: participants, method, handling, analysis and limitations. The number of participants is argued rather than asserted. "Saturation" is tied to grounded theory and used inconsistently; [Malterud, Siersma and Guassora (2016)](#src-09-malterud-2016) propose information power instead. The more relevant information the sample holds, the fewer participants are needed, and five dimensions decide it: a narrow study aim needs fewer participants than a broad one; a dense sample, whose participants hold exactly the experience sought, needs fewer than a sparse one; a study that applies established theory needs fewer than one that does not; a strong dialogue --- clear, focused, articulate --- needs fewer than a weak one; and case analysis in depth needs fewer than cross-case analysis. "Eight interviews with SOC analysts, a narrow aim, a dense sample and UTAUT as a lens" is an argument; "until saturation" is not, and the argument is revisited during data collection.
 
 The honest limitations of most qualitative theses are access and self-report: a small purposive sample from one organisation, and accounts of behaviour rather than behaviour. Naming them is judgement; hiding them is a weakness.
 
@@ -64,7 +64,7 @@ For the question *"what does 'secure enough' mean to sysadmins in small business
 
 Rules visible in the example: **open** questions, **concrete episodes** (not opinions in general), **no leading**, probes prepared but flexible.
 
--   **How many?** Argue it with **information power** (Malterud et al., 2016): the more relevant information the sample holds, the fewer participants are needed. Saturation --- new interviews stop producing new themes --- is the older criterion and is not enough on its own. At master's scale, 6--12 semi-structured interviews of 30--60 minutes is a defensible plan --- *state the argument*, don't just state a number.
+-   **How many?** Argue it with **information power** ([Malterud et al., 2016](#src-09-malterud-2016)): the more relevant information the sample holds, the fewer participants are needed. Saturation --- new interviews stop producing new themes --- is the older criterion and is not enough on its own. At master's scale, 6--12 semi-structured interviews of 30--60 minutes is a defensible plan --- *state the argument*, don't just state a number.
 
 -   **Recording:** always ask consent, always record (notes lie); audio only. Use the **Nettskjema diktafon app** --- audio goes straight to approved storage instead of your phone's cloud backup (session 10 explains why that matters).
 
@@ -112,7 +112,7 @@ Systematically watching and recording what people **actually do** in the setting
 Existing materials analysed as data: **found documents** (incident reports, policies, commit messages, pull-request threads, meeting minutes) or **researcher-generated** ones (diaries you ask participants to keep).
 :::
 
-Why they matter: interviews get the *account*; observation gets the *behaviour*; documents get the *trace*. Where the three disagree, the interesting finding usually lives. *Oates et al. (2022), Ch. 14, 16*
+Why they matter: interviews get the *account*; observation gets the *behaviour*; documents get the *trace*. Where the three disagree, the interesting finding usually lives. *[Oates et al. (2022)](#src-09-oates-2022), Ch. 14, 16*
 
 ::: {.callout-note}
 ## RQ: how does a development team actually handle security warnings?
@@ -153,7 +153,7 @@ Extract per PR: review turnaround, number of comments, whether the security chec
 
 ![Thematic analysis in five steps: familiarise, code, build themes, review, and define and write.](figures/fig-09-1.svg){#fig-09-1}
 
-Steps 2--4 are a **cycle**, not a sequence: reviewing themes sends you back to recode, often several times. You exit to writing only when new passes stop changing the themes. Inductive by default: the codes come **from the data**, not from a list made in advance. *Based on Oates et al. (2022), Ch. 18*
+Steps 2--4 are a **cycle**, not a sequence: reviewing themes sends you back to recode, often several times. You exit to writing only when new passes stop changing the themes. Inductive by default: the codes come **from the data**, not from a list made in advance. *Based on [Oates et al. (2022)](#src-09-oates-2022), Ch. 18*
 
 ::: {#tbl-09-3}
   **Transcript (sysadmin, small business)**                               **Code**                     **Theme**
@@ -305,12 +305,8 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 
 ## Sources {#sec-09-sources .unnumbered}
 
--   Malterud, K., Siersma, V. D., & Guassora, A. D. (2016). Sample size in qualitative interview studies: Guided by information power. *Qualitative Health Research*, *26*(13), 1753--1760. <https://doi.org/10.1177/1049732315617444>
-
--   Woodruff, A., Shelby, R., Kelley, P. G., Rousso-Schindler, S., Smith-Loud, J., & Wilcox, L. (2024). How knowledge workers think generative AI will (not) transform their industries. In *Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24)*. ACM. <https://doi.org/10.1145/3613904.3642700>
-
--   Boodraj, M., Fairbanks, J., Davies, C., & Akcakaya, O. (2026). Beyond the firewall: The rise of the cybersecurity project manager. In *AMCIS 2026 Proceedings* (Emergent Research Forum paper). AIS. <https://aisel.aisnet.org/amcis2026/sig_itpm/sig_itpm/2>
-
--   Mayer, A.-S., Baygi, R. M., & Buwalda, R. (2025). Generation AI: Job crafting by entry-level professionals in the age of generative AI. *Business & Information Systems Engineering*, *67*(5), 595--613. <https://doi.org/10.1007/s12599-025-00959-x>
-
--   Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 13--14, 16 and 18 (Interviews; Observations; Documents; Qualitative data analysis).
+- []{#src-09-malterud-2016}Malterud, K., Siersma, V. D., & Guassora, A. D. (2016). Sample size in qualitative interview studies: Guided by information power. *Qualitative Health Research*, *26*(13), 1753--1760. <https://doi.org/10.1177/1049732315617444>
+- []{#src-09-woodruff-2024}Woodruff, A., Shelby, R., Kelley, P. G., Rousso-Schindler, S., Smith-Loud, J., & Wilcox, L. (2024). How knowledge workers think generative AI will (not) transform their industries. In *Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24)*. ACM. <https://doi.org/10.1145/3613904.3642700>
+- []{#src-09-boodraj-2026}Boodraj, M., Fairbanks, J., Davies, C., & Akcakaya, O. (2026). Beyond the firewall: The rise of the cybersecurity project manager. In *AMCIS 2026 Proceedings* (Emergent Research Forum paper). AIS. <https://aisel.aisnet.org/amcis2026/sig_itpm/sig_itpm/2>
+- []{#src-09-mayer-2025}Mayer, A.-S., Baygi, R. M., & Buwalda, R. (2025). Generation AI: Job crafting by entry-level professionals in the age of generative AI. *Business & Information Systems Engineering*, *67*(5), 595--613. <https://doi.org/10.1007/s12599-025-00959-x>
+- []{#src-09-oates-2022}Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 13--14, 16 and 18 (Interviews; Observations; Documents; Qualitative data analysis).

@@ -6,25 +6,25 @@
 **Session 3** · Thursday 24 September 2026 · reading: Oates, Chapters 1--3
 :::
 
-Why do people do research, and what does research produce? This chapter answers both questions with Oates' 6Ps --- purpose, products, process, participants, paradigm and presentation. Huy et al. (2024) then illustrates all six. It then turns to the products: the forms a contribution to knowledge can take, from a taxonomy to a confirmed model, and the difference between descriptive and prescriptive knowledge. The last section contrasts research with the other system that produces the knowledge organisations actually use, standards and frameworks, and draws five rules for the method part of the essay.
+Why do people do research, and what does research produce? This chapter answers both questions with Oates' 6Ps --- purpose, products, process, participants, paradigm and presentation. [Huy et al. (2024)](#src-03-huy-2024) then illustrates all six. It then turns to the products: the forms a contribution to knowledge can take, from a taxonomy to a confirmed model, and the difference between descriptive and prescriptive knowledge. The last section contrasts research with the other system that produces the knowledge organisations actually use, standards and frameworks, and draws five rules for the method part of the essay.
 
 ## The 6Ps {#sec-03-the-6ps}
 
-Oates, Griffiths and McLean (2022, Chapter 1) organise the whole of research around six aspects that every study has, whether or not the author has thought about them: purpose, products, process, participants, paradigm and presentation. The purpose asks why the study is done; the products ask what comes out of it; the process describes the sequence of activities; the participants are the people involved and the way they are treated; the paradigm is the set of assumptions behind the study; and the presentation is the way in which the study is reported. The six are also the skeleton of the essay: purpose and questions belong to Part I, the process and the paradigm to Part III, the participants to Part IV, and the presentation is the essay itself, about ten pages and referenced.
+[Oates, Griffiths and McLean (2022, Chapter 1)](#src-03-oates-2022) organise the whole of research around six aspects that every study has, whether or not the author has thought about them: purpose, products, process, participants, paradigm and presentation. The purpose asks why the study is done; the products ask what comes out of it; the process describes the sequence of activities; the participants are the people involved and the way they are treated; the paradigm is the set of assumptions behind the study; and the presentation is the way in which the study is reported. The six are also the skeleton of the essay: purpose and questions belong to Part I, the process and the paradigm to Part III, the participants to Part IV, and the presentation is the essay itself, about ten pages and referenced.
 
-A published study provides a concrete example for each of the six. Huy et al. (2024) asked which factors drive ChatGPT use and whether initial use leads to continued use and recommendation; the gap was that UTAUT2 and task--technology fit had not been combined for generative AI and that curiosity was untested. Their products were an integrated model, a six-item scale for ChatGPT use, and evidence that most UTAUT2 and TTF factors matter while effort expectancy, social influence and trust do not. The process was deductive: literature, then model and hypotheses, then a questionnaire whose five-point Likert items were back-translated and piloted, then exploratory and confirmatory factor analysis and covariance-based structural equation modelling. The participants were 671 ChatGPT users in Vietnam, a convenience sample recruited face to face in four cities and online, supplemented by twenty interviews and five AI professors who helped to develop the use scale. The paradigm was positivist --- constructs measured, hypotheses tested, one model for all respondents --- and the presentation is a journal article with introduction, theory and hypotheses, methodology, results and discussion. Note the twenty interviews inside a quantitative study. They do not answer the research question; they were used to build the questionnaire. That is a developmental mixed-methods element: one method prepares the instrument for the other.
+A published study provides a concrete example for each of the six. [Huy et al. (2024)](#src-03-huy-2024) asked which factors drive ChatGPT use and whether initial use leads to continued use and recommendation; the gap was that UTAUT2 and task--technology fit had not been combined for generative AI and that curiosity was untested. Their products were an integrated model, a six-item scale for ChatGPT use, and evidence that most UTAUT2 and TTF factors matter while effort expectancy, social influence and trust do not. The process was deductive: literature, then model and hypotheses, then a questionnaire whose five-point Likert items were back-translated and piloted, then exploratory and confirmatory factor analysis and covariance-based structural equation modelling. The participants were 671 ChatGPT users in Vietnam, a convenience sample recruited face to face in four cities and online, supplemented by twenty interviews and five AI professors who helped to develop the use scale. The paradigm was positivist --- constructs measured, hypotheses tested, one model for all respondents --- and the presentation is a journal article with introduction, theory and hypotheses, methodology, results and discussion. Note the twenty interviews inside a quantitative study. They do not answer the research question; they were used to build the questionnaire. That is a developmental mixed-methods element: one method prepares the instrument for the other.
 
 ## Purpose {#sec-03-purpose}
 
 ::: {.callout-note}
 ## Purpose
 
-The purpose of a study refers to its reason for doing research: the topic of interest, why it is important or useful to study, and the specific research question or objectives that follow (Oates, Griffiths & McLean, 2022, Chapter 3).
+The purpose of a study refers to its reason for doing research: the topic of interest, why it is important or useful to study, and the specific research question or objectives that follow ([Oates, Griffiths & McLean, 2022, Chapter 3](#src-03-oates-2022)).
 :::
 
-Oates, Griffiths and McLean's (2022, Chapter 2) reasons for doing research translate readily into the security field. To add to the body of knowledge: how do phishing tactics evolve over time? To solve a problem: reduce false positives in a security operations centre. To test or evaluate a method: does an API gateway actually reduce attack surface? To find out "what happens if": what if we push passkeys to all customers? To develop a model or tool: build a threat model for a hospital network. To contribute to personal development: it counts, but write the essay's motivation on one of the others. Most cyber security proposals pursue the second or third reason; the essay's purpose statement is the second half of the funnel that turns a topic into a problem and a problem into a purpose.
+[Oates, Griffiths and McLean's (2022, Chapter 2)](#src-03-oates-2022) reasons for doing research translate readily into the security field. To add to the body of knowledge: how do phishing tactics evolve over time? To solve a problem: reduce false positives in a security operations centre. To test or evaluate a method: does an API gateway actually reduce attack surface? To find out "what happens if": what if we push passkeys to all customers? To develop a model or tool: build a threat model for a hospital network. To contribute to personal development: it counts, but write the essay's motivation on one of the others. Most cyber security proposals pursue the second or third reason; the essay's purpose statement is the second half of the funnel that turns a topic into a problem and a problem into a purpose.
 
-Research for practice has a long history in our field. McAfee and Brynjolfsson (2008) argued in the *Harvard Business Review* that competition in IT-intensive industries had accelerated since the mid-1990s. Winners pull away faster, and leaders change more often. The reason, they argued, is that enterprise IT lets a firm replicate a better process across the whole organisation at once. The claim rested on the authors' own analyses of US industry data, published separately in peer-reviewed form and summarised for managers in the article. The same mechanism --- a technology that propagates good practice fast --- is the argument made for AI today, which makes the 2008 article a template for reading 2026 claims. An HBR article sits in the professional layer of the supply chain; it is useful precisely because it rests on research the reader can trace, and the trace should be checked before it is cited.
+Research for practice has a long history in our field. [McAfee and Brynjolfsson (2008)](#src-03-mcafee-2008) argued in the *Harvard Business Review* that competition in IT-intensive industries had accelerated since the mid-1990s. Winners pull away faster, and leaders change more often. The reason, they argued, is that enterprise IT lets a firm replicate a better process across the whole organisation at once. The claim rested on the authors' own analyses of US industry data, published separately in peer-reviewed form and summarised for managers in the article. The same mechanism --- a technology that propagates good practice fast --- is the argument made for AI today, which makes the 2008 article a template for reading 2026 claims. An HBR article sits in the professional layer of the supply chain; it is useful precisely because it rests on research the reader can trace, and the trace should be checked before it is cited.
 
 ### From topic to problem to purpose
 
@@ -38,11 +38,11 @@ The funnel narrows in three steps. A topic is a broad area of interest, such as 
 The products of research refer to its outcomes, especially the contribution to knowledge: an answer to the research questions, but also unexpected findings.
 :::
 
-Oates, Griffiths and McLean (2022, Chapter 2) list the products research can produce: a new or improved product, a new theory, a re-interpretation of an existing theory, an in-depth analysis of a situation, an exploration of a topic, a critical analysis, a new research tool or technique, and a new or improved model. In IT terms these are an intrusion-detection component, a theory of why administrators ignore alerts, a critique of a maturity model, a security-awareness questionnaire, and so on. The contribution is what the world knows or has after the study that it did not know or have before.
+[Oates, Griffiths and McLean (2022, Chapter 2)](#src-03-oates-2022) list the products research can produce: a new or improved product, a new theory, a re-interpretation of an existing theory, an in-depth analysis of a situation, an exploration of a topic, a critical analysis, a new research tool or technique, and a new or improved model. In IT terms these are an intrusion-detection component, a theory of why administrators ignore alerts, a critique of a maturity model, a security-awareness questionnaire, and so on. The contribution is what the world knows or has after the study that it did not know or have before.
 
-Hevner (2021) adds a distinction that clarifies most master's theses. Science is both investigation (the process) and knowledge (the outcome), and the knowledge a study adds falls into one of two bases. Descriptive knowledge --- the "what" --- comprises phenomena and the regularities among them: observations, classifications, measurements, laws, patterns and theories. Prescriptive knowledge --- the "how" --- comprises human-built artefacts: constructs, models, methods and instantiations, together with design theories that state principles of form and function. A study shows its rigour and relevance by how it consumes existing knowledge and what it adds to these two bases. For your essay the consequence is one sentence: say which kind of knowledge your thesis will add --- a finding about how things are, or an artefact and the knowledge of how to build it. Most cyber security theses produce the second, and should say so.
+[Hevner (2021)](#src-03-hevner-2021) adds a distinction that clarifies most master's theses. Science is both investigation (the process) and knowledge (the outcome), and the knowledge a study adds falls into one of two bases. Descriptive knowledge --- the "what" --- comprises phenomena and the regularities among them: observations, classifications, measurements, laws, patterns and theories. Prescriptive knowledge --- the "how" --- comprises human-built artefacts: constructs, models, methods and instantiations, together with design theories that state principles of form and function. A study shows its rigour and relevance by how it consumes existing knowledge and what it adds to these two bases. For your essay the consequence is one sentence: say which kind of knowledge your thesis will add --- a finding about how things are, or an artefact and the knowledge of how to build it. Most cyber security theses produce the second, and should say so.
 
-Presthus and Munkvold (2016), writing at NOKOBIT for master's students and junior researchers, offer a taxonomy of the forms a contribution can take. Contributions to practice include lessons learned, experience reports, guidelines and roadmaps, heuristics, critical success factors and patterns. Theoretical contributions rise from building blocks upwards: concept, construct, rich insight and case description; framework or taxonomy, method and proposition; generative mechanism, hypothesis and model; and mid-range theory, design theory and grand theory. Four ways to contribute to an existing theory cover what most master's theses actually do: confirmation or replication, extension, contradiction and elimination. The authors consider this sufficient, provided the contribution is stated precisely, and give three pieces of advice: balance your own idea against what is already known; be critical of what you read and ask whether the field needs one more study on the topic; and decide the intended contribution before the study starts.
+[Presthus and Munkvold (2016)](#src-03-presthus-2016), writing at NOKOBIT for master's students and junior researchers, offer a taxonomy of the forms a contribution can take. Contributions to practice include lessons learned, experience reports, guidelines and roadmaps, heuristics, critical success factors and patterns. Theoretical contributions rise from building blocks upwards: concept, construct, rich insight and case description; framework or taxonomy, method and proposition; generative mechanism, hypothesis and model; and mid-range theory, design theory and grand theory. Four ways to contribute to an existing theory cover what most master's theses actually do: confirmation or replication, extension, contradiction and elimination. The authors consider this sufficient, provided the contribution is stated precisely, and give three pieces of advice: balance your own idea against what is already known; be critical of what you read and ask whether the field needs one more study on the topic; and decide the intended contribution before the study starts.
 
 ### What is expected at master's level
 
@@ -64,7 +64,7 @@ The ISO process shows why. A proposal becomes a working draft, a committee draft
 
 Seven dimensions summarise the comparison. Research makes descriptive claims, validates them by evidence, replication and peer review, corrects errors by refutation, moves slowly, aims at generalisation, addresses the research community, and fails when a hypothesis is rejected. Standards make prescriptive claims, validate them by consensus, voting and uptake, correct errors through the document's revision cycle, move fast and market-driven, aim at applicability, address the organisation, the auditor and the regulator, and fail when the standard is not adopted. The error-correction row is the most interesting: a standard gets revised, but never refuted.
 
-The two systems are connected in four ways. First, practice supplies the phenomena: RPA, agile, DevOps, zero trust, cloud governance and agentic AI all appeared in practice first, and research responds with a lag of two to four years against product cycles of months; some of the constructs research works with are taken from vendor material, and must be examined before operationalisation, or marketing vocabulary becomes a measurement. Secondly, research tests after the fact: does the prescribed measure work, under which conditions, with what effect size and side effects, and is the effect causal or self-selection? Standards assert effectiveness implicitly, through the authority of the procedure, and empirical evidence of effectiveness is neither required nor supplied. Thirdly, standards are themselves an object of research: Meyer and Rowan (1977) explain that structures are adopted for legitimacy and become decoupled from lived practice, and DiMaggio and Powell (1983) explain the spread of standards through coercive, mimetic and normative isomorphism --- which is why standards spread without evidence of effectiveness. Coercive: a regulator or a customer contract requires ISO 27001, so it is adopted. Mimetic: under uncertainty an organisation copies what the market leader does, as in a cloud migration "because everyone is doing it". Normative: professional norms, education and certification carry a practice into organisations, as when the CISSP body of knowledge becomes the way things are done. Lastly, research feeds back into practice through Mode 2 knowledge production (Gibbons et al., 1994), design science research (Hevner et al., 2004; Peffers et al., 2007), engaged scholarship (Van de Ven & Johnson, 2006) and evidence-based management (Rousseau, 2006).
+The two systems are connected in four ways. First, practice supplies the phenomena: RPA, agile, DevOps, zero trust, cloud governance and agentic AI all appeared in practice first, and research responds with a lag of two to four years against product cycles of months; some of the constructs research works with are taken from vendor material, and must be examined before operationalisation, or marketing vocabulary becomes a measurement. Secondly, research tests after the fact: does the prescribed measure work, under which conditions, with what effect size and side effects, and is the effect causal or self-selection? Standards assert effectiveness implicitly, through the authority of the procedure, and empirical evidence of effectiveness is neither required nor supplied. Thirdly, standards are themselves an object of research: [Meyer and Rowan (1977)](#src-03-meyer-1977) explain that structures are adopted for legitimacy and become decoupled from lived practice, and [DiMaggio and Powell (1983)](#src-03-dimaggio-1983) explain the spread of standards through coercive, mimetic and normative isomorphism --- which is why standards spread without evidence of effectiveness. Coercive: a regulator or a customer contract requires ISO 27001, so it is adopted. Mimetic: under uncertainty an organisation copies what the market leader does, as in a cloud migration "because everyone is doing it". Normative: professional norms, education and certification carry a practice into organisations, as when the CISSP body of knowledge becomes the way things are done. Lastly, research feeds back into practice through Mode 2 knowledge production ([Gibbons et al., 1994](#src-03-gibbons-1994)), design science research ([Hevner et al., 2004](#src-03-hevner-2004); [Peffers et al., 2007](#src-03-peffers-2007)), engaged scholarship ([Van de Ven & Johnson, 2006](#src-03-vandeven-2006)) and evidence-based management ([Rousseau, 2006](#src-03-rousseau-2006)).
 
 Five rules follow for the method part of the essay.
 
@@ -80,7 +80,7 @@ Five rules follow for the method part of the essay.
 
 ## The research process {#sec-03-the-research-process}
 
-Oates, Griffiths and McLean's (2022, Chapter 3) model of the research process runs from experiences and motivation through a literature review to research questions, a conceptual framework, one or more strategies, data generation methods, data analysis and the presentation of the results. The model is a map rather than a schedule: real projects loop back, and the literature review in particular is revisited when the question changes. The sessions of this course follow the model in order, and the essay's four parts do the same.
+[Oates, Griffiths and McLean's (2022, Chapter 3)](#src-03-oates-2022) model of the research process runs from experiences and motivation through a literature review to research questions, a conceptual framework, one or more strategies, data generation methods, data analysis and the presentation of the results. The model is a map rather than a schedule: real projects loop back, and the literature review in particular is revisited when the question changes. The sessions of this course follow the model in order, and the essay's four parts do the same.
 
 ## Worked examples and tables {#sec-03-worked-examples-and-tables}
 
@@ -116,7 +116,7 @@ If you can fill this table for your own project, your essay is essentially outli
 Oates' reasons for doing research, translated to IT
 :::
 
-Most real projects mix several reasons --- but **one** should dominate, because it decides what a "good answer" looks like. *Based on Oates et al. (2022), Ch. 2*
+Most real projects mix several reasons --- but **one** should dominate, because it decides what a "good answer" looks like. *Based on [Oates et al. (2022)](#src-03-oates-2022), Ch. 2*
 
 ### The funnel
 
@@ -157,7 +157,7 @@ The pattern of the good ones: *to **\[verb\]** \[specific thing\] so that \[some
 Types of contribution, with IT examples
 :::
 
-*Based on Oates et al. (2022), Ch. 2; for framing your contribution, see Presthus & Munkvold (2016) --- short and written for juniors.*
+*Based on [Oates et al. (2022)](#src-03-oates-2022), Ch. 2; for framing your contribution, see [Presthus & Munkvold (2016)](#src-03-presthus-2016) --- short and written for juniors.*
 
 ### Two kinds of knowledge
 
@@ -177,7 +177,7 @@ Knowledge of human-built artefacts: **constructs**, **models**, **methods**, **i
 
 A study shows its rigour and relevance by how it *consumes* existing knowledge and what it *adds* to these two bases. For your essay: say which kind your thesis will add --- a finding about how things are, or an artefact and the knowledge of how to build it. Most cyber security theses produce the second, and should say so.
 
-*Hevner (2021), building on Gregor & Hevner (2013) and Hevner et al. (2004).*
+*[Hevner (2021)](#src-03-hevner-2021), building on Gregor & Hevner (2013) and [Hevner et al. (2004)](#src-03-hevner-2004).*
 
 ### Forms of contribution in IS
 
@@ -246,7 +246,7 @@ Practice-based knowledge production: types, examples and their source of legitim
 Research and standards compared: two systems of knowledge production
 :::
 
-### Huy et al. (2024) through the 6Ps
+### [Huy et al. (2024)](#src-03-huy-2024) through the 6Ps
 
 ::: {#tbl-03-7}
   -------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -258,7 +258,7 @@ Research and standards compared: two systems of knowledge production
   Presentation   Journal article: introduction, theory and hypotheses, methodology, results, discussion with contributions and limitations
   -------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Huy et al. (2024) through the 6Ps
+[Huy et al. (2024)](#src-03-huy-2024) through the 6Ps
 :::
 
 Note the 20 interviews inside a quantitative study: a developmental mixed-methods element (session 2), used to build the instrument, not to answer the question.
@@ -267,7 +267,7 @@ Note the 20 interviews inside a quantitative study: a developmental mixed-method
 
 ![A model of the research process (after Oates, Griffiths & McLean, 2022): from experiences and motivation and the literature review to questions, strategy, data generation, analysis and contribution.](figures/fig-03-3.svg){#fig-03-3}
 
-Not a straight line in practice --- the dashed arrow is where real projects loop. Your **essay** describes one planned pass through this model. *Adapted from Oates et al. (2022), Ch. 3*
+Not a straight line in practice --- the dashed arrow is where real projects loop. Your **essay** describes one planned pass through this model. *Adapted from [Oates et al. (2022)](#src-03-oates-2022), Ch. 3*
 
 ## Terms from this session {#sec-03-terms-from-this-session .unnumbered}
 
@@ -341,7 +341,7 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 
 ## Key points {#sec-03-key-points .unnumbered}
 
--   The 6Ps: purpose, products, process, participants, paradigm, presentation --- Huy et al. (2024) as the worked example
+-   The 6Ps: purpose, products, process, participants, paradigm, presentation --- [Huy et al. (2024)](#src-03-huy-2024) as the worked example
 
 -   From topic to problem to purpose --- the funnel
 
@@ -351,30 +351,17 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 
 ## Sources {#sec-03-sources .unnumbered}
 
--   Hevner, A. R. (2021). The duality of science: Knowledge in information systems research. *Journal of Information Technology*, *36*(1), 72--76. <https://doi.org/10.1177/0268396220945714>
-
--   Huy, L. V., Nguyen, H. T. T., Vo-Thanh, T., Thinh, N. H. T., & Tran, T. T. D. (2024). Generative AI, why, how, and outcomes: A user adoption study. *AIS Transactions on Human-Computer Interaction*, *16*(1), 1--27. <https://doi.org/10.17705/1thci.00198>
-
--   Presthus, W., & Munkvold, B. E. (2016). How to frame your contribution to knowledge? A guide for junior researchers in information systems. *NOKOBIT*, *24*(1). Paper presented at NOKOBIT 2016, Bergen.
-
--   McAfee, A., & Brynjolfsson, E. (2008). Investing in the IT that makes a competitive difference. *Harvard Business Review*, *86*(7/8), 98--107.
-
--   DiMaggio, P. J., & Powell, W. W. (1983). The iron cage revisited: Institutional isomorphism and collective rationality in organizational fields. *American Sociological Review*, *48*(2), 147--160.
-
--   Gibbons, M., Limoges, C., Nowotny, H., Schwartzman, S., Scott, P., & Trow, M. (1994). *The new production of knowledge*. SAGE.
-
--   Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, *28*(1), 75--105.
-
--   Meyer, J. W., & Rowan, B. (1977). Institutionalized organizations: Formal structure as myth and ceremony. *American Journal of Sociology*, *83*(2), 340--363.
-
--   Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. *Journal of Management Information Systems*, *24*(3), 45--77.
-
--   Rousseau, D. M. (2006). Is there such a thing as evidence-based management? *Academy of Management Review*, *31*(2), 256--269.
-
--   Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research methods for business students* (8th ed.). Pearson.
-
--   Van de Ven, A. H., & Johnson, P. E. (2006). Knowledge for theory and practice. *Academy of Management Review*, *31*(4), 802--821.
-
--   Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 1--3 (Introduction; The purpose and products of research; Overview of the research process).
-
--   Laudon, K. C., & Laudon, J. P. (2022). *Management information systems: Managing the digital firm* (17th ed., Global ed.). Pearson. --- Chapter 8 (Securing information systems) and Chapter 11 (Managing knowledge and artificial intelligence) as maps of possible topics.
+- []{#src-03-hevner-2021}Hevner, A. R. (2021). The duality of science: Knowledge in information systems research. *Journal of Information Technology*, *36*(1), 72--76. <https://doi.org/10.1177/0268396220945714>
+- []{#src-03-huy-2024}Huy, L. V., Nguyen, H. T. T., Vo-Thanh, T., Thinh, N. H. T., & Tran, T. T. D. (2024). Generative AI, why, how, and outcomes: A user adoption study. *AIS Transactions on Human-Computer Interaction*, *16*(1), 1--27. <https://doi.org/10.17705/1thci.00198>
+- []{#src-03-presthus-2016}Presthus, W., & Munkvold, B. E. (2016). How to frame your contribution to knowledge? A guide for junior researchers in information systems. *NOKOBIT*, *24*(1). Paper presented at NOKOBIT 2016, Bergen.
+- []{#src-03-mcafee-2008}McAfee, A., & Brynjolfsson, E. (2008). Investing in the IT that makes a competitive difference. *Harvard Business Review*, *86*(7/8), 98--107.
+- []{#src-03-dimaggio-1983}DiMaggio, P. J., & Powell, W. W. (1983). The iron cage revisited: Institutional isomorphism and collective rationality in organizational fields. *American Sociological Review*, *48*(2), 147--160.
+- []{#src-03-gibbons-1994}Gibbons, M., Limoges, C., Nowotny, H., Schwartzman, S., Scott, P., & Trow, M. (1994). *The new production of knowledge*. SAGE.
+- []{#src-03-hevner-2004}Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, *28*(1), 75--105.
+- []{#src-03-meyer-1977}Meyer, J. W., & Rowan, B. (1977). Institutionalized organizations: Formal structure as myth and ceremony. *American Journal of Sociology*, *83*(2), 340--363.
+- []{#src-03-peffers-2007}Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. *Journal of Management Information Systems*, *24*(3), 45--77.
+- []{#src-03-rousseau-2006}Rousseau, D. M. (2006). Is there such a thing as evidence-based management? *Academy of Management Review*, *31*(2), 256--269.
+- []{#src-03-saunders-2019}Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research methods for business students* (8th ed.). Pearson.
+- []{#src-03-vandeven-2006}Van de Ven, A. H., & Johnson, P. E. (2006). Knowledge for theory and practice. *Academy of Management Review*, *31*(4), 802--821.
+- []{#src-03-oates-2022}Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 1--3 (Introduction; The purpose and products of research; Overview of the research process).
+- []{#src-03-laudon-2022}Laudon, K. C., & Laudon, J. P. (2022). *Management information systems: Managing the digital firm* (17th ed., Global ed.). Pearson. --- Chapter 8 (Securing information systems) and Chapter 11 (Managing knowledge and artificial intelligence) as maps of possible topics.

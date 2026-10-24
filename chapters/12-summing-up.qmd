@@ -286,4 +286,4 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 
 ## Sources {#sec-12-sources .unnumbered}
 
--   Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- the whole book.
+- []{#src-12-oates-2022}Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- the whole book.

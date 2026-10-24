@@ -38,11 +38,11 @@ Five criteria decide whether a draft qualifies.
 
 5.  **Open**: not trivially yes or no; it invites analysis.
 
-Real research questions from the papers read in this course show the range. Presthus and Munkvold (2016) ask what forms of knowledge contribution can be targeted in information systems research --- a descriptive question answered by a taxonomy. Enholm et al. (2022) ask three review questions: what enables or inhibits AI use in organisations, what types of AI use exist, and through which mechanisms AI value is realised --- one topic, three facets. Woodruff et al. (2024) ask how knowledge workers expect generative AI to affect their industries --- exploratory and qualitative, answered by workshops. Boodraj et al. (2026) ask which skills and competencies are most in demand for cyber security project managers --- descriptive, answered from 161,000 job postings. Huy et al. (2024) state no question at all but a model with hypotheses; in quantitative work the hypothesis often replaces the question. Two observations follow: review and qualitative papers state their questions verbatim, and every question names its population and its phenomenon. Test your own draft against the same two markers.
+Real research questions from the papers read in this course show the range. [Presthus and Munkvold (2016)](#src-04-presthus-2016) ask what forms of knowledge contribution can be targeted in information systems research --- a descriptive question answered by a taxonomy. [Enholm et al. (2022)](#src-04-enholm-2022) ask three review questions: what enables or inhibits AI use in organisations, what types of AI use exist, and through which mechanisms AI value is realised --- one topic, three facets. [Woodruff et al. (2024)](#src-04-woodruff-2024) ask how knowledge workers expect generative AI to affect their industries --- exploratory and qualitative, answered by workshops. [Boodraj et al. (2026)](#src-04-boodraj-2026) ask which skills and competencies are most in demand for cyber security project managers --- descriptive, answered from 161,000 job postings. [Huy et al. (2024)](#src-04-huy-2024) state no question at all but a model with hypotheses; in quantitative work the hypothesis often replaces the question. Two observations follow: review and qualitative papers state their questions verbatim, and every question names its population and its phenomenon. Test your own draft against the same two markers.
 
 ## Question types {#sec-04-question-types}
 
-Qualitative questions follow a script. They begin with "how" or "what", name a central concept, use exploratory verbs --- explore, understand, describe, discover --- and specify the participants and the setting: "how do security analysts make sense of alert fatigue in a Norwegian SOC?". The script is a convention, not a rule: "why" is avoided because, as Creswell and Creswell (2018, Ch. 7) note, it invites justification rather than description, and a "how" or "what" opening keeps the question exploratory. Quantitative questions take one of three shapes. Descriptive questions ask how frequent or large something is: "how widespread is password reuse among SME employees?". Comparative questions ask whether groups differ: "do developers with security training produce fewer vulnerabilities than those without?". Relationship questions ask whether variables are associated: "is perceived account value associated with password reuse?". The relationship question often comes with a hypothesis, a predicted, testable answer derived from theory.
+Qualitative questions follow a script. They begin with "how" or "what", name a central concept, use exploratory verbs --- explore, understand, describe, discover --- and specify the participants and the setting: "how do security analysts make sense of alert fatigue in a Norwegian SOC?". The script is a convention, not a rule: "why" is avoided because, as [Creswell and Creswell (2018, Ch. 7)](02-approaches-to-research.qmd#src-02-creswell-2018) note, it invites justification rather than description, and a "how" or "what" opening keeps the question exploratory. Quantitative questions take one of three shapes. Descriptive questions ask how frequent or large something is: "how widespread is password reuse among SME employees?". Comparative questions ask whether groups differ: "do developers with security training produce fewer vulnerabilities than those without?". Relationship questions ask whether variables are associated: "is perceived account value associated with password reuse?". The relationship question often comes with a hypothesis, a predicted, testable answer derived from theory.
 
 Two templates make a question answerable. PICO --- population, intervention, comparison, outcome --- turns "does security training help?" into "among SME employees (P), does quarterly phishing simulation (I), compared with annual e-learning (C), reduce click rates on phishing e-mails (O) within six months?". GQM --- goal, question, metric --- was developed for software engineering and works for any evaluation: the goal is stated, the questions that would show whether it is met are derived, and each question receives a measurable metric.
 
@@ -71,7 +71,7 @@ The question decides more than the essay's first page. A "how widespread" questi
 The four layers of a question: aim, objective, research question and hypothesis, with a password-reuse example
 :::
 
-Aim = destination, objectives = milestones, question = what you ask the world, hypothesis = your predicted answer. *Based on Creswell & Creswell (2018), Ch. 7*
+Aim = destination, objectives = milestones, question = what you ask the world, hypothesis = your predicted answer. *Based on [Creswell & Creswell (2018)](02-approaches-to-research.qmd#src-02-creswell-2018), Ch. 7*
 
 ### Question types
 
@@ -90,7 +90,7 @@ Qualitative studies ask **one central question** plus a few sub-questions. Typic
 Sub: How do they describe trade-offs between security and day-to-day operations?
 :::
 
-*Based on Creswell & Creswell (2018), Ch. 7*
+*Based on [Creswell & Creswell (2018)](02-approaches-to-research.qmd#src-02-creswell-2018), Ch. 7*
 
 ::: {#tbl-04-2}
   **Shape**          **Template**                              **Example**
@@ -102,7 +102,7 @@ Sub: How do they describe trade-offs between security and day-to-day operations?
 Question types: shape, template and example
 :::
 
-Relationship questions often come with **hypotheses** --- predicted, testable answers derived from theory. Variables must be **measurable**, and the question names them explicitly. *Based on Creswell & Creswell (2018), Ch. 7*
+Relationship questions often come with **hypotheses** --- predicted, testable answers derived from theory. Variables must be **measurable**, and the question names them explicitly. *Based on [Creswell & Creswell (2018)](02-approaches-to-research.qmd#src-02-creswell-2018), Ch. 7*
 
 ### PICO and GQM
 
@@ -287,14 +287,9 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 
 ## Sources {#sec-04-sources .unnumbered}
 
--   Enholm, I. M., Papagiannidis, E., Mikalef, P., & Krogstie, J. (2022). Artificial intelligence and business value: A literature review. *Information Systems Frontiers*, *24*, 1709--1734. <https://doi.org/10.1007/s10796-021-10186-w>
-
--   Huy, L. V., Nguyen, H. T. T., Vo-Thanh, T., Thinh, N. H. T., & Tran, T. T. D. (2024). Generative AI, why, how, and outcomes: A user adoption study. *AIS Transactions on Human-Computer Interaction*, *16*(1), 1--27. <https://doi.org/10.17705/1thci.00198>
-
--   Presthus, W., & Munkvold, B. E. (2016). How to frame your contribution to knowledge? A guide for junior researchers in information systems. *NOKOBIT*, *24*(1). Paper presented at NOKOBIT 2016, Bergen.
-
--   Woodruff, A., Shelby, R., Kelley, P. G., Rousso-Schindler, S., Smith-Loud, J., & Wilcox, L. (2024). How knowledge workers think generative AI will (not) transform their industries. In *Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24)*. ACM. <https://doi.org/10.1145/3613904.3642700>
-
--   Boodraj, M., Fairbanks, J., Davies, C., & Akcakaya, O. (2026). Beyond the firewall: The rise of the cybersecurity project manager. In *AMCIS 2026 Proceedings* (Emergent Research Forum paper). AIS. <https://aisel.aisnet.org/amcis2026/sig_itpm/sig_itpm/2>
-
--   Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapter 2 (The purpose and products of research).
+- []{#src-04-enholm-2022}Enholm, I. M., Papagiannidis, E., Mikalef, P., & Krogstie, J. (2022). Artificial intelligence and business value: A literature review. *Information Systems Frontiers*, *24*, 1709--1734. <https://doi.org/10.1007/s10796-021-10186-w>
+- []{#src-04-huy-2024}Huy, L. V., Nguyen, H. T. T., Vo-Thanh, T., Thinh, N. H. T., & Tran, T. T. D. (2024). Generative AI, why, how, and outcomes: A user adoption study. *AIS Transactions on Human-Computer Interaction*, *16*(1), 1--27. <https://doi.org/10.17705/1thci.00198>
+- []{#src-04-presthus-2016}Presthus, W., & Munkvold, B. E. (2016). How to frame your contribution to knowledge? A guide for junior researchers in information systems. *NOKOBIT*, *24*(1). Paper presented at NOKOBIT 2016, Bergen.
+- []{#src-04-woodruff-2024}Woodruff, A., Shelby, R., Kelley, P. G., Rousso-Schindler, S., Smith-Loud, J., & Wilcox, L. (2024). How knowledge workers think generative AI will (not) transform their industries. In *Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24)*. ACM. <https://doi.org/10.1145/3613904.3642700>
+- []{#src-04-boodraj-2026}Boodraj, M., Fairbanks, J., Davies, C., & Akcakaya, O. (2026). Beyond the firewall: The rise of the cybersecurity project manager. In *AMCIS 2026 Proceedings* (Emergent Research Forum paper). AIS. <https://aisel.aisnet.org/amcis2026/sig_itpm/sig_itpm/2>
+- []{#src-04-oates-2022}Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapter 2 (The purpose and products of research).

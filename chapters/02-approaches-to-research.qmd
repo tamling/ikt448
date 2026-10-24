@@ -19,13 +19,13 @@ Chapter 1 settled that research is the creation of new knowledge through a syste
 ::: {.callout-note}
 ## Quantitative research
 
-Quantitative research refers to an approach for testing objective theories by examining the relationships among measurable variables, yielding numerical data that are analysed with statistics (Creswell & Creswell, 2018, p. 4).
+Quantitative research refers to an approach for testing objective theories by examining the relationships among measurable variables, yielding numerical data that are analysed with statistics ([Creswell & Creswell, 2018, p. 4](#src-02-creswell-2018)).
 :::
 
 ::: {.callout-note}
 ## Qualitative research
 
-Qualitative research refers to an approach for exploring and understanding the meaning that individuals or groups ascribe to a social or human problem, with data collected in the participants' setting and analysed inductively (Creswell & Creswell, 2018, p. 4).
+Qualitative research refers to an approach for exploring and understanding the meaning that individuals or groups ascribe to a social or human problem, with data collected in the participants' setting and analysed inductively ([Creswell & Creswell, 2018, p. 4](#src-02-creswell-2018)).
 :::
 
 ::: {.callout-note}
@@ -34,13 +34,13 @@ Qualitative research refers to an approach for exploring and understanding the m
 Mixed methods research refers to an approach that collects both quantitative and qualitative data and integrates the two, so that the combined understanding exceeds what either strand provides alone.
 :::
 
-Creswell and Creswell's (2018, Ch. 1) point is that these are not two boxes but the ends of a continuum: a study sits somewhere on it, and it tends towards one end more than the other. The core ideas differ. A quantitative study works deductively, from theory to hypothesis to measurement to test, and aims at generalisation and replication; its typical questions are which factors, how many, and whether one thing affects another. A qualitative study works inductively, from data in a real setting towards concepts and explanation, and aims at depth and meaning; its typical questions are how people do something and what it means to them. A mixed-methods study combines the two deliberately, for instance in an explanatory sequential design that runs a survey first and then interviews a smaller sample to explain the pattern.
+[Creswell and Creswell's (2018, Ch. 1)](#src-02-creswell-2018) point is that these are not two boxes but the ends of a continuum: a study sits somewhere on it, and it tends towards one end more than the other. The core ideas differ. A quantitative study works deductively, from theory to hypothesis to measurement to test, and aims at generalisation and replication; its typical questions are which factors, how many, and whether one thing affects another. A qualitative study works inductively, from data in a real setting towards concepts and explanation, and aims at depth and meaning; its typical questions are how people do something and what it means to them. A mixed-methods study combines the two deliberately, for instance in an explanatory sequential design that runs a survey first and then interviews a smaller sample to explain the pattern.
 
-Four recent studies illustrate the ends of the continuum. Biloš and Budimir (2024) surveyed 694 Generation Z respondents in Croatia with an extended UTAUT2 model, analysed the data with factor analysis and hierarchical regression, and found that performance expectancy, social influence, hedonic motivation, habit and personal innovativeness predict the intention to use ChatGPT, whereas effort expectancy, facilitating conditions and price value do not. Huy et al. (2024) surveyed 671 ChatGPT users in Vietnam with UTAUT2 integrated with task--technology fit, used covariance-based structural equation modelling, and found that most factors affect use while effort expectancy, social influence and trust do not, and that use drives continuance and recommendation. Both are deductive and postpositivist; the same theory family, two samples, and partly different results --- which is what replication looks like in practice.
+Four recent studies illustrate the ends of the continuum. [Biloš and Budimir (2024)](#src-02-bilos-2024) surveyed 694 Generation Z respondents in Croatia with an extended UTAUT2 model, analysed the data with factor analysis and hierarchical regression, and found that performance expectancy, social influence, hedonic motivation, habit and personal innovativeness predict the intention to use ChatGPT, whereas effort expectancy, facilitating conditions and price value do not. [Huy et al. (2024)](#src-02-huy-2024) surveyed 671 ChatGPT users in Vietnam with UTAUT2 integrated with task--technology fit, used covariance-based structural equation modelling, and found that most factors affect use while effort expectancy, social influence and trust do not, and that use drives continuance and recommendation. Both are deductive and postpositivist; the same theory family, two samples, and partly different results --- which is what replication looks like in practice.
 
-In contrast, Mayer, Baygi and Buwalda (2025) studied one consultancy with semi-structured interviews, first with entry-level professionals and later with senior consultants and managers, using job crafting as a theoretical lens. They found that entry-level professionals use generative AI to craft tasks, relationships and the meaning of their work, and that a new form appears --- signal crafting, the use of AI to shape how others perceive the value of one's work. The study is inductive and set in a real context, with meaning as its object; the theory is a lens rather than a hypothesis, and the study extends it rather than tests it.
+In contrast, [Mayer, Baygi and Buwalda (2025)](#src-02-mayer-2025) studied one consultancy with semi-structured interviews, first with entry-level professionals and later with senior consultants and managers, using job crafting as a theoretical lens. They found that entry-level professionals use generative AI to craft tasks, relationships and the meaning of their work, and that a new form appears --- signal crafting, the use of AI to shape how others perceive the value of one's work. The study is inductive and set in a real context, with meaning as its object; the theory is a lens rather than a hypothesis, and the study extends it rather than tests it.
 
-Mixed methods have their own guidelines in ICT and cybersecurity research. Venkatesh, Brown and Bala (2013) ask three questions: whether a mixed methods approach is appropriate for the question at all; how meta-inferences --- the conclusions that integrate both strands --- are developed; and how their quality is validated. They list seven purposes for combining the strands: complementarity, completeness, developmental sequencing, expansion, corroboration or confirmation, compensation, and diversity. Venkatesh, Brown and Sullivan (2016) turn the guidelines into fourteen design properties with a decision tree, from the research questions and the paradigm stance to the mixing strategy, the timing of the strands and the validation of inferences. For your essay the consequence is simple: a mixed-methods proposal states its purpose in these terms, the sequence of the strands, which strand has priority, and where the two are integrated. Without these four decisions it is two studies, not one. The two papers have since grown into an open-access textbook, Venkatesh, Brown and Sullivan's *Conducting Mixed-Methods Research* (2023), whose thirteen chapters run from mixed methods as the third research approach to paper templates and advice for reviewers. Chapter 4 treats the appropriateness of the approach and the seven purposes; Chapter 5 sets out five aspects of design --- the investigation strategy, exploratory or confirmatory; the strands of the study; the time orientation, concurrent or sequential; the priority of the approaches; and the mixing strategy --- and connects them to the purpose in a decision model; Chapter 10 explains how meta-inferences are generated; and Chapter 11 supplies the paper templates that Session 11 returns to. The book is in the reading folder. The same authors have since collected the guidelines, the design decisions and worked examples from published research in an open-access book (Venkatesh, Brown & Sullivan, 2023), which is the reference to consult when a mixed-methods design is actually planned.
+Mixed methods have their own guidelines in ICT and cybersecurity research. [Venkatesh, Brown and Bala (2013)](#src-02-venkatesh-2013) ask three questions: whether a mixed methods approach is appropriate for the question at all; how meta-inferences --- the conclusions that integrate both strands --- are developed; and how their quality is validated. They list seven purposes for combining the strands: complementarity, completeness, developmental sequencing, expansion, corroboration or confirmation, compensation, and diversity. [Venkatesh, Brown and Sullivan (2016)](#src-02-venkatesh-2016) turn the guidelines into fourteen design properties with a decision tree, from the research questions and the paradigm stance to the mixing strategy, the timing of the strands and the validation of inferences. For your essay the consequence is simple: a mixed-methods proposal states its purpose in these terms, the sequence of the strands, which strand has priority, and where the two are integrated. Without these four decisions it is two studies, not one. The two papers have since grown into an open-access textbook, Venkatesh, Brown and Sullivan's *Conducting Mixed-Methods Research* (2023), whose thirteen chapters run from mixed methods as the third research approach to paper templates and advice for reviewers. Chapter 4 treats the appropriateness of the approach and the seven purposes; Chapter 5 sets out five aspects of design --- the investigation strategy, exploratory or confirmatory; the strands of the study; the time orientation, concurrent or sequential; the priority of the approaches; and the mixing strategy --- and connects them to the purpose in a decision model; Chapter 10 explains how meta-inferences are generated; and Chapter 11 supplies the paper templates that Session 11 returns to. The book is in the reading folder. The same authors have since collected the guidelines, the design decisions and worked examples from published research in an open-access book ([Venkatesh, Brown & Sullivan, 2023](#src-02-venkatesh-2023)), which is the reference to consult when a mixed-methods design is actually planned.
 
 ::: {.callout-note}
 ## Triangulation
@@ -73,7 +73,7 @@ The four worldviews: assumption about reality, typical question and typical desi
 
 ### The research onion
 
-Saunders, Lewis and Thornhill (2019) order the decisions a study requires as layers of an onion, read from the outside in: philosophy, approach to theory development, methodological choice, strategy, time horizon, and techniques and procedures.
+[Saunders, Lewis and Thornhill (2019)](#src-02-saunders-2019) order the decisions a study requires as layers of an onion, read from the outside in: philosophy, approach to theory development, methodological choice, strategy, time horizon, and techniques and procedures.
 
 ![The research onion (after Saunders, Lewis & Thornhill, 2019): six layers of decisions, from philosophy, through approach, methodological choice, strategy and time horizon, to techniques and procedures.](figures/fig-02-1.svg){#fig-02-1}
 
@@ -85,7 +85,7 @@ The purpose of the onion is methodological coherence: the outer layers constrain
 
 The same question can be studied three ways, and the exercise shows how the question itself changes with the approach. Take "why do users abandon fitness apps?". Study A, quantitative and postpositivist, refines it to which factors predict abandonment, surveys 500 users, tests hypotheses about habit, price value and social influence, and reports odds ratios. Study B, qualitative and constructivist, refines it to how users experience abandoning an app, interviews twelve people who quit, and reports themes. Study C, mixed and pragmatist, runs the survey first and then interviews a sample of those who quit to explain the strongest predictor, in an explanatory sequential design. The refined question, the data, the analysis and the kind of knowledge produced differ in each case, and the essay must say which of the three it chooses and why.
 
-Behind the surveys in this chapter stands one research programme. Venkatesh (2022) is a conceptual paper without data of its own: it identifies properties of AI tools, of the humans who work with them and of the operations settings that could hinder adoption, and uses UTAUT to propose research directions --- individual, technology and environmental characteristics, and interventions. A research agenda is a legitimate product of research, and reading it first shows where a study sits and where the gaps are. The ChatGPT studies above, and my own study of ChatGPT adoption among Big Four consultants, take their framework from this line of work.
+Behind the surveys in this chapter stands one research programme. [Venkatesh (2022)](#src-02-venkatesh-2022) is a conceptual paper without data of its own: it identifies properties of AI tools, of the humans who work with them and of the operations settings that could hinder adoption, and uses UTAUT to propose research directions --- individual, technology and environmental characteristics, and interventions. A research agenda is a legitimate product of research, and reading it first shows where a study sits and where the gaps are. The ChatGPT studies above, and my own study of ChatGPT adoption among Big Four consultants, take their framework from this line of work.
 
 ## How to choose {#sec-02-how-to-choose}
 
@@ -113,7 +113,7 @@ Creswell and Oates use **different words for similar layers**. This map holds fo
 
 Creswell's point: qualitative and quantitative are the **ends of a continuum**. A study sits somewhere on it --- it tends toward one end more than the other. Mixed methods lives in the middle.
 
-*Source: Creswell & Creswell (2018), Ch. 1*
+*Source: [Creswell & Creswell (2018)](#src-02-creswell-2018), Ch. 1*
 
 ### Deductive and inductive reasoning
 
@@ -126,7 +126,7 @@ Deduction runs **top-down** from theory (typical for quantitative research); ind
 ### Two current quantitative studies
 
 ::: {#tbl-02-1}
-             **Biloš & Budimir (2024)**                                                                                                                                                                                          **Huy et al. (2024)**
+             **[Biloš & Budimir (2024)](#src-02-bilos-2024)**                                                                                                                                                                                          **[Huy et al. (2024)](#src-02-huy-2024)**
   ---------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------
   Sample     694 Generation Z respondents, Croatia; online questionnaire, seven-point Likert                                                                                                                                     671 ChatGPT users, Vietnam; questionnaire, face-to-face and online
   Theory     Extended UTAUT2                                                                                                                                                                                                     UTAUT2 integrated with task--technology fit; trust and curiosity added
@@ -153,10 +153,10 @@ Mixed methods research combines quantitative and qualitative methods in the same
   Compensation                   To compensate for the weaknesses of one approach with the other
   Diversity                      To obtain divergent views of the same phenomenon
 
-The seven purposes of mixed methods research (Venkatesh, Brown & Bala, 2013)
+The seven purposes of mixed methods research ([Venkatesh, Brown & Bala, 2013](#src-02-venkatesh-2013))
 :::
 
-*Purposes adapted from Venkatesh et al. (2013), Table 1. An essay that proposes mixed methods names its purpose in these terms.*
+*Purposes adapted from [Venkatesh et al. (2013)](#src-02-venkatesh-2013), Table 1. An essay that proposes mixed methods names its purpose in these terms.*
 
 ### Designing a mixed-methods study
 
@@ -180,7 +180,7 @@ The 2016 extension turns the guidelines into design decisions: 14 properties of 
 
 -   **Inference quality** --- how the meta-inferences are validated
 
-*For your essay: a mixed-methods proposal states the purpose, the sequence of strands, which strand has priority, and where the two are integrated. Without these four decisions it is two studies, not one. The full treatment, with worked examples from published research, is the same authors' open-access book (Venkatesh, Brown & Sullivan, 2023).*
+*For your essay: a mixed-methods proposal states the purpose, the sequence of strands, which strand has priority, and where the two are integrated. Without these four decisions it is two studies, not one. The full treatment, with worked examples from published research, is the same authors' open-access book ([Venkatesh, Brown & Sullivan, 2023](#src-02-venkatesh-2023)).*
 
 ### Three mini-studies to classify
 
@@ -198,7 +198,7 @@ Three short descriptions to classify along the way --- quantitative, qualitative
 
 ![Creswell's framework: the philosophical worldview, the research design and the research methods together make up the research approach.](figures/fig-02-5.svg){#fig-02-5}
 
-Approach = worldview + design + methods, made consistent. *Adapted from Creswell & Creswell (2018), Fig. 1.1*
+Approach = worldview + design + methods, made consistent. *Adapted from [Creswell & Creswell (2018)](#src-02-creswell-2018), Fig. 1.1*
 
 ::: {#tbl-02-3}
   **Worldview**        **Knowledge is...**                                 **Typical IT/health example**
@@ -211,7 +211,7 @@ Approach = worldview + design + methods, made consistent. *Adapted from Creswell
 Creswell's four worldviews, with an IT or health example for each
 :::
 
-*Based on Creswell & Creswell (2018), Ch. 1*
+*Based on [Creswell & Creswell (2018)](#src-02-creswell-2018), Ch. 1*
 
 ### The layers of the onion
 
@@ -373,7 +373,7 @@ Why show you this? Because the pattern you just saw --- numbers for the *what*, 
 3.  **Your own experience and resources.**\
     Statistics skills? Interview skills? Access to participants? Time?
 
-*Based on Creswell & Creswell (2018), Ch. 1*
+*Based on [Creswell & Creswell (2018)](#src-02-creswell-2018), Ch. 1*
 
 ## Terms from this session {#sec-02-terms-from-this-session .unnumbered}
 
@@ -455,34 +455,22 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 
 -   Every study rests on a worldview --- and the research onion orders all six decisions, from philosophy to technique
 
--   Mixed methods: name the purpose (Venkatesh et al., 2013) and the design decisions (2016)
+-   Mixed methods: name the purpose ([Venkatesh et al., 2013](#src-02-venkatesh-2013)) and the design decisions (2016)
 
 -   Two current ChatGPT studies, one research agenda --- and the justification your essay needs (Part III)
 
 ## Sources {#sec-02-sources .unnumbered}
 
--   Biloš, A., & Budimir, B. (2024). Understanding the adoption dynamics of ChatGPT among Generation Z: Insights from a modified UTAUT2 model. *Journal of Theoretical and Applied Electronic Commerce Research*, *19*(2), 863--879. <https://doi.org/10.3390/jtaer19020045>
-
--   Huy, L. V., Nguyen, H. T. T., Vo-Thanh, T., Thinh, N. H. T., & Tran, T. T. D. (2024). Generative AI, why, how, and outcomes: A user adoption study. *AIS Transactions on Human-Computer Interaction*, *16*(1), 1--27. <https://doi.org/10.17705/1thci.00198>
-
--   Presthus, W., & Munkvold, B. E. (2016). How to frame your contribution to knowledge? *NOKOBIT*, Bergen.
-
--   Venkatesh, V. (2022). Adoption and use of AI tools: A research agenda grounded in UTAUT. *Annals of Operations Research*, *308*(1), 641--652. <https://doi.org/10.1007/s10479-020-03918-9>
-
--   Venkatesh, V., Brown, S. A., & Bala, H. (2013). Bridging the qualitative--quantitative divide: Guidelines for conducting mixed methods research in information systems. *MIS Quarterly*, *37*(1), 21--54. <https://doi.org/10.25300/MISQ/2013/37.1.02>
-
--   Venkatesh, V., Brown, S. A., & Sullivan, Y. W. (2016). Guidelines for conducting mixed-methods research: An extension and illustration. *Journal of the Association for Information Systems*, *17*(7), 435--494. <https://doi.org/10.17705/1jais.00433>
-
--   Venkatesh, V., Brown, S., & Sullivan, Y. (2023). *Conducting mixed-methods research: From classical social sciences to the age of big data and analytics*. Virginia Tech Pamplin College of Business and Virginia Tech Publishing. <https://doi.org/10.21061/conducting-mixed-methods-research>
-
--   Mayer, A.-S., Baygi, R. M., & Buwalda, R. (2025). Generation AI: Job crafting by entry-level professionals in the age of generative AI. *Business & Information Systems Engineering*, *67*(5), 595--613. <https://doi.org/10.1007/s12599-025-00959-x>
-
--   Creswell, J. W., & Creswell, J. D. (2018). *Research design: Qualitative, quantitative, and mixed methods approaches* (5th ed.). SAGE.
-
--   Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research methods for business students* (8th ed.). Pearson.
-
--   Venkatesh, V., Brown, S. A., & Sullivan, Y. W. (2023). *Conducting mixed-methods research: From classical social sciences to the age of big data and analytics*. Virginia Tech Pamplin College of Business in association with Virginia Tech Publishing. <https://doi.org/10.21061/conducting-mixed-methods-research>
-
--   Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 19 (Philosophical paradigms: positivism) and 20 (Alternative philosophical paradigms).
-
--   Laudon, K. C., & Laudon, J. P. (2022). *Management information systems: Managing the digital firm* (17th ed., Global ed.). Pearson. --- Chapter 1, section 1-3 (technical and behavioural approaches).
+- []{#src-02-bilos-2024}Biloš, A., & Budimir, B. (2024). Understanding the adoption dynamics of ChatGPT among Generation Z: Insights from a modified UTAUT2 model. *Journal of Theoretical and Applied Electronic Commerce Research*, *19*(2), 863--879. <https://doi.org/10.3390/jtaer19020045>
+- []{#src-02-huy-2024}Huy, L. V., Nguyen, H. T. T., Vo-Thanh, T., Thinh, N. H. T., & Tran, T. T. D. (2024). Generative AI, why, how, and outcomes: A user adoption study. *AIS Transactions on Human-Computer Interaction*, *16*(1), 1--27. <https://doi.org/10.17705/1thci.00198>
+- []{#src-02-presthus-2016}Presthus, W., & Munkvold, B. E. (2016). How to frame your contribution to knowledge? *NOKOBIT*, Bergen.
+- []{#src-02-venkatesh-2022}Venkatesh, V. (2022). Adoption and use of AI tools: A research agenda grounded in UTAUT. *Annals of Operations Research*, *308*(1), 641--652. <https://doi.org/10.1007/s10479-020-03918-9>
+- []{#src-02-venkatesh-2013}Venkatesh, V., Brown, S. A., & Bala, H. (2013). Bridging the qualitative--quantitative divide: Guidelines for conducting mixed methods research in information systems. *MIS Quarterly*, *37*(1), 21--54. <https://doi.org/10.25300/MISQ/2013/37.1.02>
+- []{#src-02-venkatesh-2016}Venkatesh, V., Brown, S. A., & Sullivan, Y. W. (2016). Guidelines for conducting mixed-methods research: An extension and illustration. *Journal of the Association for Information Systems*, *17*(7), 435--494. <https://doi.org/10.17705/1jais.00433>
+- []{#src-02-venkatesh-2023}Venkatesh, V., Brown, S., & Sullivan, Y. (2023). *Conducting mixed-methods research: From classical social sciences to the age of big data and analytics*. Virginia Tech Pamplin College of Business and Virginia Tech Publishing. <https://doi.org/10.21061/conducting-mixed-methods-research>
+- []{#src-02-mayer-2025}Mayer, A.-S., Baygi, R. M., & Buwalda, R. (2025). Generation AI: Job crafting by entry-level professionals in the age of generative AI. *Business & Information Systems Engineering*, *67*(5), 595--613. <https://doi.org/10.1007/s12599-025-00959-x>
+- []{#src-02-creswell-2018}Creswell, J. W., & Creswell, J. D. (2018). *Research design: Qualitative, quantitative, and mixed methods approaches* (5th ed.). SAGE.
+- []{#src-02-saunders-2019}Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research methods for business students* (8th ed.). Pearson.
+- Venkatesh, V., Brown, S. A., & Sullivan, Y. W. (2023). *Conducting mixed-methods research: From classical social sciences to the age of big data and analytics*. Virginia Tech Pamplin College of Business in association with Virginia Tech Publishing. <https://doi.org/10.21061/conducting-mixed-methods-research>
+- []{#src-02-oates-2022}Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapters 19 (Philosophical paradigms: positivism) and 20 (Alternative philosophical paradigms).
+- []{#src-02-laudon-2022}Laudon, K. C., & Laudon, J. P. (2022). *Management information systems: Managing the digital firm* (17th ed., Global ed.). Pearson. --- Chapter 1, section 1-3 (technical and behavioural approaches).

@@ -18,7 +18,7 @@ A literature review refers to a systematic examination of the existing knowledge
 
 This chapter's subject, the literature review, does four jobs for the essay. First, it justifies the problem: it shows the gap, or the conflict, that the study addresses. Secondly, it avoids reinventing what exists --- someone may already have answered your question, or shown that the obvious design fails. Thirdly, it grounds the concepts: the definitions and theories the study uses. Lastly, it informs the method: how others did similar studies, and what they learned about doing them. Part II of the essay asks for the keywords and search strings, the databases and dates, the inclusion and exclusion criteria, the initial results, and a table of the included studies --- everything on that list is a step in this chapter.
 
-vom Brocke et al. (2009) describe the review as a five-phase framework: definition of the review scope, conceptualisation of the topic, the literature search, the analysis and synthesis, and the research agenda. Their argument is that the search must be documented in enough detail to be repeated, which is what turns a review from a reading list into evidence. The chapter follows the phases.
+[vom Brocke et al. (2009)](#src-05-vombrocke-2009) describe the review as a five-phase framework: definition of the review scope, conceptualisation of the topic, the literature search, the analysis and synthesis, and the research agenda. Their argument is that the search must be documented in enough detail to be repeated, which is what turns a review from a reading list into evidence. The chapter follows the phases.
 
 ::: {#tbl-05-phases}
   **Phase**                 **What you decide / do**                                                 **Example**
@@ -29,7 +29,7 @@ vom Brocke et al. (2009) describe the review as a five-phase framework: definit
   4. Analysis & synthesis   extract by **concept**, not by paper                                     the concept matrix
   5. Research agenda        what remains open --- and therefore your study                           the gap paragraph ending in your question
 
-The five phases of a literature review (vom Brocke et al., 2009), with the running example
+The five phases of a literature review ([vom Brocke et al., 2009](#src-05-vombrocke-2009)), with the running example
 :::
 
 ## Where to look {#sec-05-where-to-look}
@@ -50,13 +50,13 @@ The search proceeds from the research question to a keyword table. Each concept 
 The three Boolean operators, with the chapter's search string
 :::
 
-Screening follows explicit criteria stated before the hits are read: inclusion criteria such as peer-reviewed publications in English from 2015 onwards that study organisational settings, and exclusion criteria such as purely technical measures without a human or organisational dimension. A criterion invented after reading the hits is not a criterion but a preference. Kitchenham and Charters (2007) set out the procedure for software engineering as a protocol written first; Kitchenham et al. (2009) reviewed how the procedure had been applied. The PRISMA 2020 statement (Page et al., 2021) supplies the reporting standard: a flow diagram that records how many records were identified, screened, assessed for eligibility and included, and why the others were excluded. The flow diagram is a template, and every review fills it in.
+Screening follows explicit criteria stated before the hits are read: inclusion criteria such as peer-reviewed publications in English from 2015 onwards that study organisational settings, and exclusion criteria such as purely technical measures without a human or organisational dimension. A criterion invented after reading the hits is not a criterion but a preference. [Kitchenham and Charters (2007)](#src-05-kitchenham-2007) set out the procedure for software engineering as a protocol written first; [Kitchenham et al. (2009)](#src-05-kitchenham-2009) reviewed how the procedure had been applied. The PRISMA 2020 statement ([Page et al., 2021](#src-05-page-2021)) supplies the reporting standard: a flow diagram that records how many records were identified, screened, assessed for eligibility and included, and why the others were excluded. The flow diagram is a template, and every review fills it in.
 
-Enholm, Papagiannidis, Mikalef and Krogstie (2022) show the same procedure in a published review. They wrote a protocol first, following the Cochrane handbook; they asked three questions --- what enables or inhibits AI use in organisations, what types of AI use exist, and through which mechanisms AI value is realised; they combined two keyword sets with wildcards and searched Google Scholar and nine databases, including Scopus, IEEE Xplore and the AIS library, within a stated period in September 2020; they applied explicit inclusion and exclusion criteria; two authors assessed the quality of each paper independently for rigour, credibility and relevance; and they extracted the 43 included papers into a concept matrix and synthesised them in three parts and a research agenda. Everything Part II of your essay asks for is visible in one paper.
+[Enholm, Papagiannidis, Mikalef and Krogstie (2022)](#src-05-enholm-2022) show the same procedure in a published review. They wrote a protocol first, following the Cochrane handbook; they asked three questions --- what enables or inhibits AI use in organisations, what types of AI use exist, and through which mechanisms AI value is realised; they combined two keyword sets with wildcards and searched Google Scholar and nine databases, including Scopus, IEEE Xplore and the AIS library, within a stated period in September 2020; they applied explicit inclusion and exclusion criteria; two authors assessed the quality of each paper independently for rigour, credibility and relevance; and they extracted the 43 included papers into a concept matrix and synthesised them in three parts and a research agenda. Everything Part II of your essay asks for is visible in one paper.
 
 ## Read and synthesise {#sec-05-read-and-synthesise}
 
-Reading for a review is different from reading for interest. A paper is read in the right order --- abstract (one minute), conclusion (three), figures and tables (three), method (five), and only then the full text --- and read for extraction: what is the question, the method, the sample, the finding, and the limitation. The extraction goes into a concept matrix, which Webster and Watson (2002) introduced as the instrument of synthesis: one row per paper, one column per concept, and in each cell what the paper says about the concept. Watson and Webster (2020) extended the idea for the age of graph databases, in which the matrix becomes a network of concepts and relationships; Session 11 returns to both. The matrix from the lecture, cut down to three papers, looks like this:
+Reading for a review is different from reading for interest. A paper is read in the right order --- abstract (one minute), conclusion (three), figures and tables (three), method (five), and only then the full text --- and read for extraction: what is the question, the method, the sample, the finding, and the limitation. The extraction goes into a concept matrix, which [Webster and Watson (2002)](#src-05-webster-2002) introduced as the instrument of synthesis: one row per paper, one column per concept, and in each cell what the paper says about the concept. [Watson and Webster (2020)](#src-05-watson-2020) extended the idea for the age of graph databases, in which the matrix becomes a network of concepts and relationships; Session 11 returns to both. The matrix from the lecture, cut down to three papers, looks like this:
 
 ::: {#tbl-05-matrix-example}
                                **Security fatigue**   **Convenience**   **Risk perception**   **Training effect**
@@ -96,7 +96,7 @@ Two habits keep the review under control. A reference manager --- Zotero, for ex
 The five phases of a literature review, walked through
 :::
 
-*vom Brocke et al. (2009). Phase 5 is the bridge from Part II to Part I: the review *ends* where your question *begins*.*
+*[vom Brocke et al. (2009)](#src-05-vombrocke-2009). Phase 5 is the bridge from Part II to Part I: the review *ends* where your question *begins*.*
 
 ### Source types and databases
 
@@ -191,7 +191,7 @@ Screen in two passes: first **title + abstract** (fast), then **full text** for 
 
 ![Kitchenham's three phases of a systematic literature review: planning, conducting and reporting.](figures/fig-05-2.svg){#fig-05-2}
 
-The core idea: the protocol is written **before** the search --- so the criteria cannot quietly drift to fit the papers you happen to like. *Kitchenham et al. (2009)*
+The core idea: the protocol is written **before** the search --- so the criteria cannot quietly drift to fit the papers you happen to like. *[Kitchenham et al. (2009)](#src-05-kitchenham-2009)*
 
 **The protocol (example contents)**
 
@@ -223,10 +223,10 @@ The core idea: the protocol is written **before** the search --- so the criteria
 A proportionate protocol --- question, sources, string, criteria --- is precisely the "plan" that Part II asks you to develop and report.
 :::
 
-*Kitchenham et al. (2009); QA example: Amling et al. (under review)*
+*[Kitchenham et al. (2009)](#src-05-kitchenham-2009); QA example: Amling et al. (under review)*
 
 ::: {.callout-note}
-## PRISMA 2020 (Page et al., 2021)
+## PRISMA 2020 ([Page et al., 2021](#src-05-page-2021))
 
 A **reporting guideline** for systematic reviews: a **27-item checklist** covering everything from the search strategy and selection process to synthesis and limitations --- *plus* the well-known **flow diagram**.
 :::
@@ -251,7 +251,7 @@ For your essay: the diagram plus documented criteria are the visible artefacts -
   Result      43 papers extracted into a **concept matrix**; synthesis in three parts (enablers and inhibitors, typologies of use, first- and second-order effects) and a research agenda
   ----------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-A published systematic review (Enholm et al., 2022), step by step
+A published systematic review ([Enholm et al., 2022](#src-05-enholm-2022)), step by step
 :::
 
 Everything Part II of your essay asks for is visible in one paper: protocol, strings, databases, dates, criteria, counts, matrix. Their Figure 1 is the PRISMA-style flow of the selection.
@@ -270,7 +270,7 @@ Nobody reads papers front to back. The efficient order:
 
 5.  **Full read** --- only for the handful that survive steps 1--4
 
-While reading, extract into your **literature table** --- or, one step better, a **concept matrix** (Webster & Watson, 2002): concepts as columns, papers as rows. It forces synthesis by concept instead of a paper-by-paper shopping list, and it goes straight into Part II.
+While reading, extract into your **literature table** --- or, one step better, a **concept matrix** ([Webster & Watson, 2002](#src-05-webster-2002)): concepts as columns, papers as rows. It forces synthesis by concept instead of a paper-by-paper shopping list, and it goes straight into Part II.
 
 Concepts as **columns** (from your conceptualisation, phase 2), papers as **rows**; a cell marks that the paper addresses the concept:
 
@@ -285,7 +285,7 @@ Concepts as **columns** (from your conceptualisation, phase 2), papers as **rows
 The concept matrix: concepts as columns, papers as rows
 :::
 
-Two reading directions: a **row** shows what one paper covers; a **column** shows the state of evidence for one concept --- dense columns mean converging work, sparse columns mean thin evidence, empty columns mean a gap. Cells can carry more than a mark: a finding direction, a method tag, a context. *Webster & Watson (2002)*
+Two reading directions: a **row** shows what one paper covers; a **column** shows the state of evidence for one concept --- dense columns mean converging work, sparse columns mean thin evidence, empty columns mean a gap. Cells can carry more than a mark: a finding direction, a method tag, a context. *[Webster & Watson (2002)](#src-05-webster-2002)*
 
 The same structure filled in, with the P/N/B cell coding from the real review:
 
@@ -300,7 +300,7 @@ The same structure filled in, with the P/N/B cell coding from the real review:
 The concept matrix filled in, with P/N/B cell coding
 :::
 
-Cells: **P** = reaction/effect reported as positive, **N** = negative, **B** = both. Reading the columns: fatigue is consistently negative (converging evidence), convenience is mostly positive with one "both" (a tension to explain), risk perception is thin and mixed (a gap candidate). The matrix hands you the argument moves. *Webster & Watson (2002); Amling et al. (under review)*
+Cells: **P** = reaction/effect reported as positive, **N** = negative, **B** = both. Reading the columns: fatigue is consistently negative (converging evidence), convenience is mostly positive with one "both" (a tension to explain), risk perception is thin and mixed (a gap candidate). The matrix hands you the argument moves. *[Webster & Watson (2002)](#src-05-webster-2002); Amling et al. (under review)*
 
 ### From synthesis to argument
 
@@ -449,20 +449,12 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 
 ## Sources {#sec-05-sources .unnumbered}
 
--   Amling, T., et al. (under review). When Robotic Process Automation takes over --- do employees cheer or jeer? A systematic literature review.
-
--   Enholm, I. M., Papagiannidis, E., Mikalef, P., & Krogstie, J. (2022). Artificial intelligence and business value: A literature review. *Information Systems Frontiers*, *24*, 1709--1734. <https://doi.org/10.1007/s10796-021-10186-w>
-
--   Kitchenham, B., & Charters, S. (2007). *Guidelines for performing systematic literature reviews in software engineering* (EBSE Technical Report EBSE-2007-01). Keele University and Durham University.
-
--   Kitchenham, B., Pearl Brereton, O., Budgen, D., Turner, M., Bailey, J., & Linkman, S. (2009). Systematic literature reviews in software engineering --- A systematic literature review. *Information and Software Technology*, *51*(1), 7--15.
-
--   Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, *372*, n71. <https://doi.org/10.1136/bmj.n71>
-
--   vom Brocke, J., Simons, A., Niehaves, B., Riemer, K., Plattfaut, R., & Cleven, A. (2009). Reconstructing the giant: On the importance of rigour in documenting the literature search process. In *Proceedings of the 17th European Conference on Information Systems (ECIS 2009)*.
-
--   Watson, R. T., & Webster, J. (2020). Analysing the past to prepare for the future: Writing a literature review a roadmap for release 2.0. *Journal of Decision Systems*, *29*(3), 129--147. <https://doi.org/10.1080/12460125.2020.1798591>
-
--   Webster, J., & Watson, R. T. (2002). Analyzing the past to prepare for the future: Writing a literature review. *MIS Quarterly*, *26*(2), xiii--xxiii.
-
--   Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapter 6 (Reviewing the literature).
+- Amling, T., et al. (under review). When Robotic Process Automation takes over --- do employees cheer or jeer? A systematic literature review.
+- []{#src-05-enholm-2022}Enholm, I. M., Papagiannidis, E., Mikalef, P., & Krogstie, J. (2022). Artificial intelligence and business value: A literature review. *Information Systems Frontiers*, *24*, 1709--1734. <https://doi.org/10.1007/s10796-021-10186-w>
+- []{#src-05-kitchenham-2007}Kitchenham, B., & Charters, S. (2007). *Guidelines for performing systematic literature reviews in software engineering* (EBSE Technical Report EBSE-2007-01). Keele University and Durham University.
+- []{#src-05-kitchenham-2009}Kitchenham, B., Pearl Brereton, O., Budgen, D., Turner, M., Bailey, J., & Linkman, S. (2009). Systematic literature reviews in software engineering --- A systematic literature review. *Information and Software Technology*, *51*(1), 7--15.
+- []{#src-05-page-2021}Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, *372*, n71. <https://doi.org/10.1136/bmj.n71>
+- []{#src-05-vombrocke-2009}vom Brocke, J., Simons, A., Niehaves, B., Riemer, K., Plattfaut, R., & Cleven, A. (2009). Reconstructing the giant: On the importance of rigour in documenting the literature search process. In *Proceedings of the 17th European Conference on Information Systems (ECIS 2009)*.
+- []{#src-05-watson-2020}Watson, R. T., & Webster, J. (2020). Analysing the past to prepare for the future: Writing a literature review a roadmap for release 2.0. *Journal of Decision Systems*, *29*(3), 129--147. <https://doi.org/10.1080/12460125.2020.1798591>
+- []{#src-05-webster-2002}Webster, J., & Watson, R. T. (2002). Analyzing the past to prepare for the future: Writing a literature review. *MIS Quarterly*, *26*(2), xiii--xxiii.
+- []{#src-05-oates-2022}Oates, B. J., Griffiths, M., & McLean, R. (2022). *Researching information systems and computing* (2nd ed.). SAGE. --- Chapter 6 (Reviewing the literature).

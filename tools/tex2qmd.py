@@ -299,6 +299,111 @@ def preprocess(ch: Chapter) -> str:
     return main
 
 
+
+# ------------------------------------------------------ citation links
+import unicodedata
+
+SP = r"[ \u00a0]"
+PART = r"(?:(?:von|vom|van|Van|de|De|der|den) )*"
+NAME = PART + r"[A-ZÀ-Ž][\w'’\-]+"
+YEAR = r"(?:19|20)\d\d[a-z]?"
+GLOBAL_SRC: dict[str, str] = {}      # "surname-year" -> "NN-slug.qmd#src-NN-surname-year", first chapter wins
+
+
+def name_key(s: str) -> str:
+    """'Biloš' -> 'bilos', 'von Nordenflycht' -> 'vonnordenflycht'."""
+    s = unicodedata.normalize("NFKD", s)
+    return "".join(c for c in s if c.isalpha()).lower()
+
+
+def first_surname(auth: str) -> str:
+    a = re.split(r",| and | & |\u00a0et\u00a0| et ", auth)[0]
+    return name_key(a)
+
+
+def parse_sources(ch: Chapter) -> None:
+    """Give every Sources entry an anchor id; remember (first author, year) -> id."""
+    body = ch.tail.get("Sources", "")
+    items = [re.sub(r"\s+", " ", x).strip() for x in re.split(r"\\item\s+", body)[1:]]
+    items = [re.sub(r"\\end\{itemize\}.*$", "", x, flags=re.S).strip() for x in items]
+    ch.sources = items
+    ch.srcids = []          # parallel to ch.sources
+    ch.srckeys = {}         # "surname-year" -> id (first entry wins)
+    for text in items:
+        plain = pandoc_inline(convert_inline_styles(text))
+        m = re.match(r"\s*(" + PART + r"[A-ZÀ-Ž][^,]*?),", plain)
+        y = re.search(r"\((" + YEAR + r")\)", plain)
+        if not (m and y):
+            ch.srcids.append(None)
+            continue
+        key = f"{name_key(m.group(1))}-{y.group(1)}"
+        sid = f"src-{ch.nn}-{key}"
+        if key in ch.srckeys:            # same work listed twice (e.g. Oates, two chapters)
+            sid = None
+        else:
+            ch.srckeys[key] = sid
+        ch.srcids.append(sid)
+
+
+def link_citations(md: str, ch: Chapter) -> str:
+    """Link 'Mayer, Baygi and Buwalda (2025)' and '(Smith, 2021; Lee, 2022)' to the
+    chapter's Sources entries; mentions without an entry are left alone."""
+    keys = getattr(ch, "srckeys", {})
+    def href(key):
+        sid = keys.get(key)
+        if sid:
+            return "#" + sid                 # entry in this chapter's Sources
+        return GLOBAL_SRC.get(key)           # else the chapter where the work is listed
+    # narrative: Surname[, Surname]... [and|&] Surname [et al.] ['s] (year[, rest])
+    narr = re.compile(
+        r"(?<![\[\w])(?P<auth>" + NAME + r"(?:(?:,| and| &) " + NAME + r")*(?:" + SP + r"et" + SP + r"al\.)?)"
+        r"(?P<poss>['’]s)?" + SP + r"\((?P<year>" + YEAR + r")(?P<rest>[^()\n]*)\)")
+    def n_sub(m):
+        key = f"{first_surname(m.group('auth'))}-{m.group('year')}"
+        h = href(key)
+        if not h:
+            return m.group(0)
+        return f"[{m.group('auth')}{m.group('poss') or ''} ({m.group('year')}{m.group('rest')})]({h})"
+    # parenthetical: (Surname[, Surname] [& Surname] [et al.], year[, rest][; ...])
+    seg = re.compile(r"^(?P<auth>" + NAME + r"(?:(?:,| and| &) " + NAME + r")*(?:" + SP + r"et" + SP + r"al\.)?), (?P<year>" + YEAR + r")(?P<rest>.*)$")
+    def p_sub(m):
+        inner = m.group(1)
+        parts = inner.split("; ")
+        out = []
+        for part in parts:
+            sm = seg.match(part)
+            if sm:
+                key = f"{first_surname(sm.group('auth'))}-{sm.group('year')}"
+                h = href(key)
+                if h:
+                    out.append(f"[{sm.group('auth')}, {sm.group('year')}{sm.group('rest')}]({h})")
+                    continue
+            out.append(part)
+        new = "; ".join(out)
+        return "(" + new + ")" if new != inner else m.group(0)
+    paren = re.compile(r"\((" + NAME + r"[^()\n]*?, " + YEAR + r"[^()\n]*)\)")
+    out_lines = []
+    in_code = False
+    for line in md.split("\n"):
+        if line.startswith("```"):
+            in_code = not in_code
+        if in_code or line.startswith("![") or line.startswith("{{<"):
+            out_lines.append(line)
+            continue
+        line = narr.sub(n_sub, line)
+        line = paren.sub(p_sub, line)
+        out_lines.append(line)
+    return "\n".join(out_lines)
+
+
+def render_sources(ch: Chapter) -> str:
+    """The Sources list, one anchored item per entry."""
+    out = []
+    for text, sid in zip(ch.sources, ch.srcids):
+        item = pandoc_inline(convert_inline_styles(text))
+        out.append(f"- []{{#{sid}}}{item}" if sid else f"- {item}")
+    return "\n".join(out)
+
 # ------------------------------------------------------------ postprocess
 def add_heading_ids(md: str, nn: str) -> str:
     out = []
@@ -360,7 +465,7 @@ def render_questions(ch: Chapter, section: str, captions: dict) -> tuple[str, st
         if eid in used:
             eid += f"-{n}"
         used.add(eid)
-        qmd = pandoc(convert_inline_styles(strip_layout(q)))
+        qmd = link_citations(pandoc(convert_inline_styles(strip_layout(q))), ch)
         chap.append(f"::: {{#{eid}}}\n## {pandoc_inline(title)}\n\n{qmd}\n:::\n")
         amd = pandoc(convert_inline_styles(strip_layout(a))) if a else "*(no sketch answer in the source)*"
         key.append(f"{n}. **{pandoc_inline(title)}** (@{eid}) — {amd}\n")
@@ -383,8 +488,8 @@ def render_tail(ch: Chapter, captions: dict) -> tuple[str, str]:
                             f"{{{{< include _{ch.nn}-interactive.qmd >}}}}\n")
             continue
         if name == "Sources":
-            ch.sources = [re.sub(r"\s+", " ", s).strip() for s in re.split(r"\\item\s+", body)[1:]]
-            ch.sources = [re.sub(r"\\end\{itemize\}.*$", "", s, flags=re.S).strip() for s in ch.sources]
+            chap.append(f"## {name} {{#sec-{ch.nn}-{slugify(name)} .unnumbered}}\n\n{render_sources(ch)}\n")
+            continue
         b = body
         if name == "Terms from this session":
             tid = f"tbl-{ch.nn}-terms"
@@ -395,6 +500,7 @@ def render_tail(ch: Chapter, captions: dict) -> tuple[str, str]:
         md = re.sub(r"^::: tblwrap\n(.*?)\n\nTBLCAP:(tbl-[\d-]+|tbl-\d\d-terms)\n:::",
                     lambda m: "::: {#%s}\n%s\n\n%s\n:::" % (m.group(2), m.group(1), captions.get(m.group(2), f"Terms from Session {ch.no}")),
                     md, flags=re.M | re.S)
+        md = link_citations(md, ch)
         chap.append(f"## {name} {{#sec-{ch.nn}-{slugify(name)} .unnumbered}}\n\n{md}\n")
     return "\n".join(chap), "\n".join(key)
 
@@ -504,10 +610,16 @@ def main() -> None:
     preface, howto, chapters = split_chapters(tex)
     convert_front(preface, howto)
     listing = []
+    for ch in chapters:                      # pass 1: every chapter's Sources, so that a
+        ch.main = preprocess(ch)             # mention can fall back to another chapter's entry
+        parse_sources(ch)
+        for key, sid in ch.srckeys.items():
+            GLOBAL_SRC.setdefault(key, f"{ch.nn}-{ch.slug}.qmd#{sid}")
     for ch in chapters:
-        main = preprocess(ch)
+        main = ch.main
         md = pandoc("\\chapter{%s}\n" % ch.title + main)
         md = postprocess(md, ch, captions)
+        md = link_citations(md, ch)
         md = "{{< include ../includes/ai-note.qmd >}}\n\n" + md   # AI-drafted note at the top of every chapter
         tail_md, key_md = render_tail(ch, captions)
         md = md.rstrip() + "\n\n" + tail_md.rstrip() + "\n"
