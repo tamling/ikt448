@@ -18,7 +18,7 @@ Four terms are often used as if they were one, and the essay must keep them apar
 The aim refers to the overall intent of the study in one sentence. Objectives refer to the concrete, checkable steps towards the aim. A research question refers to the question the study answers. A hypothesis refers to a testable predicted answer to a quantitative question.
 :::
 
-An example makes the layers visible. The aim is to understand why employees reuse passwords; the objectives are to survey 150 employees, to interview eight of them, and to compare the two; the research question is which factors are associated with password reuse among SME (small and medium-sized enterprise) employees; and the hypothesis is that perceived account value is negatively associated with reuse. A qualitative study has no hypothesis; a quantitative study can have several.
+An example makes the layers visible. The aim is to understand why employees reuse passwords; the objectives are to survey 150 employees, to interview eight of them, and to compare the two; the research question is which factors are associated with password reuse among SME (small and medium-sized enterprise) employees; and the hypothesis is that perceived account value is negatively associated with reuse. A qualitative study usually starts without a hypothesis --- exploratory work may end with one, which a later study tests; a quantitative study can test several.
 
 ::: {.callout-note}
 ## Research question
