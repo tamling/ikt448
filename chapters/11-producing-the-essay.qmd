@@ -131,8 +131,8 @@ The repair adds: an **owner** (the client), a **cost** (multiplication of leaks)
 
 ::: {#tbl-11-4}
   **Draft**                                                                                            **Repaired**
-  ---------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  "Smith (2021) surveyed employees. Lee (2022) did an experiment. Hansen (2023) interviewed admins."   "Across survey studies, security fatigue consistently predicts reuse (Smith, 2021; Lee, 2022). The one interview study complicates this: admins describe reuse as a deliberate time trade-off, not exhaustion (Hansen, 2023). No study examines SMBs, where both mechanisms plausibly intensify --- the gap this essay addresses."
+  ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  "Smith (2021) surveyed employees. Lee (2022) did an experiment. Hansen (2023) interviewed admins."   "Across the two quantitative studies, security fatigue consistently predicts reuse (Smith, 2021; Lee, 2022). The one interview study complicates this: admins describe reuse as a deliberate time trade-off, not exhaustion (Hansen, 2023). No study examines SMBs, where both mechanisms plausibly intensify --- the gap this essay addresses."
 
 Before and after, Part II: relevant work
 :::

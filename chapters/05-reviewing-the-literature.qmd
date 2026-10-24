@@ -344,7 +344,7 @@ Every paragraph ends facing **your** study. If a paragraph could be deleted with
 
 **Synthesis (strong)**
 
--   "Survey studies consistently find A (Smith, 2021; Lee, 2022) --- but the single field study contradicts this (Hansen, 2023), suggesting the effect may not survive real workplaces. **This gap motivates our question.**"
+-   "Survey and experimental studies consistently find A (Smith, 2021; Lee, 2022) --- but the single field study contradicts this (Hansen, 2023), suggesting the effect may not survive real workplaces. **This gap motivates our question.**"
 
 ::: {.callout-important}
 ## The test
