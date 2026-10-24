@@ -12,7 +12,7 @@ Every study rests on assumptions about what can be known and how we can know it.
 
 A headline such as "fitness apps make people healthier" can be approached in at least four ways, and each carries assumptions about what evidence is. Sending a questionnaire to hundreds of users counts, compares and generalises. Interviewing people who quit asks what happened and why. Looking at the usage logs and seeing when people drop off measures behaviour. Doing a bit of all three combines them. These are not just different methods; they are different assumptions about what knowledge is, and that is what the word "approach" means in research.
 
-Last session settled that research is the creation of new knowledge through a systematic process, open to criticism. This session asks how that process is set up, and the answer depends on the question. Part III of the essay --- the choice of methods --- has to justify the approach, and this chapter supplies the vocabulary.
+Chapter 1 settled that research is the creation of new knowledge through a systematic process, open to criticism. This chapter asks how that process is set up, and the answer depends on the question. Part III of the essay --- the choice of methods --- has to justify the approach, and this chapter supplies the vocabulary.
 
 ## Three approaches {#sec-02-three-approaches}
 
