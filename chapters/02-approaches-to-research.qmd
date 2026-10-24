@@ -19,13 +19,13 @@ Chapter 1 settled that research is the creation of new knowledge through a syste
 ::: {.callout-note}
 ## Quantitative research
 
-Quantitative research refers to an approach for testing objective theories by examining the relationships among measurable variables, yielding numerical data that are analysed with statistics.
+Quantitative research refers to an approach for testing objective theories by examining the relationships among measurable variables, yielding numerical data that are analysed with statistics (Creswell & Creswell, 2018, p. 4).
 :::
 
 ::: {.callout-note}
 ## Qualitative research
 
-Qualitative research refers to an approach for exploring and understanding the meaning that individuals or groups ascribe to a social or human problem, with data collected in the participants' setting and analysed inductively.
+Qualitative research refers to an approach for exploring and understanding the meaning that individuals or groups ascribe to a social or human problem, with data collected in the participants' setting and analysed inductively (Creswell & Creswell, 2018, p. 4).
 :::
 
 ::: {.callout-note}
@@ -34,7 +34,7 @@ Qualitative research refers to an approach for exploring and understanding the m
 Mixed methods research refers to an approach that collects both quantitative and qualitative data and integrates the two, so that the combined understanding exceeds what either strand provides alone.
 :::
 
-Creswell's point is that these are not two boxes but the ends of a continuum: a study sits somewhere on it, and it tends towards one end more than the other. The core ideas differ. A quantitative study works deductively, from theory to hypothesis to measurement to test, and aims at generalisation and replication; its typical questions are which factors, how many, and whether one thing affects another. A qualitative study works inductively, from data in a real setting towards concepts and explanation, and aims at depth and meaning; its typical questions are how people do something and what it means to them. A mixed-methods study combines the two deliberately, for instance in an explanatory sequential design that runs a survey first and then interviews a smaller sample to explain the pattern.
+Creswell and Creswell's (2018, Ch. 1) point is that these are not two boxes but the ends of a continuum: a study sits somewhere on it, and it tends towards one end more than the other. The core ideas differ. A quantitative study works deductively, from theory to hypothesis to measurement to test, and aims at generalisation and replication; its typical questions are which factors, how many, and whether one thing affects another. A qualitative study works inductively, from data in a real setting towards concepts and explanation, and aims at depth and meaning; its typical questions are how people do something and what it means to them. A mixed-methods study combines the two deliberately, for instance in an explanatory sequential design that runs a survey first and then interviews a smaller sample to explain the pattern.
 
 Four recent studies illustrate the ends of the continuum. Biloš and Budimir (2024) surveyed 694 Generation Z respondents in Croatia with an extended UTAUT2 model, analysed the data with factor analysis and hierarchical regression, and found that performance expectancy, social influence, hedonic motivation, habit and personal innovativeness predict the intention to use ChatGPT, whereas effort expectancy, facilitating conditions and price value do not. Huy et al. (2024) surveyed 671 ChatGPT users in Vietnam with UTAUT2 integrated with task--technology fit, used covariance-based structural equation modelling, and found that most factors affect use while effort expectancy, social influence and trust do not, and that use drives continuance and recommendation. Both are deductive and postpositivist; the same theory family, two samples, and partly different results --- which is what replication looks like in practice.
 
@@ -476,6 +476,8 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 -   Venkatesh, V., Brown, S., & Sullivan, Y. (2023). *Conducting mixed-methods research: From classical social sciences to the age of big data and analytics*. Virginia Tech Pamplin College of Business and Virginia Tech Publishing. <https://doi.org/10.21061/conducting-mixed-methods-research>
 
 -   Mayer, A.-S., Baygi, R. M., & Buwalda, R. (2025). Generation AI: Job crafting by entry-level professionals in the age of generative AI. *Business & Information Systems Engineering*, *67*(5), 595--613. <https://doi.org/10.1007/s12599-025-00959-x>
+
+-   Creswell, J. W., & Creswell, J. D. (2018). *Research design: Qualitative, quantitative, and mixed methods approaches* (5th ed.). SAGE.
 
 -   Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research methods for business students* (8th ed.). Pearson.
 
