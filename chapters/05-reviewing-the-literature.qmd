@@ -40,6 +40,16 @@ Sources differ in quality, and the quality hierarchy is not the same as the ease
 
 The search proceeds from the research question to a keyword table. Each concept in the question receives a column of synonyms and related terms; "password reuse" becomes "password reuse", "credential reuse" and "password management"; "employees" becomes "employees", "staff", "end users" and "knowledge workers". The concept with the most synonyms is usually the technical one, with tool names, acronyms and vendor terms, and it needs the longest OR block. Boolean operators build the string: OR joins synonyms within a concept, AND joins the concepts, NOT excludes a term and is used sparingly, and quotation marks and wildcards fix phrases and stems. A first string is tested in one database, the hit count is logged, and the string is adjusted --- which is the normal course of a search, not a failure.
 
+::: {#tbl-05-boolean}
+  **Operator**   **Does**              **Example**                                **Effect on results**
+  -------------- --------------------- ------------------------------------------ --------------------------------------------------------
+  AND            requires both terms   `“password reuse” AND employee*`           narrows: only hits that mention both concepts
+  OR             accepts either term   `“password reuse” OR “credential reuse”`   widens: every synonym counts
+  NOT            excludes a term       `… NOT students`                           excludes; use sparingly, it also removes relevant hits
+
+The three Boolean operators, with the chapter's search string
+:::
+
 Screening follows explicit criteria stated before the hits are read: inclusion criteria such as peer-reviewed publications in English from 2015 onwards that study organisational settings, and exclusion criteria such as purely technical measures without a human or organisational dimension. A criterion invented after reading the hits is not a criterion but a preference. Kitchenham and Charters (2007) set out the procedure for software engineering as a protocol written first; Kitchenham et al. (2009) reviewed how the procedure had been applied. The PRISMA 2020 statement (Page et al., 2021) supplies the reporting standard: a flow diagram that records how many records were identified, screened, assessed for eligibility and included, and why the others were excluded. The flow diagram is a template, and every review fills it in.
 
 Enholm, Papagiannidis, Mikalef and Krogstie (2022) show the same procedure in a published review. They wrote a protocol first, following the Cochrane handbook; they asked three questions --- what enables or inhibits AI use in organisations, what types of AI use exist, and through which mechanisms AI value is realised; they combined two keyword sets with wildcards and searched Google Scholar and nine databases, including Scopus, IEEE Xplore and the AIS library, within a stated period in September 2020; they applied explicit inclusion and exclusion criteria; two authors assessed the quality of each paper independently for rigour, credibility and relevance; and they extracted the 43 included papers into a concept matrix and synthesised them in three parts and a research agenda. Everything Part II of your essay asks for is visible in one paper.
