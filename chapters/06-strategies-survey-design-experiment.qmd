@@ -52,7 +52,7 @@ Sparrow, Liu and Wegner (2011) show the strategy at its best and at its most exp
 
 Three criteria decide between strategies, in this order: fit to the question, fit to the resources, and the main risk. A "how widespread" question fits a survey and needs access to a population; a "does the artefact work" question fits design and creation and needs an evaluation plan and a period of use; a "does X cause Y" question fits an experiment and needs control, randomisation and comparable groups. The justification paragraph of Part III has a fixed shape: we choose X because it fits the question in this way and our resources in that way; we rejected Y because of this. The rejected alternatives with reasons are what examiners read for.
 
-The papers read this semester show which strategies our field actually uses. Four surveys, one case study (Mayer et al., 2025), one experiment from psychology (Sparrow et al., 2011), one study of documents at scale (Boodraj et al., 2026), one qualitative workshop study (Woodruff et al., 2024), one systematic review (Enholm et al., 2022) and three conceptual papers --- and not one design and creation study, the strategy most cyber security theses use. The gap is an opportunity: a well-evaluated artefact with a clear question is a contribution in a field that publishes few of them.
+The papers read this semester show which strategies our field actually uses. Four questionnaire surveys, one case study (Mayer et al., 2025), one experiment from psychology (Sparrow et al., 2011), two further surveys in Oates' wide sense --- one that generates its data from documents at scale (Boodraj et al., 2026) and one from participatory workshops (Woodruff et al., 2024) --- one systematic review (Enholm et al., 2022) and three conceptual papers --- and not one design and creation study, the strategy most cyber security theses use. The gap is an opportunity: a well-evaluated artefact with a clear question is a contribution in a field that publishes few of them.
 
 ## Worked examples and tables {#sec-06-worked-examples-and-tables}
 
@@ -210,24 +210,26 @@ Name the strategy, show it fits the **question**, and show it fits your **resour
 :::
 
 ::: {#tbl-06-6}
-  **Paper**                                 **Strategy**                                    **Data and analysis**
-  ----------------------------------------- ----------------------------------------------- -----------------------------------------------------------------------
-  Biloš & Budimir (2024)                    Survey                                          694 questionnaires; factor analysis, hierarchical regression
-  Huy et al. (2024)                         Survey (with a developmental interview phase)   671 questionnaires; CB-SEM; 20 interviews to build the use scale
-  Grassini et al. (2024)                    Survey                                          104 Norwegian students; PLS-SEM (session 8)
-  Jo & Park (2024)                          Survey                                          351 workers via a polling panel; PLS-SEM
-  Sparrow et al. (2011)                     Experiment                                      Four laboratory experiments; random assignment; recall as outcome
-  Mayer et al. (2025)                       Case study                                      One consultancy; semi-structured interviews (session 7)
-  Boodraj et al. (2026)                     Documents as data                               161,000 job postings analysed with Python (session 9)
-  Woodruff et al. (2024)                    Qualitative --- participatory workshops         54 knowledge workers, seven industries; thematic analysis (session 9)
-  Enholm et al. (2022)                      Systematic literature review                    43 papers; concept matrix (session 5)
-  von Nordenflycht (2010)                   Conceptual --- theory and taxonomy              No data; argument from the literature
-  Sapkota et al. (2025); Venkatesh (2022)   Conceptual review; research agenda              No data of their own
+  **Paper**                                 **Strategy (Oates)**                            **Data generation**         **Sample and analysis**
+  ----------------------------------------- ----------------------------------------------- --------------------------- -----------------------------------------------------------------------
+  Biloš & Budimir (2024)                    Survey                                          Questionnaire               694 respondents; factor analysis, hierarchical regression
+  Huy et al. (2024)                         Survey (with a developmental interview phase)   Questionnaire; interviews   671 respondents; CB-SEM; 20 interviews to build the use scale
+  Grassini et al. (2024)                    Survey                                          Questionnaire               104 Norwegian students; PLS-SEM (session 8)
+  Jo & Park (2024)                          Survey                                          Questionnaire               351 workers via a polling panel; PLS-SEM
+  Sparrow et al. (2011)                     Experiment                                      Laboratory tasks            Four experiments; random assignment; recall as outcome
+  Mayer et al. (2025)                       Case study                                      Interviews                  One consultancy; semi-structured interviews (session 7)
+  Boodraj et al. (2026)                     Survey (of documents)                           Documents                   161,000 job postings analysed with Python (session 9)
+  Woodruff et al. (2024)                    Survey (of workshops)[^1]                       Workshops                   54 knowledge workers, seven industries; thematic analysis (session 9)
+  Enholm et al. (2022)                      Systematic literature review                    Documents (papers)          43 papers; concept matrix (session 5)
+  von Nordenflycht (2010)                   Conceptual --- theory and taxonomy              None                        No data; argument from the literature
+  Sapkota et al. (2025); Venkatesh (2022)   Conceptual review; research agenda              None                        No data of their own
 
 This semester's papers by strategy, data and analysis
 :::
 
 One experiment, and it comes from psychology; not one design and creation study --- the strategy most cyber security theses use. Two strategies Oates does not list, the **systematic review** and the **conceptual paper**, are studies in their own right when they follow a documented method.
+
+[^1]: Oates' survey strategy is wide: the same questions put systematically to many people or documents. A set of participatory workshops across seven industries fits that definition better than a case study of one setting; the qualitative data generation does not change the strategy.
 
 ## Terms from this session {#sec-06-terms-from-this-session .unnumbered}
 
