@@ -61,12 +61,12 @@ The question decides more than the essay's first page. A "how widespread" questi
 ### The four layers
 
 ::: {#tbl-04-1}
-  **Term**                **What it is**                                    **Example (password reuse)**
-  ----------------------- ------------------------------------------------- -----------------------------------------------------------------------
-  **Aim**                 the overall intent, one sentence                  understand why employees reuse passwords
-  **Objective(s)**        concrete, checkable steps toward the aim          survey 150 employees; interview 8 of them
-  **Research question**   the question the study will answer                which factors are associated with password reuse among SME employees?
-  **Hypothesis**          a testable predicted answer (quantitative only)   H1: perceived account value is negatively associated with reuse
+  **Term**                **What it is**                                       **Example (password reuse)**
+  ----------------------- ---------------------------------------------------- -----------------------------------------------------------------------
+  **Aim**                 the overall intent, one sentence                     understand why employees reuse passwords
+  **Objective(s)**        concrete, checkable steps toward the aim             survey 150 employees; interview 8 of them
+  **Research question**   the question the study will answer                   which factors are associated with password reuse among SME employees?
+  **Hypothesis**          a testable predicted answer (usually quantitative)   H1: perceived account value is negatively associated with reuse
 
 The four layers of a question: aim, objective, research question and hypothesis, with a password-reuse example
 :::
