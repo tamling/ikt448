@@ -254,7 +254,7 @@ Which **criteria** does Oates propose for judging a candidate topic?
 ::: {#exr-04-your-main-question}
 ## Your main question
 
-**Your main question** --- draft it in one sentence, then run the five-point checklist: precise, feasible, researchable, single-barrelled, no assumption baked in. Which criterion fails first?
+**Your main question** --- draft it in one sentence, then run the five-point checklist: anchored, focused, researchable, feasible, open. Which criterion fails first?
 :::
 
 ::: {#exr-04-one-question-or-several}

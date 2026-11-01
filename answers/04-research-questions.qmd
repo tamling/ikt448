@@ -16,7 +16,7 @@ The questions are in `chapters/04-research-questions.qmd`; the sketch answers be
 
 ## Questions for discussion
 
-1. **Your main question** (@exr-04-your-main-question) — Most first drafts fail on precision ("effective", "better") or on a baked-in assumption ("why does X cause Y?" before anyone has shown that it does). Repair by defining the terms and by turning the assumption into a sub-question.
+1. **Your main question** (@exr-04-your-main-question) — Most first drafts fail on focus ("effective", "better") or are not open because an assumption is baked in ("why does X cause Y?" before anyone has shown that it does). Repair by defining the terms and by turning the assumption into a sub-question.
 
 2. **One question or several?** (@exr-04-one-question-or-several) — One main question that steers the study; at most two sub-questions that decompose it. If the sub-questions could each be a study of their own, the main question is a topic, not a question.
 
