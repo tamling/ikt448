@@ -177,7 +177,7 @@ Knowledge of human-built artefacts: **constructs**, **models**, **methods**, **i
 
 A study shows its rigour and relevance by how it *consumes* existing knowledge and what it *adds* to these two bases. For your essay: say which kind your thesis will add --- a finding about how things are, or an artefact and the knowledge of how to build it. Most cyber security theses produce the second, and should say so.
 
-*[Hevner (2021)](#src-03-hevner-2021), building on Gregor & Hevner (2013) and [Hevner et al. (2004)](#src-03-hevner-2004).*
+*[Hevner (2021)](#src-03-hevner-2021), building on [Gregor & Hevner (2013)](#src-03-gregor-2013) and [Hevner et al. (2004)](#src-03-hevner-2004).*
 
 ### Forms of contribution in IS
 
@@ -357,6 +357,7 @@ Sort, order and pick: every exercise below is answerable from this chapter and c
 - []{#src-03-mcafee-2008}McAfee, A., & Brynjolfsson, E. (2008). Investing in the IT that makes a competitive difference. *Harvard Business Review*, *86*(7/8), 98--107.
 - []{#src-03-dimaggio-1983}DiMaggio, P. J., & Powell, W. W. (1983). The iron cage revisited: Institutional isomorphism and collective rationality in organizational fields. *American Sociological Review*, *48*(2), 147--160.
 - []{#src-03-gibbons-1994}Gibbons, M., Limoges, C., Nowotny, H., Schwartzman, S., Scott, P., & Trow, M. (1994). *The new production of knowledge*. SAGE.
+- []{#src-03-gregor-2013}Gregor, S., & Hevner, A. R. (2013). Positioning and presenting design science research for maximum impact. *MIS Quarterly*, *37*(2), 337--355. <https://doi.org/10.25300/MISQ/2013/37.2.01>
 - []{#src-03-hevner-2004}Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, *28*(1), 75--105.
 - []{#src-03-meyer-1977}Meyer, J. W., & Rowan, B. (1977). Institutionalized organizations: Formal structure as myth and ceremony. *American Journal of Sociology*, *83*(2), 340--363.
 - []{#src-03-peffers-2007}Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. *Journal of Management Information Systems*, *24*(3), 45--77.
