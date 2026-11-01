@@ -162,7 +162,7 @@ Note how each row **consumes** the one above --- the golden thread in action.
 The running example, assembled: strategy, data, analysis, ethics and report
 :::
 
-This table *is* a essay in miniature. Your essay is this, written out --- with the justifications attached.
+This table *is* an essay in miniature. Your essay is this, written out --- with the justifications attached.
 
 ### Mismatch clinic
 

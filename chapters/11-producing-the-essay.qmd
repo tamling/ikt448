@@ -87,7 +87,7 @@ Every methodological statement has two halves:
 
 Writing conventions that help:
 
--   **Future tense** --- a essay plans ("we will recruit"), it does not pretend to have finished
+-   **Future tense** --- an essay plans ("we will recruit"), it does not pretend to have finished
 
 -   **Precision** --- numbers, durations, tools, versions; "several interviews" is not a plan
 
