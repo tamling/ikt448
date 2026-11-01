@@ -66,7 +66,7 @@ Rules visible in the example: **open** questions, **concrete episodes** (not opi
 
 -   **How many?** Argue it with **information power** ([Malterud et al., 2016](#src-09-malterud-2016)): the more relevant information the sample holds, the fewer participants are needed. Saturation --- new interviews stop producing new themes --- is the older criterion and is not enough on its own. At master's scale, 6--12 semi-structured interviews of 30--60 minutes is a defensible plan --- *state the argument*, don't just state a number.
 
--   **Recording:** always ask consent, always record (notes lie); audio only. Use the **Nettskjema diktafon app** --- audio goes straight to approved storage instead of your phone's cloud backup (session 10 explains why that matters).
+-   **Recording:** always ask consent, and record whenever it is given (notes lie); audio only. If a participant declines, take notes during and immediately after the interview and say so in the method section. Use the **Nettskjema diktafon app** --- audio goes straight to approved storage instead of your phone's cloud backup (session 10 explains why that matters).
 
 -   **Transcription:** verbatim for the parts you analyse; budget 4--6 hours of transcription per interview hour --- this is where qualitative time actually goes.
 
