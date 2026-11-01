@@ -207,7 +207,7 @@ Information power: what calls for fewer or more participants
 
 For your essay: argue the sample size with these five, before data collection, and revisit it during collection. "Eight interviews with SOC analysts, a narrow aim, a dense sample and UTAUT as a lens" is an argument; "until saturation" is not.
 
-1.  **Participants:** who, how recruited, how many --- with the saturation logic stated
+1.  **Participants:** who, how recruited, how many --- with the information-power argument stated
 
 2.  **Method:** interview type and guide (appendix), or observation protocol, or document corpus and access
 
