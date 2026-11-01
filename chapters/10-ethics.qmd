@@ -123,7 +123,7 @@ The last bullet is the pattern to learn: **redesign can remove the data problem 
 
 -   Mitigation: strip identities at ingestion; analyse and report only **aggregates** per repository
 
--   SIKT: with identities stripped immediately and nothing person-level stored, likely **no** --- but the reasoning is *documented* in Part IV, not assumed
+-   SIKT: **yes** --- usernames and e-mails are personal data for as long as they exist, so the project is notified even if they are removed immediately; data count as anonymous only if no one can be identified at any point ([Sikt](https://sikt.no/en/node/153))
 
 -   Quoting a named user's commit message in the report would reverse this analysis --- don't
 
