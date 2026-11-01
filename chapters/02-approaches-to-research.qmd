@@ -334,13 +334,13 @@ How common each theme is; you cannot generalise to "users in general".
 This is an **explanatory sequential design**: quantitative first, qualitative second to *explain* the numbers. Note the deliberate order and integration point --- that is what makes it a design, not a coincidence. *Notation:* CAPITAL letters (QUANT) mark the **dominant** component, lower-case (qual) the supporting one --- a standard convention in mixed methods research.
 
 ::: {#tbl-02-5}
-               **Study A (quant)**          **Study B (qual)**             **Study C (mixed)**
-  ------------ ---------------------------- ------------------------------ -----------------------
-  Worldview    postpositivist               constructivist                 pragmatist
-  Question     *which factors predict...*   *how do users experience...*   both, in sequence
-  Sample       500, random                  12, purposive                  500 + 10
-  Claim type   generalisable pattern        rich understanding             pattern + explanation
-  Weakness     no "why"                     no "how many"                  cost, complexity
+               **Study A (quant)**                                                   **Study B (qual)**             **Study C (mixed)**
+  ------------ --------------------------------------------------------------------- ------------------------------ -----------------------
+  Worldview    postpositivist                                                        constructivist                 pragmatist
+  Question     *which factors predict...*                                            *how do users experience...*   both, in sequence
+  Sample       500, convenience (online questionnaire to current and former users)   12, purposive                  500 + 10
+  Claim type   generalisable pattern                                                 rich understanding             pattern + explanation
+  Weakness     no "why"                                                              no "how many"                  cost, complexity
 
 One question, three studies, side by side: quantitative, qualitative and mixed
 :::
