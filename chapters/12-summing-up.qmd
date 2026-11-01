@@ -22,7 +22,7 @@ The mismatch clinic diagnoses the most common failure in Part III. A survey used
 
 ## The essay and the oral exam {#sec-12-the-essay-and-the-oral-exam}
 
-The facts of submission are few: about ten pages excluding front page and references, the four parts clearly marked; English or Norwegian, as a PDF; the written essay counts 40 % and its presentation and discussion 20 %; APA 7 references with the curriculum cited at the choices; an honest and specific AI declaration; and the deadline, portal and oral exam dates as announced. The oral exam is the essay presented and its choices defended in discussion --- the same describe--justify pairs, spoken. Frequently asked questions have short answers: tables count towards the ten pages and are used for density, not evasion; there is no reference quota, but every claim that needs support has it; the research question may still change if Parts II to IV are updated to match; in a group, each member must be able to defend every part; and a pending SIKT decision is stated in Part IV with its submission date, because the plan is graded, not the approval letter.
+The facts of submission are few: about ten pages excluding front page and references, the four parts clearly marked; English or Norwegian, as a PDF; the assessment components and their weights are in the Canvas course room; APA 7 references with the curriculum cited at the choices; an honest and specific AI declaration; and the deadline, portal and oral exam dates as announced. The oral exam is the essay presented and its choices defended in discussion --- the same describe--justify pairs, spoken. Frequently asked questions have short answers: tables count towards the ten pages and are used for density, not evasion; there is no reference quota, but every claim that needs support has it; the research question may still change if Parts II to IV are updated to match; in a group, each member must be able to defend every part; and a pending SIKT decision is stated in Part IV with its submission date, because the plan is graded, not the approval letter.
 
 What separates the grades is judgement rather than reproduction. In Parts I and II, reproduction means background and literature reported correctly, and judgement means one question with a hierarchy and a synthesis that argues. In Parts III and IV, reproduction means strategy and methods named and described, and judgement means choices justified, alternatives rejected with reasons, limitations and ethics concrete. In the oral exam, reproduction is the essay presented, and judgement is the choices defended under questioning. The climb from a passing to a strong essay is mostly judgement, which is why Sessions 10 and 11 were disproportionately about Parts III and IV.
 
@@ -182,7 +182,7 @@ For each: where does the thread break, and what is the cheapest fix?
 
 -   **Language:** English or Norwegian; PDF
 
--   **Weights:** written essay 40 %; presentation and discussion in the oral exam 20 %
+-   **Weights:** the assessment components and their weights are in the Canvas course room
 
 -   **References:** APA 7; cite the curriculum where your choices lean on it
 

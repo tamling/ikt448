@@ -67,7 +67,7 @@ One rule beats all tool debates: decide the tools now and use the same ones unti
 What the examiners look for, part by part
 :::
 
-Weights: the written essay counts 40 % of the course grade, its presentation and discussion in the oral exam 20 %. Note where judgement lives: Parts III and IV. That is where grades separate.
+The assessment components and their weights are in the Canvas course room. Note where judgement lives: Parts III and IV. That is where grades separate.
 
 ![The golden thread of the essay: problem, question, strategy, methods, analysis.](figures/fig-11-1.svg){#fig-11-1}
 
