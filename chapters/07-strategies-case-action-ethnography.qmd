@@ -209,7 +209,7 @@ Strategies can be **combined** --- but every combination must be justified per (
   **Plan--act--observe--reflect**   one action-research cycle; rigour requires at least two
   **Ethnography**                   extended immersion to understand a group's culture
   **Thick description**             an account rich enough to convey *why* things are done as they are
-  **Virtual ethnography**           ethnography of an online setting (project, community, platform)
+  **Digital ethnography**           ethnography of an online setting (project, community, platform)
   **Reflexivity**                   documenting the researcher's own influence on the setting
   --------------------------------- ------------------------------------------------------------------------------
 

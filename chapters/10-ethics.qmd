@@ -159,7 +159,7 @@ Four columns answer every storage question SIKT and your consent form ask --- co
 
 -   The typing study (session 1) used public GitHub code --- defensible because it analysed **code, not people**, in aggregate. Quoting named users' comments would be a different matter.
 
--   Virtual ethnography (session 7): observing a community raises the overt/covert question --- covert observation needs strong, documented justification.
+-   Digital ethnography (session 7): observing a community raises the overt/covert question --- covert observation needs strong, documented justification.
 
 <!-- -->
 
