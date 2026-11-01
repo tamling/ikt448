@@ -164,11 +164,11 @@ Three consequences:
 Three claims from a security workplace, tested against the three conditions of precision, observability and refutability.
 
 ::: {#tbl-01-3}
-  ---------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------
-  "Agentic AI shortens incident response time"   **Testable** --- once response time and a baseline are defined. Sapkota et al. (2025) propose the scenario; nobody has measured it yet
+  ---------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  "Agentic AI shortens incident response time"   **Testable** --- once response time and a baseline are defined. Sapkota et al. (2025) propose the scenario without measuring it; we know of no published measurement
   "Our architecture is elegant"                  **Not testable** as stated --- "elegant" predicts nothing observable
   "Zero trust is better"                         **Not testable *yet*** --- it becomes testable once "better" is operationalised: fewer successful lateral movements? lower incident cost?
-  ---------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------
+  ---------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Three workplace claims, tested for precision, observability and refutability
 :::
