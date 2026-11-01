@@ -73,18 +73,19 @@ Consent is only valid if it is **informed, voluntary and documented**. The infor
 *SIKT provides consent-form templates --- use them rather than writing your own from scratch.*
 
 ::: {#tbl-10-1}
-  **Example wording**                                                                                                      **Which requirement it meets**
-  ------------------------------------------------------------------------------------------------------------------------ ------------------------------------
-  "We are three master's students investigating how developers handle security warnings."                                  who + purpose
-  "Participation means one recorded interview of 30--45 minutes about your daily work."                                    what it involves
-  "Recordings are stored on university-approved storage, accessible to the group only, and deleted after transcription."   data, storage, deletion
-  "Participation is voluntary; you may withdraw at any time without giving a reason."                                      voluntariness, withdrawal
-  "Results are reported confidentially: quotes are shown to you before use and stripped of identifying detail."            the promise --- and how it is kept
+  **Example wording**                                                                                                                                                       **Which requirement it meets**
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------
+  "We are three master's students investigating how developers handle security warnings."                                                                                   who + purpose
+  "Participation means one recorded interview of 30--45 minutes about your daily work."                                                                                     what it involves
+  "Recordings are stored on university-approved storage, accessible to the group only, and deleted after transcription."                                                    data, storage, deletion
+  "Participation is voluntary; you may withdraw at any time without giving a reason."                                                                                       voluntariness, withdrawal
+  "Results are reported confidentially: quotes are shown to you before use and stripped of identifying detail."                                                             the promise --- and how it is kept
+  "Questions or complaints: \[your name, e-mail\] or your supervisor \[name, e-mail\]; you can also contact the UiA data protection officer or complain to Datatilsynet."   contact for questions and complaints
 
 Consent-form wording and the requirement each sentence meets
 :::
 
-Five sentences cover the checklist --- built on the SIKT template, adapted to your study. Attach the full form to Part IV as an appendix.
+Six sentences cover the checklist --- built on the SIKT template, adapted to your study. Attach the full form to Part IV as an appendix.
 
 ::: {#tbl-10-2}
   **As transcribed**                                                                                    **As reported**
