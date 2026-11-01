@@ -117,7 +117,7 @@ Cycle 1: introduce a severity-tagging rule with the team; measure triage time an
 
 **Strong at:** relevance, practitioner buy-in, studying change itself; natural fit when your master's thesis *changes* something at the client.
 
-**Weak at:** the researcher is *inside* the change --- rigour demands documented cycles and honest reflection, not success stories. Time: at least two cycles.
+**Weak at:** the researcher is *inside* the change --- rigour demands documented cycles and honest reflection, not success stories. Time: at least two cycles, because the second cycle is where the learning from the first is tested --- one cycle is an intervention with a report, not yet action research.
 
 ::: {#tbl-07-2}
                       **Design & creation**             **Action research**
