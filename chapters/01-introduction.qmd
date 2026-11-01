@@ -30,9 +30,7 @@ Three claims circulate in every security organisation: that 95 % of breaches a
 
 The question has a structure. Information reaches us through a supply chain that begins with original studies in peer-reviewed journals and conferences, passes through syntheses such as systematic reviews and textbooks, continues through the professional layer of standards, industry and vendor reports, and ends in media and social feeds. Reach and speed increase along the chain; quality control and detail decrease. A qualified finding becomes a headline, and a headline becomes a slogan. Most claims reach us from the right end of the chain, and the task is to trace them back to the left.
 
-![The information supply chain. Reach and speed increase from original studies to social feeds; quality control and detail increase in the other direction.](figures/fig-01-1.svg){#fig-01-1}
-
-Each step to the right compresses and simplifies: a qualified finding becomes a headline, and a headline becomes a slogan. Most claims reach us from the **right end** of the chain; the task is to trace them back to the left.
+![The information supply chain: reach and speed increase from original studies to social feeds, quality control and detail in the other direction.](figures/fig-01-1.svg){#fig-01-1}
 
 Four questions do the tracing: (1) is there a primary source, as opposed to a retelling; (2) who produced it, with what independence, funding and incentive to reach this result; (3) how do they know --- with which method, sample and comparison; and (4) what was actually claimed, as opposed to what the repost says. Applied to the first claim, the trail runs from a LinkedIn post to a keynote slide to a vendor report and ends there, without a method section; the claim is unverifiable as stated. Applied to the second, the trail reaches a peer-reviewed review ([Sapkota, Roumeliotis & Karkee, 2025](#src-01-sapkota-2025)) whose method is visible --- a literature search and a conceptual taxonomy --- but in which incident response appears as an illustrative scenario, not as an evaluation. The same four questions therefore lead to different conclusions, and the difference lies not in the confidence of the claim but in the traceability of the evidence.
 
@@ -51,8 +49,6 @@ Three conditions follow, and removing any one of them means that what remains is
 The definition is not arbitrary. Each of its parts was established against resistance over roughly 2,400 years: evidence over authority, method over intuition, and published, criticisable work over private conviction. The timeline runs from Aristotle's observation and logic through Ibn al-Haytham's systematic experiments, Bacon's empiricism, Descartes' doubt as method, the first scientific journals of 1665 and Newton's union of theory and experiment, to Popper's falsifiability in 1934, Kuhn's paradigms in 1962 and today's open science and replication movements.
 
 ![Where the definition of research comes from: evidence over authority, method over intuition, and published, criticisable work over private conviction, from Aristotle to open science.](figures/fig-01-2.svg){#fig-01-2}
-
-The definition on the previous slide is not arbitrary. Each of its parts was established against resistance: evidence over authority, method over intuition, and published, **criticisable** work over private conviction.
 
 Every rule in this course --- justify, document, cite, state limitations --- is a condensed lesson from this history. Empiricism reappears as your data (Sessions 8--9), method and doubt as the research process (Session 3), journals and peer review as the literature review (Session 5), falsifiability as questions and hypotheses (Session 4), paradigms as approaches (Session 2), and the replication crisis as protocols and limitations (Sessions 5 and 11). The history also produced the field this course belongs to: information systems, which grew out of both the technical and the social sciences.
 
