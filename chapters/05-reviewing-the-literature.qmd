@@ -129,7 +129,7 @@ Computing is unusual: **top conferences are peer-reviewed and count as much as j
 Databases and what each is good for
 :::
 
-Strategy: run your string in **two or three** databases, not ten --- and **snowball**: follow the reference lists (backward) and citations (forward) of your best hits. *(AIS eLibrary, EBSCOhost and the ACM DL are the three used in the real review later in this session.)*
+Strategy: for a master's essay, **two or three** databases are enough; a published systematic review such as Enholm et al. (@tbl-05-5) searches many more, because its claim to completeness is stronger. And **snowball**: follow the reference lists (backward) and citations (forward) of your best hits. *(AIS eLibrary, EBSCOhost and the ACM DL are the three used in the real review later in this session.)*
 
 ### From question to string to criteria
 
