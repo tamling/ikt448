@@ -44,7 +44,7 @@ The sequence runs from the transcript to the theme, and every step is visible. F
 
 Part IV of the essay asks for a data plan with five elements: participants, method, handling, analysis and limitations. The number of participants is argued rather than asserted. "Saturation" is tied to grounded theory and used inconsistently; [Malterud, Siersma and Guassora (2016)](#src-09-malterud-2016) propose information power instead. The more relevant information the sample holds, the fewer participants are needed, and five dimensions decide it: a narrow study aim needs fewer participants than a broad one; a dense sample, whose participants hold exactly the experience sought, needs fewer than a sparse one; a study that applies established theory needs fewer than one that does not; a strong dialogue --- clear, focused, articulate --- needs fewer than a weak one; and case analysis in depth needs fewer than cross-case analysis. "Eight interviews with SOC analysts, a narrow aim, a dense sample and UTAUT as a lens" is an argument; "until saturation" is not, and the argument is revisited during data collection.
 
-The honest limitations of most qualitative theses are access and self-report: a small purposive sample from one organisation, and accounts of behaviour rather than behaviour. Naming them is judgement; hiding them is a weakness.
+The honest limitations of most qualitative theses are access and self-report: a small purposive sample from one organisation, and accounts of behaviour rather than behaviour. Naming them shows judgement; hiding them is a weakness.
 
 ## Worked examples and tables {#sec-09-worked-examples-and-tables}
 
