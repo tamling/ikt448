@@ -145,11 +145,11 @@ Build the library (development); evaluate with 12 developers solving standard ta
 The evaluation is where the research lives --- three common shapes:
 
 ::: {#tbl-06-4}
-  **Shape**        **Example**                                                                  **Produces**
-  ---------------- ---------------------------------------------------------------------------- -------------------------------------------------
-  Usability test   8 users complete 5 tasks with the artefact; time, errors, SUS                user-facing quality evidence
-  Benchmark        the new API gateway vs. the old one on the same load profile                 performance evidence, controlled
-  Expert review    3 security professionals assess the threat-model notation against criteria   judgement-based evidence for constructs/methods
+  **Shape**        **Example**                                                                              **Produces**
+  ---------------- ---------------------------------------------------------------------------------------- -------------------------------------------------
+  Usability test   8 users complete 5 tasks with the artefact; time, errors, System Usability Scale (SUS)   user-facing quality evidence
+  Benchmark        the new API gateway vs. the old one on the same load profile                             performance evidence, controlled
+  Expert review    3 security professionals assess the threat-model notation against criteria               judgement-based evidence for constructs/methods
 
 Three common shapes of evaluation in design and creation research
 :::
