@@ -111,12 +111,12 @@ Two templates that make a question answerable: PICO for evaluations with a compa
 Four slots turn a vague comparison idea into a complete question:
 
 ::: {#tbl-04-3}
-                     **Cyber**                        **Frontend**                   **Backend**
-  ------------------ -------------------------------- ------------------------------ ---------------------
-  **P**opulation     SME employees                    junior developers              small on-call teams
-  **I**ntervention   quarterly phishing simulations   accessible component library   pair programming
-  **C**omparison     annual e-learning                plain HTML/CSS                 solo + review
-  **O**utcome        click-through rate               task time, WCAG violations     defect density
+                     **Cyber**                        **Frontend**                                                        **Backend**
+  ------------------ -------------------------------- ------------------------------------------------------------------- ---------------------
+  **P**opulation     SME employees                    junior developers                                                   small on-call teams
+  **I**ntervention   quarterly phishing simulations   accessible component library                                        pair programming
+  **C**omparison     annual e-learning                plain HTML/CSS                                                      solo + review
+  **O**utcome        click-through rate               task time, Web Content Accessibility Guidelines (WCAG) violations   defect density
 
 PICO filled in for three domains: cyber security, frontend and backend
 :::
