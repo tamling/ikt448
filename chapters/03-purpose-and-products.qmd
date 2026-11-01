@@ -105,11 +105,11 @@ If you can fill this table for your own project, your essay is essentially outli
 
 ::: {#tbl-03-2}
   **Reason**                     **IT / security example**
-  ------------------------------ ------------------------------------------------
+  ------------------------------ --------------------------------------------------------
   Add to the body of knowledge   how do phishing tactics evolve over time?
-  Solve a problem                reduce alert fatigue in a security team
-  Test or evaluate something     does our new API gateway actually scale?
-  Find out "what happens if"     what if we drop passwords for passkeys?
+  Solve a problem                reduce false positives in a security operations centre
+  Test or evaluate something     does an API gateway actually reduce attack surface?
+  Find out "what happens if"     what if we push passkeys to all customers?
   Personal development           learn threat modelling by studying it properly
   Qualification (you!)           pass this course; write your master's thesis
 
