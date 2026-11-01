@@ -173,7 +173,7 @@ Three claims from a security workplace, tested against the three conditions of p
 Three workplace claims, tested for precision, observability and refutability
 :::
 
-*Session 4 turns this into craft: a research question is a testable claim in the form of a question.*
+*Session 4 turns this into craft: a research question is an answerable question --- in a confirmatory study a testable claim in the form of a question, in an exploratory study a question about how or why something happens.*
 
 ### What research is not
 
