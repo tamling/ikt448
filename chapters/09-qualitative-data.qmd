@@ -74,9 +74,9 @@ Rules visible in the example: **open** questions, **concrete episodes** (not opi
 
 ::: {#tbl-09-1}
   **Broken**                                     **Repaired**
-  ---------------------------------------------- ------------------------------------------------------------------
+  ---------------------------------------------- --------------------------------------------------------------------
   Don't you find security policies annoying?     How do the security policies affect your daily work?
-  Do you follow the password policy? (yes/no)    Tell me about the last time the password policy got in your way.
+  Do you follow the password policy? (yes/no)    Tell me about the last time you had to follow the password policy.
   Why is your team bad at reviews?               How do reviews typically go in your team?
   What do you think about security in general?   Describe a recent security decision you were part of.
   Would you say training helps?                  What, if anything, changed after the last training?
