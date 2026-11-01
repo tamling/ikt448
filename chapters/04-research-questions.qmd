@@ -189,7 +189,7 @@ Same rule both times: sub-questions **decompose** the main question --- and each
 Hypotheses assessed: which are testable, and why
 :::
 
-A hypothesis needs: **named variables**, a **direction**, and a route to **measurement**. And remember: hypotheses belong to quantitative questions --- a qualitative study states expectations, not hypotheses.
+A hypothesis needs: **named variables**, a **stated relationship** --- with a direction where earlier work gives a reason for one, otherwise non-directional ("the groups differ", tested two-tailed) --- and a route to **measurement**. And remember: hypotheses belong to quantitative questions --- a qualitative study states expectations, not hypotheses.
 
 ### The question decides more than you think
 
