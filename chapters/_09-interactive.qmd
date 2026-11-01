@@ -58,7 +58,7 @@ Sort the questions. Then press **Check**.
    "b": "broken"
   },
   {
-   "t": "Tell me about the last time the password policy got in your way.",
+   "t": "Tell me about the last time you had to follow the password policy.",
    "b": "rep"
   },
   {

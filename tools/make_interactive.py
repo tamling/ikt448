@@ -360,7 +360,7 @@ EX = {
          [("Don't you find security policies annoying?", "broken"),
           ("How do the security policies affect your daily work?", "rep"),
           ("Do you follow the password policy? (yes/no)", "broken"),
-          ("Tell me about the last time the password policy got in your way.", "rep"),
+          ("Tell me about the last time you had to follow the password policy.", "rep"),
           ("Why is your team bad at reviews?", "broken"),
           ("How do reviews typically go in your team?", "rep")],
          "Repaired questions are open, neutral and anchored in a concrete episode rather than an opinion.",
