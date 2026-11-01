@@ -154,7 +154,7 @@ Note how each row **consumes** the one above --- the golden thread in action.
   Strategy (S6--7)   survey (SQ1) + interviews (SQ2) = mixed, explanatory sequential; case study rejected: question targets factors, not one setting
   Data (S8)          questionnaire, n ≈ 150 via six partner firms; validated fatigue scale; Nettskjema
   Data (S9)          8 semi-structured interviews, number justified by information power (Malterud et al., 2016); thematic analysis, code book, two transcripts double-coded
-  Analysis (S8)      descriptives; t-test trained vs. untrained; effect size reported; JASP
+  Analysis (S8)      descriptives; regression of password reuse on training, security fatigue and risk perception (logistic if reuse is yes/no); effect sizes reported; JASP
   Ethics (S10)       personal data: yes (e-mail, audio) → SIKT; consent per template; confidentiality, client-trap mitigations
   Limitations        convenience sample, self-report; named in Part IV
   ------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------
